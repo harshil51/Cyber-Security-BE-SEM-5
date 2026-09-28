@@ -147,11 +147,6 @@ For undergraduate and university exams (e.g. GTU), each question is pre-formatte
 
 ```
 CYBERNEXUS/
-│
-├── .github/
-│   └── workflows/
-│       └── deploy.yml            # GitHub Actions automated deployment for GitHub Pages
-│
 ├── css/
 │   ├── style.css                 # Master design system, color tokens & layout
 │   └── animations.css            # Micro-interactions, radar pulses & 3D flips
@@ -197,11 +192,6 @@ cd "e:/AA PROJECTS/CS"
 python -m http.server 8080
 ```
 Open your browser at: **`http://localhost:8080`**
-
-### Option 3: Deploy to GitHub Pages
-1. Push this repository to GitHub.
-2. Go to **Settings $\rightarrow$ Pages**.
-3. Under **Source**, select **GitHub Actions** (the included [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) will automatically build and publish the site).
 
 ---
 
