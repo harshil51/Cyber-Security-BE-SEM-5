@@ -192,7 +192,7 @@ const CyberApp = {
       </div>
     `;
 
-    // Definition Box
+    // 1. Definition Box
     if (topic.definition) {
       html += `
         <div class="callout-box definition">
@@ -202,7 +202,66 @@ const CyberApp = {
       `;
     }
 
-    // Three Roles (Unit 1)
+    // 2. ASCII Concept Diagram
+    if (topic.diagram) {
+      html += `
+        <div class="diagram-block">
+          <div class="diagram-header">
+            <span>Architecture & Concept Diagram</span>
+            <button class="btn-cyber-outline" style="font-size:0.7rem; padding:0.2rem 0.5rem;" onclick="navigator.clipboard.writeText(\`${topic.diagram}\`); alert('Diagram copied to clipboard!')">Copy ASCII</button>
+          </div>
+          <pre class="diagram-code">${topic.diagram}</pre>
+        </div>
+      `;
+    }
+
+    // 3. Exhaustive Theory Modules (Numbered Headings, Detailed Content, Highlighted Key Points)
+    if (topic.theoryModules && topic.theoryModules.length > 0) {
+      html += `<div style="display:flex; flex-direction:column; gap:1.5rem; margin:1.5rem 0;">`;
+      topic.theoryModules.forEach(tm => {
+        html += `
+          <div style="background:rgba(13,18,36,0.6); border:1px solid var(--border-subtle); border-radius:12px; padding:1.5rem;">
+            <h3 style="color:var(--cyber-cyan); font-size:1.15rem; font-weight:700; margin-bottom:0.75rem;">${tm.heading}</h3>
+            <p style="font-size:0.95rem; color:var(--text-primary); line-height:1.7; margin-bottom:0.75rem;">${tm.content}</p>
+            ${tm.keyPoints && tm.keyPoints.length > 0 ? `
+              <div style="background:rgba(0,0,0,0.3); border-left:3px solid var(--cyber-cyan); border-radius:0 8px 8px 0; padding:0.85rem 1rem; margin-top:0.75rem;">
+                <strong style="color:var(--cyber-cyan); font-size:0.8rem; text-transform:uppercase; display:block; margin-bottom:0.4rem;">Core Technical Insights:</strong>
+                <ul style="list-style:disc; margin-left:1.25rem; font-size:0.85rem; color:var(--text-secondary); line-height:1.6;">
+                  ${tm.keyPoints.map(kp => `<li>${kp}</li>`).join('')}
+                </ul>
+              </div>
+            ` : ''}
+          </div>
+        `;
+      });
+      html += `</div>`;
+    }
+
+    // 4. Comparison Tables
+    if (topic.comparisonTable) {
+      const ct = topic.comparisonTable;
+      html += `
+        <h3 class="content-subheading">📊 ${ct.title}</h3>
+        <div style="overflow-x:auto; margin:1rem 0; background:rgba(13,18,36,0.5); border:1px solid var(--border-subtle); border-radius:10px; padding:1rem;">
+          <table style="width:100%; border-collapse:collapse; font-size:0.85rem; text-align:left;">
+            <thead>
+              <tr style="border-bottom:1px solid var(--border-cyan); color:var(--cyber-cyan);">
+                ${ct.headers.map(h => `<th style="padding:0.75rem 0.6rem;">${h}</th>`).join('')}
+              </tr>
+            </thead>
+            <tbody>
+              ${ct.rows.map(row => `
+                <tr style="border-bottom:1px solid var(--border-subtle);">
+                  ${row.map((cell, idx) => `<td style="padding:0.75rem 0.6rem; color:${idx === 0 ? 'var(--text-primary)' : 'var(--text-secondary)'}; font-weight:${idx === 0 ? '600' : 'normal'};">${cell}</td>`).join('')}
+                </tr>
+              `).join('')}
+            </tbody>
+          </table>
+        </div>
+      `;
+    }
+
+    // 5. Specific Structured Component Cards (Three Roles, Timeline, Categories, etc.)
     if (topic.threeRoles) {
       html += `<h3 class="content-subheading">Triple Roles of a Computer</h3>
       <div class="feature-cards-grid">
@@ -218,7 +277,6 @@ const CyberApp = {
       </div>`;
     }
 
-    // Timeline (Unit 1)
     if (topic.timeline) {
       html += `<h3 class="content-subheading">Chronological Evolution</h3>
       <div style="display:flex; flex-direction:column; gap:0.85rem; margin:1rem 0;">
@@ -234,9 +292,8 @@ const CyberApp = {
       </div>`;
     }
 
-    // Classification Categories (Unit 1)
     if (topic.categories) {
-      html += `<h3 class="content-subheading">Classification Breakdown</h3>
+      html += `<h3 class="content-subheading">4-Pillar Classification Breakdown</h3>
       <div class="feature-cards-grid">
         ${topic.categories.map(c => `
           <div class="feature-card">
@@ -254,7 +311,6 @@ const CyberApp = {
       </div>`;
     }
 
-    // Kill Chain Phases (Unit 1)
     if (topic.killChainPhases) {
       html += `<h3 class="content-subheading">8-Phase Cyber Kill Chain Lifecycle</h3>
       <div style="display:flex; flex-direction:column; gap:0.75rem;">
@@ -268,7 +324,30 @@ const CyberApp = {
       </div>`;
     }
 
-    // Social Engineering Techniques (Unit 2)
+    if (topic.structureElements) {
+      html += `<h3 class="content-subheading">6 Structural Elements of Social Media Cybercrime</h3>
+      <div class="feature-cards-grid">
+        ${topic.structureElements.map(se => `
+          <div class="feature-card">
+            <div class="feature-card-title">${se.element}</div>
+            <p class="feature-card-desc">${se.desc}</p>
+          </div>
+        `).join('')}
+      </div>`;
+    }
+
+    if (topic.psychologicalTriggers) {
+      html += `<h3 class="content-subheading">6 Psychological Human Triggers</h3>
+      <div class="feature-cards-grid">
+        ${topic.psychologicalTriggers.map(pt => `
+          <div class="feature-card">
+            <div class="feature-card-title">${pt.trigger}</div>
+            <p class="feature-card-desc">${pt.desc}</p>
+          </div>
+        `).join('')}
+      </div>`;
+    }
+
     if (topic.techniques) {
       html += `<h3 class="content-subheading">Social Engineering Attack Taxonomy</h3>
       <div class="feature-cards-grid">
@@ -284,7 +363,30 @@ const CyberApp = {
       </div>`;
     }
 
-    // Botnet Architectures (Unit 2)
+    if (topic.behaviors) {
+      html += `<h3 class="content-subheading">Direct vs Indirect Stalking Behaviors</h3>
+      <div class="feature-cards-grid">
+        ${topic.behaviors.map(b => `
+          <div class="feature-card">
+            <div class="feature-card-title">${b.type}</div>
+            <p class="feature-card-desc">${b.details}</p>
+          </div>
+        `).join('')}
+      </div>`;
+    }
+
+    if (topic.caasComponents) {
+      html += `<h3 class="content-subheading">Cybercrime-as-a-Service (CaaS) Economy</h3>
+      <div class="feature-cards-grid">
+        ${topic.caasComponents.map(cc => `
+          <div class="feature-card">
+            <div class="feature-card-title">${cc.service}</div>
+            <p class="feature-card-desc">${cc.desc}</p>
+          </div>
+        `).join('')}
+      </div>`;
+    }
+
     if (topic.architectures) {
       html += `<h3 class="content-subheading">Botnet Topologies</h3>
       <div class="feature-cards-grid">
@@ -298,22 +400,42 @@ const CyberApp = {
       </div>`;
     }
 
-    // Bluetooth Comparison (Unit 3)
-    if (topic.bluetoothAttacks) {
-      html += `<h3 class="content-subheading">Bluetooth Threat Spectrum</h3>
+    if (topic.challenges) {
+      html += `<h3 class="content-subheading">Mobile Device Security Challenges</h3>
       <div class="feature-cards-grid">
-        ${topic.bluetoothAttacks.map(b => `
+        ${topic.challenges.map(c => `
           <div class="feature-card">
-            <div class="feature-card-title">${b.name}</div>
-            <span style="font-size:0.7rem; color:${b.severity.includes('Critical') ? 'var(--cyber-red)' : 'var(--cyber-amber)'}; font-weight:700;">${b.severity}</span>
-            <p class="feature-card-desc" style="margin-top:0.4rem;">${b.mechanism}</p>
-            <div style="margin-top:0.4rem; font-size:0.75rem; color:var(--text-muted);">Impact: ${b.impact}</div>
+            <div class="feature-card-title">${c.issue}</div>
+            <p class="feature-card-desc">${c.desc}</p>
           </div>
         `).join('')}
       </div>`;
     }
 
-    // 5 Factors of Authentication (Unit 3)
+    if (topic.rootingRisks) {
+      html += `<h3 class="content-subheading">Catastrophic Risks of Rooting / Jailbreaking</h3>
+      <div class="feature-cards-grid">
+        ${topic.rootingRisks.map(r => `
+          <div class="feature-card" style="border-left:3px solid var(--cyber-red);">
+            <div class="feature-card-title" style="color:var(--cyber-red);">${r.risk}</div>
+            <p class="feature-card-desc">${r.detail}</p>
+          </div>
+        `).join('')}
+      </div>`;
+    }
+
+    if (topic.simSwapLifecycle) {
+      html += `<h3 class="content-subheading">Step-by-Step SIM Swap Fraud Mechanics</h3>
+      <div style="display:flex; flex-direction:column; gap:0.6rem; margin:1rem 0;">
+        ${topic.simSwapLifecycle.map((step, idx) => `
+          <div style="background:rgba(13,18,36,0.6); border:1px solid var(--border-subtle); border-radius:8px; padding:0.85rem 1rem; display:flex; align-items:center; gap:0.75rem;">
+            <span class="unit-code-badge" style="font-size:0.75rem; flex-shrink:0;">STEP ${idx + 1}</span>
+            <span style="font-size:0.85rem; color:var(--text-primary);">${step}</span>
+          </div>
+        `).join('')}
+      </div>`;
+    }
+
     if (topic.factors) {
       html += `<h3 class="content-subheading">The 5 Authentication Factors</h3>
       <div class="feature-cards-grid">
@@ -329,74 +451,33 @@ const CyberApp = {
       </div>`;
     }
 
-    // Proxy Types (Unit 4)
-    if (topic.types) {
-      html += `<h3 class="content-subheading">6 Proxy Server Classifications</h3>
+    if (topic.bluetoothAttacks) {
+      html += `<h3 class="content-subheading">Bluetooth Threat Spectrum</h3>
       <div class="feature-cards-grid">
-        ${topic.types.map(pt => `
+        ${topic.bluetoothAttacks.map(b => `
           <div class="feature-card">
-            <div class="feature-card-title">${pt.name}</div>
-            <p class="feature-card-desc">${pt.desc}</p>
+            <div class="feature-card-title">${b.name}</div>
+            <span style="font-size:0.7rem; color:${b.severity.includes('Critical') ? 'var(--cyber-red)' : 'var(--cyber-amber)'}; font-weight:700;">${b.severity}</span>
+            <p class="feature-card-desc" style="margin-top:0.4rem;">${b.mechanism}</p>
+            <div style="margin-top:0.4rem; font-size:0.75rem; color:var(--text-muted);">Impact: ${b.impact}</div>
           </div>
         `).join('')}
       </div>`;
     }
 
-    // Hash Algorithm Matrix (Unit 4)
-    if (topic.hashComparison) {
-      html += `<h3 class="content-subheading">Password Hash Algorithms Comparison</h3>
-      <div style="overflow-x:auto; margin:1rem 0;">
-        <table style="width:100%; border-collapse:collapse; font-size:0.85rem; text-align:left;">
-          <thead>
-            <tr style="border-bottom:1px solid var(--border-cyan); color:var(--cyber-cyan);">
-              <th style="padding:0.6rem;">Algorithm</th>
-              <th style="padding:0.6rem;">Security Status</th>
-              <th style="padding:0.6rem;">GPU Crack Speed</th>
-              <th style="padding:0.6rem;">Assessment</th>
-            </tr>
-          </thead>
-          <tbody>
-            ${topic.hashComparison.map(h => `
-              <tr style="border-bottom:1px solid var(--border-subtle);">
-                <td style="padding:0.6rem; font-family:var(--font-mono); font-weight:700;">${h.algo}</td>
-                <td style="padding:0.6rem; color:${h.status === 'GOLD STANDARD' ? 'var(--cyber-green)' : (h.status === 'BROKEN' ? 'var(--cyber-red)' : 'var(--cyber-amber)')}; font-weight:700;">${h.status}</td>
-                <td style="padding:0.6rem; color:var(--text-secondary);">${h.gpuRate}</td>
-                <td style="padding:0.6rem; color:var(--text-secondary);">${h.verdict}</td>
-              </tr>
-            `).join('')}
-          </tbody>
-        </table>
-      </div>`;
-    }
-
-    // ASCII Concept Diagram
-    if (topic.diagram) {
-      html += `
-        <div class="diagram-block">
-          <div class="diagram-header">
-            <span>Architecture & Concept Diagram</span>
-            <button class="btn-cyber-outline" style="font-size:0.7rem; padding:0.2rem 0.5rem;" onclick="navigator.clipboard.writeText(\`${topic.diagram}\`); alert('Diagram copied to clipboard!')">Copy ASCII</button>
-          </div>
-          <pre class="diagram-code">${topic.diagram}</pre>
-        </div>
-      `;
-    }
-
-    // Real-World Case Studies
-    if (topic.caseStudies) {
+    // 6. Real-World Case Studies
+    if (topic.caseStudies && topic.caseStudies.length > 0) {
       html += `
         <div class="case-study-banner">
           <div class="case-study-title">🔍 Real-World Historic Case Studies</div>
           <div class="case-study-grid">
             ${topic.caseStudies.map(cs => `
               <div class="case-study-item">
-                <strong style="color:var(--text-primary); font-size:0.9rem; display:block; margin-bottom:0.4rem;">${cs.title}</strong>
-                <div class="case-study-label">Vector & Exploit:</div>
-                <div class="case-study-val">${cs.vector}</div>
-                <div class="case-study-label" style="margin-top:0.4rem;">Impact:</div>
-                <div class="case-study-val">${cs.impact}</div>
-                <div class="case-study-label" style="margin-top:0.4rem; color:var(--cyber-green);">Key Takeaway:</div>
-                <div class="case-study-val" style="color:var(--cyber-green);">${cs.keyLesson}</div>
+                <strong style="color:var(--text-primary); font-size:0.95rem; display:block; margin-bottom:0.5rem;">${cs.title}</strong>
+                ${cs.victim ? `<div class="case-study-label">Target / Victim:</div><div class="case-study-val">${cs.victim}</div>` : ''}
+                ${cs.vector ? `<div class="case-study-label" style="margin-top:0.3rem;">Attack Vector:</div><div class="case-study-val">${cs.vector}</div>` : ''}
+                ${cs.impact ? `<div class="case-study-label" style="margin-top:0.3rem;">Impact:</div><div class="case-study-val">${cs.impact}</div>` : ''}
+                ${cs.keyLesson ? `<div class="case-study-label" style="margin-top:0.3rem; color:var(--cyber-green);">Key Takeaway:</div><div class="case-study-val" style="color:var(--cyber-green);">${cs.keyLesson}</div>` : ''}
               </div>
             `).join('')}
           </div>
@@ -404,11 +485,23 @@ const CyberApp = {
       `;
     }
 
-    // Key Takeaways
-    if (topic.keyTakeaways) {
+    // 7. GTU / University 10-15 Mark Exam Tips Callout Box
+    if (topic.gtuExamTips) {
+      html += `
+        <div class="callout-box exam-tip">
+          <div class="callout-title">🎯 GTU / University Exam Strategy (${topic.gtuExamTips.marks})</div>
+          <p style="font-size:0.85rem; color:var(--text-primary); line-height:1.6; margin-top:0.3rem;">
+            <strong>Recommended Answer Blueprint:</strong> ${topic.gtuExamTips.structure}
+          </p>
+        </div>
+      `;
+    }
+
+    // 8. Key Takeaways
+    if (topic.keyTakeaways && topic.keyTakeaways.length > 0) {
       html += `
         <div style="background:rgba(0,255,135,0.04); border:1px solid var(--border-green); border-radius:12px; padding:1.25rem; margin-top:1.5rem;">
-          <strong style="color:var(--cyber-green); font-size:0.9rem; text-transform:uppercase; display:block; margin-bottom:0.5rem;">🎯 Key Takeaways & Exam Points</strong>
+          <strong style="color:var(--cyber-green); font-size:0.9rem; text-transform:uppercase; display:block; margin-bottom:0.5rem;">🎯 Key Takeaways & Revision Notes</strong>
           <ul style="list-style:disc; margin-left:1.5rem; font-size:0.85rem; color:var(--text-secondary); line-height:1.6;">
             ${topic.keyTakeaways.map(kt => `<li>${kt}</li>`).join('')}
           </ul>
