@@ -1,0 +1,1188 @@
+=== PAGE 1 ===
+Unit 1 – Introduction to Cyber Crime 
+Detailed 10–15 Marks Exam Notes 
+ 
+The topics in your syllabus are: 
+ 
+Definition and Origins of Cyber Crime 
+Introduction to Cyber Crime 
+Classification of Cyber Crime 
+Against Individual 
+Against Property 
+Against Government 
+Against Society 
+Global Perspective on Cyber Crime 
+Cyber Crime Transcends National Boundaries 
+Case Studies of Cyber Crime 
+Global Struggle with Cyber Security 
+Case Study related to Global Cyber Security 
+International Cooperation to Combat Cyber Crime 
+Case Study of International Cooperation 
+Planning of Cyber Offences by Criminals 
+1. Definition and Origins of Cyber Crime 
+Definition 
+ 
+Cyber crime refers to any illegal activity in which a computer, computer network, digital device, 
+or the Internet is used as a tool, target, or medium for committing a crime. 
+ 
+
+=== PAGE 2 ===
+Simple definition 
+ 
+Cyber crime = Crime committed using or against computers, networks, or digital systems. 
+ 
+Examples include: 
+ 
+Hacking 
+Phishing 
+Identity theft 
+Online fraud 
+Malware attacks 
+Cyber stalking 
+Ransomware 
+Data theft 
+Denial-of-Service attacks 
+Important point 
+ 
+A computer can play three different roles in cyber crime: 
+ 
+Role Meaning Example 
+Target Computer/system itself is attacked Hacking a server 
+Tool Computer is used to commit crime Online banking fraud 
+Storage Computer stores illegal/stolen information Storing stolen databases 
+Origins of Cyber Crime 
+ 
+Cyber crime developed along with the development of computers and the Internet. 
+
+=== PAGE 3 ===
+ 
+1. Early computer misuse 
+ 
+During the 1960s and 1970s, computers were mainly used by governments, universities and 
+large organizations. 
+ 
+Unauthorized access to computer systems began appearing as computer networks became 
+more common. 
+ 
+2. Phone/Phreaking era 
+ 
+Before widespread Internet usage, criminals experimented with telephone systems. 
+ 
+This activity became known as phreaking. 
+ 
+Attackers attempted to manipulate telephone networks to obtain unauthorized access or free 
+services. 
+ 
+3. Computer viruses 
+ 
+During the 1980s, computer viruses became an important form of computer-related crime. 
+ 
+A virus could: 
+ 
+Replicate itself 
+Infect other files 
+Damage systems 
+
+=== PAGE 4 ===
+Modify data 
+Disrupt computer operations 
+4. Internet expansion 
+ 
+During the 1990s, Internet usage expanded rapidly. 
+ 
+This created new opportunities for: 
+ 
+Email fraud 
+Hacking 
+Website attacks 
+Online scams 
+Identity theft 
+5. Modern cyber crime 
+ 
+With smartphones, cloud computing, social media, cryptocurrency and IoT , cyber crime has 
+become more sophisticated. 
+ 
+Modern attacks include: 
+ 
+Ransomware 
+Advanced phishing 
+Cryptocurrency scams 
+Supply-chain attacks 
+Social engineering 
+State-sponsored cyber attacks 
+
+=== PAGE 5 ===
+Deepfake-enabled fraud 
+Characteristics of Cyber Crime 
+Technology dependent 
+Can be committed from anywhere 
+Criminals can hide their identity 
+Can affect millions of people simultaneously 
+Evidence is mainly digital 
+Attackers can operate across international borders 
+Crimes can happen very quickly 
+Investigation requires specialized technical knowledge 
+Conclusion 
+ 
+Cyber crime originated with the misuse of early computer and communication systems and has 
+evolved with technological development. Today, it is a global problem affecting individuals, 
+businesses, governments and society. 
+ 
+Exam ending line 
+ 
+Thus, the growth of digital technology has created enormous benefits but has also created new 
+opportunities for criminals, making cyber crime one of the major challenges of the digital age. 
+ 
+2. Introduction to Cyber Crime 
+Meaning 
+ 
+Cyber crime is a category of crime involving computers, networks, digital devices and the 
+Internet. 
+ 
+
+=== PAGE 6 ===
+Unlike traditional crimes, cyber crimes can often be conducted without the criminal being 
+physically present at the location of the victim. 
+ 
+Example 
+ 
+A criminal sitting in one country can steal money from the bank account of a person in another 
+country using the Internet. 
+ 
+Why Cyber Crime is Increasing 
+1. Rapid Internet growth 
+ 
+Millions of people use the Internet for: 
+ 
+Banking 
+Shopping 
+Education 
+Communication 
+Entertainment 
+ 
+This provides criminals with a large target population. 
+ 
+2. Digitalization 
+ 
+Organizations increasingly store information digitally. 
+ 
+Examples: 
+ 
+
+=== PAGE 7 ===
+Customer information 
+Bank information 
+Medical records 
+Government records 
+Business secrets 
+ 
+Therefore, valuable information has become a target. 
+ 
+3. Easy availability of technology 
+ 
+Attackers can obtain sophisticated tools and information online. 
+ 
+4. Anonymity 
+ 
+Criminals can use techniques such as: 
+ 
+Fake accounts 
+Compromised systems 
+Proxy servers 
+Other anonymizing technologies 
+ 
+to make investigation more difficult. 
+ 
+5. Financial motivation 
+ 
+A large portion of cyber crime is financially motivated. 
+
+=== PAGE 8 ===
+ 
+Examples: 
+ 
+Banking fraud 
+Ransomware 
+Credit-card fraud 
+Cryptocurrency scams 
+Common Types 
+Hacking 
+ 
+Unauthorized access to a computer or network. 
+ 
+Phishing 
+ 
+Fake emails/messages/websites are used to trick victims into revealing information. 
+ 
+Malware 
+ 
+Malicious software designed to damage, disrupt, spy on, or gain unauthorized access to 
+systems. 
+ 
+Ransomware 
+ 
+Malware that makes data or systems inaccessible and demands payment. 
+ 
+Identity theft 
+
+=== PAGE 9 ===
+ 
+Using another person's personal information without authorization. 
+ 
+Cyber stalking 
+ 
+Repeated unwanted monitoring or harassment through digital technologies. 
+ 
+Effects of Cyber Crime 
+Individual level 
+Financial loss 
+Privacy violation 
+Identity theft 
+Emotional distress 
+Business level 
+Financial loss 
+Data breaches 
+Reputation damage 
+Operational disruption 
+Government level 
+National security risks 
+Critical infrastructure disruption 
+Theft of sensitive information 
+Society level 
+Loss of trust in digital services 
+Economic damage 
+Social instability 
+
+=== PAGE 10 ===
+3. Classification of Cyber Crime 
+ 
+Cyber crimes can broadly be classified according to the target/victim. 
+ 
+The four important categories in your syllabus are: 
+ 
+Cyber crime against individuals 
+Cyber crime against property 
+Cyber crime against government 
+Cyber crime against society 
+3.1 Cyber Crime Against Individuals 
+Definition 
+ 
+Cyber crimes against individuals are crimes where a specific person is the primary target. 
+ 
+Examples 
+Identity theft 
+Cyber stalking 
+Online harassment 
+Phishing 
+Email spoofing 
+Online cheating 
+Defamation 
+Account takeover 
+Cyber bullying 
+1. Identity Theft 
+
+=== PAGE 11 ===
+ 
+Criminal obtains personal information such as: 
+ 
+Name 
+Password 
+Bank details 
+Government ID information 
+ 
+and uses it without authorization. 
+ 
+Example 
+ 
+An attacker obtains someone's login credentials and uses the account to make fraudulent 
+transactions. 
+ 
+2. Cyber Stalking 
+ 
+Cyber stalking involves repeated unwanted monitoring, communication, harassment or 
+intimidation through digital technologies. 
+ 
+It may occur through: 
+ 
+Social media 
+Email 
+Messaging platforms 
+Online forums 
+3. Cyber Bullying 
+
+=== PAGE 12 ===
+ 
+Use of digital platforms to: 
+ 
+Threaten 
+Humiliate 
+Harass 
+Intimidate 
+ 
+another person. 
+ 
+4. Phishing 
+ 
+Attackers create fake messages or websites that appear legitimate. 
+ 
+Example: 
+ 
+"Your bank account will be blocked. Click here to verify." 
+ 
+The victim enters credentials into the fake website. 
+ 
+Effects 
+Financial loss 
+Loss of privacy 
+Psychological stress 
+Reputation damage 
+Unauthorized account access 
+
+=== PAGE 13 ===
+3.2 Cyber Crime Against Property 
+Definition 
+ 
+These crimes target digital or financial property. 
+ 
+Property may include: 
+ 
+Money 
+Databases 
+Software 
+Intellectual property 
+Digital assets 
+Websites 
+Computer systems 
+Major Examples 
+1. Data Theft 
+ 
+Unauthorized copying or stealing of confidential information. 
+ 
+2. Intellectual Property Theft 
+ 
+Stealing: 
+ 
+Software 
+Source code 
+Designs 
+
+=== PAGE 14 ===
+Research 
+Trade secrets 
+3. Ransomware 
+ 
+Attackers encrypt or otherwise deny access to data and demand payment. 
+ 
+4. Website Defacement 
+ 
+Unauthorized modification of a website. 
+ 
+For example: 
+ 
+Original website 
+       ↓ 
+Unauthorized access 
+       ↓ 
+Website modified 
+       ↓ 
+Attacker's message displayed 
+5. Computer Sabotage 
+ 
+Intentional damage or disruption of computer systems. 
+ 
+Effects 
+Financial losses 
+Loss of business data 
+
+=== PAGE 15 ===
+Business interruption 
+Loss of intellectual property 
+Recovery costs 
+Reputation damage 
+3.3 Cyber Crime Against Government 
+Definition 
+ 
+Cyber crimes against government target: 
+ 
+Government websites 
+Government databases 
+Military systems 
+Critical infrastructure 
+Public services 
+Government communication systems 
+ 
+These attacks can become national security issues. 
+ 
+Major Examples 
+1. Cyber Espionage 
+ 
+Unauthorized access to systems to obtain sensitive information. 
+ 
+2. Cyber Terrorism 
+ 
+
+=== PAGE 16 ===
+Use of cyber attacks with the objective of causing serious disruption or creating fear in 
+connection with broader political or ideological aims. 
+ 
+3. Website Attacks 
+ 
+Government websites may be attacked or defaced. 
+ 
+4. Critical Infrastructure Attacks 
+ 
+Potential targets include: 
+ 
+Electricity 
+Transportation 
+Telecommunications 
+Water systems 
+Healthcare systems 
+Effects 
+National security risks 
+Economic losses 
+Disruption of public services 
+Theft of sensitive information 
+Damage to critical infrastructure 
+3.4 Cyber Crime Against Society 
+Definition 
+ 
+Cyber crimes against society affect large groups of people or society as a whole. 
+
+=== PAGE 17 ===
+ 
+Examples 
+Online misinformation and malicious manipulation 
+Distribution of illegal content 
+Online financial scams 
+Cyber terrorism 
+Large-scale fraud 
+Organized cyber crime 
+Attacks on public services 
+Effects 
+Social disruption 
+Financial losses 
+Loss of public trust 
+Threats to public safety 
+Damage to social harmony 
+Increased fear and insecurity 
+Easy Classification to Remember 
+ 
+Remember: 
+ 
+I – P – G – S 
+ 
+I = Individual 
+P = Property 
+G = Government 
+S = Society 
+
+=== PAGE 18 ===
+ 
+4. Global Perspective on Cyber Crime 
+Introduction 
+ 
+Cyber crime is no longer limited to one country or region. 
+ 
+The Internet connects computers across the world, allowing criminals to attack victims 
+regardless of geographical boundaries. 
+ 
+Therefore: 
+ 
+Cyber crime is a global problem requiring global cooperation. 
+ 
+Why Cyber Crime is Global 
+1. Global Internet Connectivity 
+ 
+An attacker can operate remotely from another country. 
+ 
+2. International Criminal Networks 
+ 
+Cyber criminals can work together across different countries. 
+ 
+3. International Victims 
+ 
+One attack can affect users from multiple countries. 
+ 
+
+=== PAGE 19 ===
+4. Cross-border infrastructure 
+ 
+Attackers may use systems located in several countries during a single operation. 
+ 
+For example: 
+ 
+Attacker 
+   ↓ 
+Compromised System A 
+   ↓ 
+Compromised System B 
+   ↓ 
+Victim Server 
+ 
+The attacker and victim may be in completely different countries. 
+ 
+Global Impact 
+Economic impact 
+ 
+Cyber crime causes: 
+ 
+Financial fraud 
+Business interruption 
+Data recovery costs 
+Cybersecurity expenditure 
+National security 
+
+=== PAGE 20 ===
+ 
+Governments must protect: 
+ 
+Military systems 
+Government databases 
+Critical infrastructure 
+Privacy 
+ 
+Personal information can be stolen and misused internationally. 
+ 
+Challenges 
+Different laws in different countries 
+Difficulty identifying attackers 
+Jurisdiction problems 
+Different investigation procedures 
+Difficulty collecting evidence from another country 
+Rapid technological development 
+5. Cyber Crime Transcends National Boundaries 
+ 
+This is an important 10–15 mark question. 
+ 
+Meaning 
+ 
+A cyber crime is said to transcend national boundaries when different parts of the crime occur 
+in different countries. 
+ 
+
+=== PAGE 21 ===
+Unlike traditional crimes, physical distance is often not a major barrier. 
+ 
+Example 
+ 
+Suppose: 
+ 
+Criminal is in Country A 
+Server is in Country B 
+Victim is in Country C 
+Stolen money goes to Country D 
+ 
+Then: 
+ 
+Country A 
+Attacker 
+   ↓ 
+Country B 
+Server 
+   ↓ 
+Country C 
+Victim 
+   ↓ 
+Country D 
+Financial destination 
+ 
+One cyber crime can therefore involve four jurisdictions. 
+
+=== PAGE 22 ===
+ 
+Why This Creates Problems 
+1. Jurisdiction 
+ 
+Which country's police should investigate? 
+ 
+2. Different laws 
+ 
+An action may be illegal in one country but treated differently in another. 
+ 
+3. Evidence collection 
+ 
+Digital evidence may be stored on servers in another country. 
+ 
+4. Attribution 
+ 
+Identifying the actual attacker can be difficult. 
+ 
+5. International cooperation 
+ 
+Authorities may need assistance from foreign agencies. 
+ 
+Solution 
+ 
+Countries need: 
+ 
+
+=== PAGE 23 ===
+International treaties 
+Information sharing 
+Mutual legal assistance 
+Joint investigations 
+Cybersecurity cooperation 
+Common legal frameworks 
+Digital forensic cooperation 
+Conclusion 
+ 
+The borderless nature of cyberspace makes cyber crime a transnational problem, and effective 
+investigation requires cooperation between countries. 
+ 
+6. Case Studies of Cyber Crime 
+ 
+Case studies are useful in exams because they demonstrate how cyber crime works in the real 
+world. 
+ 
+Case Study 1 – WannaCry Ransomware Attack 
+ 
+WannaCry was a major ransomware outbreak in 2017. 
+ 
+It spread rapidly across vulnerable Windows systems. 
+ 
+Working 
+Vulnerable Computer 
+        ↓ 
+WannaCry infection 
+
+=== PAGE 24 ===
+        ↓ 
+Files/System affected 
+        ↓ 
+Ransom demand 
+        ↓ 
+Attempt to spread to other systems 
+Impact 
+ 
+The attack affected organizations in multiple countries. 
+ 
+One highly publicized impact was disruption to parts of the UK's National Health Service (NHS). 
+ 
+Lessons 
+Security updates are important. 
+Organizations need backups. 
+Network segmentation can reduce spread. 
+Cybersecurity requires continuous monitoring. 
+Old/unpatched systems create major risks. 
+7. Global Struggle with Cyber Security 
+Introduction 
+ 
+As cyber attacks become more sophisticated, countries, organizations and international bodies 
+face the challenge of protecting digital infrastructure. 
+ 
+The global struggle with cybersecurity refers to the continuous effort to protect information 
+systems against cyber threats while maintaining economic activity, privacy and international 
+cooperation. 
+
+=== PAGE 25 ===
+ 
+Major Challenges 
+1. Rapidly changing technology 
+ 
+Technology develops faster than many security policies. 
+ 
+2. Sophisticated attacks 
+ 
+Attackers increasingly use: 
+ 
+Automation 
+Social engineering 
+Malware 
+Ransomware 
+AI-assisted techniques 
+3. Lack of cybersecurity awareness 
+ 
+Human mistakes remain an important source of security incidents. 
+ 
+4. Critical infrastructure risks 
+ 
+Attacks against: 
+ 
+Electricity 
+Hospitals 
+Transportation 
+
+=== PAGE 26 ===
+Communication 
+ 
+can have large-scale consequences. 
+ 
+5. International jurisdiction 
+ 
+Attackers can operate across borders. 
+ 
+6. Shortage of skilled professionals 
+ 
+Organizations need trained cybersecurity professionals. 
+ 
+Measures Used Globally 
+Governments 
+Cybersecurity policies 
+Cybersecurity agencies 
+National incident response teams 
+Cybercrime laws 
+Organizations 
+Firewalls 
+Encryption 
+Multi-factor authentication 
+Intrusion detection 
+Backups 
+Security monitoring 
+International cooperation 
+
+=== PAGE 27 ===
+Information sharing 
+Joint investigations 
+Cybersecurity agreements 
+Capacity building 
+8. Case Study – Global Cybersecurity Struggle 
+SolarWinds Supply-Chain Incident 
+ 
+The SolarWinds incident is an important example of the difficulty of defending interconnected 
+digital systems. 
+ 
+Attackers compromised the software supply chain associated with SolarWinds' Orion platform 
+and inserted malicious code into legitimate software updates. 
+ 
+Organizations that installed affected updates could consequently become compromised. 
+ 
+Why it was significant 
+ 
+It demonstrated that: 
+ 
+Organizations can be attacked through trusted suppliers. 
+Software supply chains are important security risks. 
+Cybersecurity cannot focus only on an organization's internal network. 
+International cooperation and information sharing are important. 
+Lesson 
+ 
+Modern cybersecurity requires protection of the entire ecosystem: 
+ 
+
+=== PAGE 28 ===
+Organization 
+     ↓ 
+Software 
+     ↓ 
+Supplier 
+     ↓ 
+Cloud services 
+     ↓ 
+Third-party providers 
+     ↓ 
+Users 
+ 
+Security at only one point is not sufficient. 
+ 
+9. International Cooperation to Combat Cyber Crime 
+Introduction 
+ 
+Because cyber crime can cross national boundaries, a single country cannot always investigate 
+and prosecute a cyber criminal alone. 
+ 
+Therefore, international cooperation is essential. 
+ 
+Major Forms of Cooperation 
+1. Information Sharing 
+ 
+Countries and cybersecurity organizations exchange information about: 
+
+=== PAGE 29 ===
+ 
+Threats 
+Malware 
+Attack techniques 
+Indicators of compromise 
+2. Mutual Legal Assistance 
+ 
+A country may request legal assistance from another country to obtain: 
+ 
+Digital evidence 
+Records 
+Witness information 
+Other investigative assistance 
+3. Joint Investigations 
+ 
+Law enforcement agencies from different countries may cooperate on international cybercrime 
+investigations. 
+ 
+4. Extradition 
+ 
+If legally permitted, a suspected criminal may be transferred to another country for prosecution. 
+ 
+5. International Treaties 
+ 
+International legal frameworks help countries cooperate in cybercrime investigations. 
+ 
+
+=== PAGE 30 ===
+An important example is the Budapest Convention on Cybercrime. 
+ 
+Role of International Organizations 
+ 
+Organizations such as: 
+ 
+INTERPOL 
+United Nations 
+Regional law-enforcement organizations 
+National cybersecurity agencies 
+ 
+contribute to international cybersecurity cooperation. 
+ 
+Benefits 
+Faster information sharing 
+Better investigations 
+Easier evidence collection 
+Improved prosecution 
+Better understanding of international threats 
+Stronger cybersecurity capabilities 
+Challenges 
+Different laws 
+Privacy requirements 
+Sovereignty issues 
+Different legal procedures 
+Language barriers 
+
+=== PAGE 31 ===
+Evidence-sharing restrictions 
+Political and diplomatic considerations 
+10. Case Study – International Cooperation Against Cyber Crime 
+Operation Against Emotet 
+ 
+Emotet was a major malware/botnet operation that affected systems internationally. 
+ 
+Law enforcement agencies from several countries cooperated to disrupt its infrastructure. 
+ 
+General process 
+Cyber criminals 
+       ↓ 
+Emotet infrastructure 
+       ↓ 
+Victims in multiple countries 
+       ↓ 
+International investigation 
+       ↓ 
+Law-enforcement cooperation 
+       ↓ 
+Infrastructure disruption 
+Importance 
+ 
+This demonstrates that international cybercrime investigations can involve: 
+ 
+Multiple countries 
+
+=== PAGE 32 ===
+Technical investigation 
+Evidence sharing 
+Coordinated law enforcement 
+Infrastructure disruption 
+Lesson 
+ 
+Cyber criminals may operate globally, so law enforcement must also cooperate globally. 
+ 
+11. Planning of Cyber Offences by Cyber Criminals 
+ 
+This is another very important 10–15 mark question. 
+ 
+Definition 
+ 
+Planning of a cyber offence refers to the process through which criminals prepare, organize and 
+execute a cyber attack. 
+ 
+Cyber criminals generally do not randomly attack every target. Many attacks involve some level 
+of preparation. 
+ 
+Stages of Planning a Cyber Offence 
+Stage 1 – Target Selection 
+ 
+The criminal first identifies a target. 
+ 
+Possible targets: 
+ 
+
+=== PAGE 33 ===
+Individual 
+Company 
+Government organization 
+Bank 
+Website 
+Network 
+Factors criminals may consider 
+Value of information 
+Security weaknesses 
+Financial potential 
+Accessibility 
+Stage 2 – Information Gathering 
+ 
+The attacker collects information about the target. 
+ 
+This is often called reconnaissance. 
+ 
+Information may include: 
+ 
+Publicly available information 
+Organization structure 
+Technology used 
+Public contact information 
+Domain information 
+Example 
+ 
+
+=== PAGE 34 ===
+An attacker may examine publicly available information about an organization's employees and 
+technology. 
+ 
+Stage 3 – Identifying Vulnerabilities 
+ 
+The attacker looks for weaknesses in: 
+ 
+Software 
+Systems 
+Network configurations 
+Human behavior 
+Authentication practices 
+ 
+The objective is to identify a possible entry point. 
+ 
+Stage 4 – Choosing Attack Method 
+ 
+Depending on the target, criminals may choose methods such as: 
+ 
+Phishing 
+Malware 
+Credential theft 
+Social engineering 
+Exploitation of vulnerabilities 
+Account takeover 
+Stage 5 – Preparation 
+
+=== PAGE 35 ===
+ 
+The attacker prepares the required resources. 
+ 
+These may include: 
+ 
+Malicious software 
+Fake communication 
+Compromised accounts 
+Infrastructure used to conduct the attack 
+Stage 6 – Initial Access 
+ 
+The attacker attempts to gain unauthorized access. 
+ 
+Common examples: 
+ 
+Phishing 
+   ↓ 
+Victim provides credentials 
+   ↓ 
+Attacker obtains account access 
+ 
+or 
+ 
+Unpatched system 
+       ↓ 
+Vulnerability exploited 
+
+=== PAGE 36 ===
+       ↓ 
+Unauthorized access 
+Stage 7 – Establishing Persistence 
+ 
+After obtaining access, an attacker may attempt to maintain unauthorized access. 
+ 
+The goal is to prevent losing access if the initial entry point is closed. 
+ 
+Stage 8 – Privilege Escalation 
+ 
+The attacker may attempt to obtain higher privileges. 
+ 
+For example: 
+ 
+Normal account 
+      ↓ 
+Higher privileges 
+      ↓ 
+Administrative access 
+ 
+Higher privileges can provide greater control over systems. 
+ 
+Stage 9 – Achieving the Objective 
+ 
+The attacker's objective depends on the type of crime. 
+ 
+
+=== PAGE 37 ===
+Examples: 
+ 
+Financial crime 
+ 
+Steal money. 
+ 
+Data theft 
+ 
+Steal confidential information. 
+ 
+Ransomware 
+ 
+Disrupt access to data and demand payment. 
+ 
+Espionage 
+ 
+Obtain sensitive information. 
+ 
+Sabotage 
+ 
+Disrupt systems or services. 
+ 
+Stage 10 – Concealing Activity 
+ 
+Criminals may attempt to make investigation difficult by: 
+ 
+
+=== PAGE 38 ===
+Using compromised infrastructure 
+Deleting or manipulating evidence 
+Using multiple systems 
+Hiding malicious activity among legitimate traffic 
+ 
+For exam purposes, remember this as the concealment stage. 
+ 
+Easy Flowchart for Exam 
+ 
+Draw this: 
+ 
+Target Selection 
+       ↓ 
+Information Gathering 
+       ↓ 
+Vulnerability Identification 
+       ↓ 
+Attack Method Selection 
+       ↓ 
+Preparation 
+       ↓ 
+Initial Access 
+       ↓ 
+Persistence 
+       ↓ 
+Privilege Escalation 
+
+=== PAGE 39 ===
+       ↓ 
+Attack Objective 
+       ↓ 
+Concealment 
+ 
+This flowchart can significantly improve a 10–15 mark answer. 
+ 
+Complete Example 
+ 
+Consider a hypothetical phishing-based attack against an organization. 
+ 
+Step 1 
+ 
+Criminal selects an organization. 
+ 
+Step 2 
+ 
+Public information about employees and the organization is collected. 
+ 
+Step 3 
+ 
+The criminal identifies weaknesses in security awareness or authentication. 
+ 
+Step 4 
+ 
+A deceptive communication is prepared. 
+
+=== PAGE 40 ===
+ 
+Step 5 
+ 
+The message is sent to the target. 
+ 
+Step 6 
+ 
+If credentials are compromised, unauthorized account access may occur. 
+ 
+Step 7 
+ 
+The criminal may attempt to maintain access. 
+ 
+Step 8 
+ 
+The criminal may seek additional privileges. 
+ 
+Step 9 
+ 
+Data or money may be targeted. 
+ 
+Step 10 
+ 
+The criminal may attempt to conceal activity. 
+ 
+   Very Important Exam Revision Table 
+
+=== PAGE 41 ===
+Topic Main Points to Remember 
+Cyber Crime Definition Crime using/against computers or networks 
+Origins Computers → networks → Internet → modern cyber crime 
+Against Individual Identity theft, phishing, stalking, bullying 
+Against Property Data theft, ransomware, IP theft, website attacks 
+Against Government Espionage, infrastructure attacks, government system attacks 
+Against Society Large-scale fraud, illegal content, disruption 
+Global Perspective Cyber crime is worldwide 
+Transnational Crime Attacker, server and victim can be in different countries 
+Global Cybersecurity Countries continuously defend digital infrastructure 
+International Cooperation Information sharing, treaties, joint investigation, legal assistance 
+Planning Cyber Offence Target → Reconnaissance → Vulnerability → Access → Objective 
+→ Concealment 
+  How to Write a 10–15 Mark Answer 
+ 
+For almost every topic in this unit, use this structure: 
+ 
+1. Definition – 2 marks 
+ 
+Start with a clear definition. 
+ 
+2. Introduction – 1–2 marks 
+ 
+Explain why the topic is important. 
+ 
+3. Main explanation – 5–7 marks 
+
+=== PAGE 42 ===
+ 
+Use headings + numbered points. 
+ 
+4. Example/Case Study – 2–3 marks 
+ 
+Give a relevant real-world example such as WannaCry, SolarWinds or Emotet where 
+appropriate. 
+ 
+5. Diagram/Flowchart – 1–2 marks 
+ 
+Draw a simple flowchart. 
+ 
+6. Conclusion – 1 mark 
+ 
+End with 2–3 strong lines. 
+ 
+Golden formula: 
+ 
+Definition → Introduction → Types/Stages → Explanation → Example → Effects → Diagram → 
+Conclusion 
+ 
+This format is particularly useful for your GTU-style 10–15 mark questions because you can 
+expand or shorten each section according to the marks. 
+ 
+If you are preparing this specifically for your mid-sem, the highest-value topics to learn 
+thoroughly from this unit are classification of cyber crime, transnational nature of cyber crime, 
+international cooperation, global cybersecurity struggle, and planning of cyber offences. 
+ 
+
+=== PAGE 43 ===
+ 
+ 

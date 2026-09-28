@@ -1,0 +1,1069 @@
+=== PAGE 1 ===
+Unit 3 – Cyber Crime with Mobile and Wireless Devices 
+Complete 10–15 Marks Exam Notes 
+Below are exam-oriented answers for every topic in the syllabus. You can write these directly in 
+a 10–15 mark question. I have kept the language simple and added diagrams, examples, 
+advantages/importance, attacks and prevention points wherever useful. 
+ 
+1. Cyber Crime with Mobile and Wireless Devices 
+Introduction 
+A mobile device is a portable electronic device such as a smartphone, tablet, smartwatch, etc. 
+that can connect to the Internet or wireless networks. 
+Cyber crime with mobile and wireless devices refers to illegal activities performed using mobile 
+phones, wireless networks or targeting mobile devices to steal information, money, identity or 
+services. 
+Examples: 
+• Mobile banking fraud 
+• UPI/payment fraud 
+• SIM swapping 
+• Phishing through SMS 
+• Malicious mobile applications 
+• Identity theft 
+• Wi-Fi attacks 
+• Bluetooth attacks 
+• Data theft 
+• Mobile ransomware 
+Basic diagram 
+             MOBILE / WIRELESS CYBER CRIME 
+                        | 
+
+=== PAGE 2 ===
+        +---------------+---------------+ 
+        |               |               | 
+     Mobile           Wireless        Online 
+     Device            Network        Services 
+        |               |               | 
+   Malware          Wi-Fi Attack     Banking Fraud 
+   Spyware          MITM             Phishing 
+   Ransomware       Evil Twin        Identity Theft 
+   Data Theft       Sniffing         Payment Fraud 
+Common Mobile Cyber Crimes 
+1. Mobile Malware 
+Malicious software installed on a mobile device to steal information or damage the device. 
+Examples: 
+• Spyware 
+• Trojan 
+• Ransomware 
+• Banking malware 
+2. Phishing and Smishing 
+Phishing uses fake websites/emails. 
+Smishing uses fraudulent SMS messages. 
+Example: 
+"Your bank account will be blocked. Click here to verify." 
+The link may lead to a fake banking website. 
+3. SIM Swap Fraud 
+An attacker obtains control of the victim's mobile number by transferring the number to 
+another SIM. 
+
+=== PAGE 3 ===
+The attacker may then receive: 
+• OTPs 
+• Banking messages 
+• Password-reset codes 
+4. Mobile Payment Fraud 
+Attackers may target: 
+• UPI 
+• Mobile banking 
+• Digital wallets 
+• Credit/debit cards 
+5. Identity Theft 
+Personal information such as: 
+• Name 
+• Mobile number 
+• Aadhaar-related information 
+• Email 
+• Passwords 
+may be stolen and misused. 
+6. Bluetooth Attacks 
+Attackers can attempt to exploit insecure Bluetooth connections to access or transfer 
+information. 
+7. Wi-Fi Attacks 
+Attackers may create fake Wi-Fi networks or intercept poorly protected communications. 
+ 
+Impact 
+Mobile cyber crimes can result in: 
+
+=== PAGE 4 ===
+1. Financial loss 
+2. Identity theft 
+3. Privacy violation 
+4. Loss of confidential data 
+5. Reputation damage 
+6. Unauthorized transactions 
+7. Business losses 
+8. Emotional stress 
+9. Legal consequences 
+ 
+Prevention 
+• Use strong passwords/PINs. 
+• Enable biometric authentication. 
+• Install applications only from trusted sources. 
+• Keep OS and applications updated. 
+• Avoid unknown Wi-Fi networks. 
+• Do not click suspicious SMS links. 
+• Enable device encryption. 
+• Use multi-factor authentication. 
+• Lock the device automatically. 
+• Enable remote tracking/wiping. 
+• Review application permissions. 
+Conclusion 
+Mobile devices have become an important part of communication, banking and business. 
+Therefore, securing mobile devices and wireless communication is essential to prevent financial, 
+privacy and identity-related cyber crimes. 
+ 
+
+=== PAGE 5 ===
+2. Introduction and Proliferation of Mobile and Wireless Devices 
+Introduction 
+The rapid growth in the use of smartphones, tablets, laptops, smartwatches and IoT devices is 
+called the proliferation of mobile and wireless devices. 
+Wireless technology allows devices to communicate without physical cables. 
+Examples: 
+• Wi-Fi 
+• Bluetooth 
+• NFC 
+• 4G/5G 
+• GPS 
+• Mobile networks 
+Evolution 
+Basic Mobile 
+     ↓ 
+Feature Phone 
+     ↓ 
+Smartphone 
+     ↓ 
+4G / 5G Smartphone 
+     ↓ 
+IoT + Wearables + Smart Devices 
+Reasons for Rapid Growth 
+1. Internet availability 
+Affordable mobile Internet has increased smartphone usage. 
+2. Affordable smartphones 
+
+=== PAGE 6 ===
+Smartphones are now available in different price ranges. 
+3. Mobile applications 
+Apps are available for: 
+• Banking 
+• Education 
+• Shopping 
+• Entertainment 
+• Healthcare 
+• Transportation 
+4. Digital payments 
+UPI, mobile banking and wallets have increased dependence on smartphones. 
+5. Remote work and education 
+Mobile and wireless technologies allow users to work and study remotely. 
+6. IoT growth 
+Devices such as: 
+• Smart TVs 
+• Smart watches 
+• Smart cameras 
+• Smart speakers 
+use wireless connectivity. 
+ 
+Advantages 
+• Easy communication 
+• Internet access anywhere 
+• Mobile banking 
+• Online education 
+
+=== PAGE 7 ===
+• Remote working 
+• Location-based services 
+• Digital payments 
+• Entertainment 
+• Emergency communication 
+ 
+Security Problems 
+The increased number of connected devices also creates more opportunities for attackers. 
+Common risks: 
+• Malware 
+• Data theft 
+• Phishing 
+• Wi-Fi attacks 
+• Identity theft 
+• Password attacks 
+• Unauthorized access 
+• Privacy violations 
+Important concept 
+More connected devices → larger attack surface → greater security requirements 
+Conclusion 
+The proliferation of mobile and wireless devices has transformed modern society. However, 
+increased connectivity also increases cyber-security risks, making authentication, encryption, 
+secure applications and user awareness important. 
+ 
+3. Trends in Mobility 
+Meaning 
+
+=== PAGE 8 ===
+Mobility trends describe the major changes in the way people use mobile devices, wireless 
+networks and mobile applications. 
+Major Trends 
+1. Smartphone Dominance 
+Smartphones are increasingly being used for: 
+• Communication 
+• Banking 
+• Shopping 
+• Education 
+• Entertainment 
+• Work 
+2. 5G Technology 
+5G provides: 
+• Higher speed 
+• Lower latency 
+• Greater device connectivity 
+• Support for IoT 
+3. Mobile Cloud Computing 
+Mobile devices use cloud services to store and process data. 
+Mobile Device 
+      | 
+      | Internet 
+      ↓ 
+   Cloud Server 
+      | 
+      ↓ 
+
+=== PAGE 9 ===
+Applications + Storage + Processing 
+4. Bring Your Own Device (BYOD) 
+Employees use their personal smartphones/laptops for organizational work. 
+Benefits: 
+• Flexibility 
+• Reduced hardware cost 
+• Increased productivity 
+Risks: 
+• Data leakage 
+• Malware 
+• Unauthorized access 
+• Loss of device 
+5. Internet of Things 
+More physical objects are becoming connected to the Internet. 
+Examples: 
+• Smartwatch 
+• Smart home 
+• Smart vehicle 
+• Smart camera 
+6. Mobile Payments 
+UPI, wallets and mobile banking are rapidly increasing. 
+7. Wearable Technology 
+Examples: 
+• Smartwatch 
+• Fitness tracker 
+• Smart glasses 
+
+=== PAGE 10 ===
+These devices collect sensitive personal data. 
+8. Remote Working 
+Mobile devices allow employees to access organizational resources remotely. 
+9. AI-powered Mobile Applications 
+AI is increasingly used in: 
+• Voice assistants 
+• Image recognition 
+• Fraud detection 
+• Recommendation systems 
+ 
+Security Challenges of Mobility 
+Mobility 
+   ↓ 
+More Devices 
+   ↓ 
+More Connectivity 
+   ↓ 
+More Data 
+   ↓ 
+Larger Attack Surface 
+   ↓ 
+More Security Requirements 
+Conclusion 
+Modern mobility is moving toward 5G, cloud computing, IoT, mobile payments, BYOD and AI. 
+These technologies provide convenience but require strong security mechanisms. 
+ 
+
+=== PAGE 11 ===
+4. Credit Card Fraud – Types 
+Definition 
+Credit card fraud is the unauthorized use of a credit card or credit-card information to obtain 
+money, goods or services. 
+The attacker may steal: 
+• Card number 
+• CVV 
+• Expiry date 
+• PIN 
+• OTP 
+• Account credentials 
+ 
+Types of Credit Card Fraud 
+1. Lost or Stolen Card Fraud 
+The physical card is lost or stolen and used by another person. 
+2. Card-Not-Present Fraud 
+The physical card is not required. 
+It commonly occurs during: 
+• Online shopping 
+• Online subscriptions 
+• Telephone transactions 
+The attacker only needs stolen card information. 
+3. Phishing 
+Victim receives a fake email/SMS/website requesting card details. 
+Example: 
+Fake Bank Message 
+
+=== PAGE 12 ===
+       ↓ 
+Fake Website 
+       ↓ 
+Card Details 
+       ↓ 
+Attacker 
+4. Skimming 
+A skimming device captures card information during a transaction. 
+It can target: 
+• ATMs 
+• Payment terminals 
+5. Identity Theft 
+An attacker obtains personal information and uses it to create or misuse financial accounts. 
+6. Account Takeover 
+The attacker gains access to the victim's online banking/card account. 
+7. Application Fraud 
+Fraudulent personal information may be used to apply for a new credit card. 
+8. Card Cloning 
+Stolen card information can potentially be used to create a fraudulent duplicate card. 
+ 
+5. Impact of Credit Card Fraud 
+Credit card fraud affects individuals, banks and businesses. 
+1. Financial Loss 
+Unauthorized transactions can cause direct monetary loss. 
+2. Identity Theft 
+Personal and financial information may be misused. 
+
+=== PAGE 13 ===
+3. Credit Score Problems 
+Fraudulent transactions or accounts may negatively affect the victim's credit history. 
+4. Privacy Loss 
+Sensitive financial information may be exposed. 
+5. Business Loss 
+Merchants and financial institutions may face fraud-related costs. 
+6. Reputation Damage 
+Banks and businesses can lose customer trust. 
+7. Investigation Costs 
+Organizations may spend significant resources investigating fraudulent activities. 
+ 
+6. Strategies to Prevent Credit Card Fraud 
+1. Multi-Factor Authentication 
+Use more than one authentication factor. 
+Password 
+   + 
+OTP / Biometric 
+   ↓ 
+Access 
+2. Transaction Alerts 
+Enable SMS/email/app notifications for every transaction. 
+3. Secure Online Shopping 
+Check that the website uses HTTPS and is a legitimate website. 
+4. Never Share OTP 
+Banks generally advise customers not to share OTPs, PINs or CVVs with others. 
+5. Use Transaction Limits 
+
+=== PAGE 14 ===
+Set suitable spending/transaction limits. 
+6. Fraud Detection Systems 
+Banks use machine-learning and rule-based systems to detect unusual transactions. 
+Example: 
+Normal Transaction 
+       ↓ 
+Customer buys locally 
+       ↓ 
+Normal 
+ 
+Unusual Transaction 
+       ↓ 
+Sudden high-value transaction 
+       ↓ 
+Risk Analysis 
+       ↓ 
+Possible Fraud Alert 
+7. Card Blocking 
+Immediately block the card if it is lost or stolen. 
+8. Virtual/Tokenized Cards 
+Tokenization replaces sensitive card information with a token. 
+9. Regular Monitoring 
+Check: 
+• Bank statements 
+• Card transactions 
+• Account activity 
+
+=== PAGE 15 ===
+Conclusion 
+Credit card fraud can cause financial and privacy losses. Strong authentication, transaction 
+monitoring, fraud detection and user awareness can significantly reduce the risk. 
+ 
+7. Security Challenges of Mobile Devices 
+Mobile devices have unique security challenges because they are portable, connected and 
+contain large amounts of personal information. 
+Major Challenges 
+1. Device Theft or Loss 
+A stolen phone can expose: 
+• Photos 
+• Contacts 
+• Emails 
+• Applications 
+• Documents 
+2. Malware 
+Malicious apps may steal information or monitor activities. 
+3. Weak Authentication 
+Simple PINs or passwords can be guessed or compromised. 
+4. Insecure Applications 
+Poorly developed applications may contain vulnerabilities. 
+5. Unsecured Wi-Fi 
+Public Wi-Fi can create risks if communications are not properly protected. 
+6. Data Leakage 
+Applications may access or transmit more information than necessary. 
+7. Outdated Software 
+Old operating systems may contain known vulnerabilities. 
+
+=== PAGE 16 ===
+8. Phishing and Social Engineering 
+Users can be tricked through SMS, email, calls or fake applications. 
+9. Bluetooth/NFC Risks 
+Wireless communication technologies can introduce additional attack surfaces. 
+10. Privacy Issues 
+Applications may collect: 
+• Location 
+• Contacts 
+• Camera data 
+• Microphone data 
+• Device information 
+ 
+Security Measures 
+• Strong authentication 
+• Encryption 
+• Secure application development 
+• Regular updates 
+• Antivirus/mobile security tools 
+• Secure Wi-Fi 
+• Permission management 
+• Remote wipe 
+• Employee awareness 
+ 
+8. Mitigation Strategies for Mobile Security 
+Mitigation means reducing the probability or impact of a security threat. 
+1. Strong Authentication 
+
+=== PAGE 17 ===
+Use: 
+• Strong password 
+• PIN 
+• Fingerprint 
+• Face authentication 
+• MFA 
+2. Encryption 
+Encrypt data stored on the device and data transmitted through networks. 
+3. Regular Updates 
+Keep: 
+• Operating system 
+• Applications 
+• Security software 
+updated. 
+4. Application Control 
+Install applications only from trusted sources. 
+5. Permission Management 
+Review whether an application really requires: 
+• Camera 
+• Microphone 
+• Location 
+• Contacts 
+• Storage 
+6. Remote Lock/Wipe 
+If the phone is lost, it can be remotely locked or erased. 
+7. Secure Network 
+
+=== PAGE 18 ===
+Avoid transmitting sensitive information over unsecured public networks. 
+8. Backup 
+Important information should be backed up securely. 
+9. Security Awareness 
+Users should be trained to identify: 
+• Phishing 
+• Fake applications 
+• Fraudulent calls 
+• Suspicious links 
+ 
+9. Registry Setting for Mobile Devices 
+Meaning 
+Registry/settings configuration refers to configuring operating-system and security settings that 
+control how a mobile device operates and how applications access device resources. 
+In practical mobile security, this includes controlling: 
+• Security settings 
+• Application permissions 
+• Network settings 
+• Authentication 
+• Encryption 
+• Device restrictions 
+• Storage 
+• Updates 
+In exams, write this topic as secure configuration and registry/settings management of mobile 
+devices. 
+ 
+Important Security Settings 
+
+=== PAGE 19 ===
+1. Screen Lock 
+Use: 
+• PIN 
+• Password 
+• Pattern 
+• Biometrics 
+2. Automatic Lock 
+The device should automatically lock after a period of inactivity. 
+3. Encryption 
+Enable device/storage encryption. 
+4. Application Permissions 
+Restrict unnecessary permissions. 
+5. Unknown Sources 
+Prevent installation of applications from untrusted sources. 
+6. Developer Options 
+Organizations may restrict unnecessary developer/debugging features. 
+7. Network Configuration 
+Use secure Wi-Fi and avoid unnecessary network connections. 
+8. Bluetooth 
+Bluetooth should be disabled when not required and configured securely. 
+9. Automatic Updates 
+Enable security and OS updates. 
+10. Remote Management 
+Organizations can use Mobile Device Management (MDM) to enforce security policies. 
+ 
+MDM Architecture 
+
+=== PAGE 20 ===
+              Organization 
+                   | 
+             MDM Server 
+                   | 
+       +-----------+-----------+ 
+       |           |           | 
+    Mobile 1    Mobile 2    Mobile 3 
+       |           |           | 
+    Policies    Policies    Policies 
+Benefits 
+• Centralized security 
+• Policy enforcement 
+• Remote device management 
+• Remote wiping 
+• Application control 
+• Better compliance 
+ 
+10. Authentication Service Security 
+Definition 
+Authentication is the process of verifying whether a user is actually who they claim to be. 
+Example: 
+User 
+ ↓ 
+Username + Password 
+ ↓ 
+Authentication Server 
+
+=== PAGE 21 ===
+ ↓ 
+Verification 
+ ↓ 
+Access Granted / Denied 
+Authentication Factors 
+1. Something You Know 
+Examples: 
+• Password 
+• PIN 
+• Security answer 
+2. Something You Have 
+Examples: 
+• Smartphone 
+• Security token 
+• Smart card 
+3. Something You Are 
+Examples: 
+• Fingerprint 
+• Face 
+• Iris 
+4. Somewhere You Are 
+Location-based authentication. 
+5. Something You Do 
+Behavioral characteristics such as typing patterns. 
+ 
+Multi-Factor Authentication 
+
+=== PAGE 22 ===
+MFA combines two or more authentication factors. 
+Example: 
+Password 
+   + 
+OTP 
+   + 
+Fingerprint 
+   ↓ 
+Authenticated User 
+Authentication Security Threats 
+• Password guessing 
+• Credential theft 
+• Phishing 
+• Credential stuffing 
+• Brute-force attacks 
+• Session hijacking 
+• SIM-based OTP interception 
+Security Measures 
+Strong Password Policy 
+Passwords should be difficult to guess. 
+MFA 
+Use multiple authentication factors. 
+Account Lockout/Rate Limiting 
+Repeated failed attempts should trigger restrictions. 
+Secure Password Storage 
+Passwords should not be stored as plain text. 
+
+=== PAGE 23 ===
+Session Security 
+Sessions should be protected against unauthorized access. 
+Biometric Authentication 
+Biometric authentication provides an additional factor, especially when combined with a secure 
+device credential. 
+Conclusion 
+Authentication is a critical component of mobile security because it prevents unauthorized 
+users from accessing devices, applications and data. 
+ 
+11. Attacks on Mobile Devices 
+Mobile devices can be attacked through applications, networks, social engineering and physical 
+access. 
+1. Malware Attack 
+Malicious applications can: 
+• Steal data 
+• Monitor activity 
+• Encrypt files 
+• Perform unauthorized actions 
+Types 
+• Trojan 
+• Spyware 
+• Ransomware 
+• Adware 
+ 
+2. Phishing/Smishing 
+Fake messages attempt to convince users to reveal sensitive information. 
+Fake SMS 
+
+=== PAGE 24 ===
+   ↓ 
+Malicious Link 
+   ↓ 
+Fake Website 
+   ↓ 
+Credentials Stolen 
+ 
+3. Man-in-the-Middle Attack 
+An attacker attempts to intercept communication between two parties. 
+User ←→ Attacker ←→ Server 
+Proper encryption and certificate validation help mitigate this risk. 
+ 
+4. Evil Twin Attack 
+An attacker creates a fake Wi-Fi network that resembles a legitimate network. 
+Example: 
+Real Wi-Fi: College_WiFi 
+Fake Wi-Fi: College_WiFi 
+                 ↓ 
+              Attacker 
+Users may accidentally connect to the fake network. 
+ 
+5. SIM Swap 
+The attacker obtains control of the victim's phone number. 
+Potential consequences include: 
+• OTP interception 
+• Account recovery abuse 
+
+=== PAGE 25 ===
+• Unauthorized transactions 
+ 
+6. Bluetooth Attacks 
+Poorly configured Bluetooth can expose devices to unauthorized communication. 
+ 
+7. Malicious Application 
+A seemingly useful application may contain malicious functionality. 
+ 
+8. Ransomware 
+Attackers may encrypt or lock data and demand payment. 
+ 
+9. Spyware 
+Spyware secretly monitors activities or collects information. 
+ 
+10. Physical Attacks 
+A stolen or unattended phone can provide access if it is poorly protected. 
+ 
+Prevention 
+• Use official application stores. 
+• Keep software updated. 
+• Use strong authentication. 
+• Encrypt sensitive data. 
+• Avoid suspicious links. 
+• Use secure Wi-Fi. 
+• Review permissions. 
+• Enable remote tracking/wiping. 
+
+=== PAGE 26 ===
+• Do not root/jailbreak devices unnecessarily. 
+ 
+12. Organizational Measures for Handling Mobile Security 
+Organizations must create policies and technical controls to protect mobile devices used for 
+business. 
+The major measures are: 
+Mobile Security 
+      | 
+      +-- Mobile Device Management 
+      | 
+      +-- Authentication 
+      | 
+      +-- Application Security 
+      | 
+      +-- Data Protection 
+      | 
+      +-- Network Security 
+      | 
+      +-- Employee Training 
+ 
+13. Implementing Strong Mobile Device Management Policy 
+Definition 
+Mobile Device Management (MDM) is a system that allows an organization to centrally manage 
+and secure mobile devices. 
+MDM can control: 
+• Device configuration 
+• Applications 
+
+=== PAGE 27 ===
+• Security policies 
+• Password requirements 
+• Encryption 
+• Network access 
+• Remote lock 
+• Remote wipe 
+Architecture 
+             IT Administrator 
+                    | 
+                    ↓ 
+               MDM Server 
+              /     |      \ 
+             /      |       \ 
+        Laptop    Mobile    Tablet 
+           |         |         | 
+        Policy    Policy     Policy 
+Important MDM Policies 
+1. Password Policy 
+Require strong device passwords/PINs. 
+2. Encryption Policy 
+Require encryption for organizational data. 
+3. Application Policy 
+Block unauthorized applications. 
+4. Remote Wipe 
+Allow administrators to erase organizational data from a lost device. 
+5. Device Compliance 
+
+=== PAGE 28 ===
+Devices must satisfy security requirements before accessing company resources. 
+6. BYOD Policy 
+Define security requirements for employee-owned devices. 
+ 
+14. Enforcing Strong Authentication and Access Controls 
+Authentication 
+Determines: 
+Who are you? 
+Authorization 
+Determines: 
+What are you allowed to access? 
+Example 
+Employee 
+   ↓ 
+Login 
+   ↓ 
+Authentication 
+   ↓ 
+Identity Verified 
+   ↓ 
+Authorization 
+   ↓ 
+Access only permitted resources 
+Access Control Principles 
+Least Privilege 
+Users should receive only the permissions they need. 
+
+=== PAGE 29 ===
+Role-Based Access Control 
+Permissions are assigned according to job role. 
+Example: 
+Role Access 
+Student Own records 
+Faculty Student academic records 
+Administrator Administrative data 
+MFA 
+Use multiple authentication factors. 
+Session Management 
+Secure sessions and terminate inactive sessions. 
+ 
+15. Securing Mobile Applications and Data 
+Mobile Application Security 
+Mobile applications may process highly sensitive data. 
+Examples: 
+• Banking applications 
+• Healthcare applications 
+• Payment applications 
+• Educational applications 
+Security Measures 
+1. Secure Coding 
+Developers should follow secure programming practices. 
+2. Input Validation 
+Applications should validate input to reduce security vulnerabilities. 
+
+=== PAGE 30 ===
+3. Encryption 
+Sensitive data should be encrypted. 
+4. Secure API 
+APIs should use authentication and authorization. 
+5. Secure Storage 
+Do not store sensitive information insecurely. 
+6. Permission Management 
+Applications should request only required permissions. 
+7. Regular Security Testing 
+Perform: 
+• Vulnerability assessment 
+• Security testing 
+• Code review 
+8. Secure Authentication 
+Use: 
+• MFA 
+• Secure tokens 
+• Strong session management 
+ 
+Data Security 
+Data should be protected: 
+       MOBILE DATA 
+           | 
+    +------+------+ 
+    |             | 
+ Data at Rest   Data in Transit 
+
+=== PAGE 31 ===
+    |             | 
+ Encryption    TLS/HTTPS 
+Data at Rest 
+Data stored on the phone. 
+Data in Transit 
+Data travelling between mobile device and server. 
+Both require appropriate security controls. 
+ 
+16. Protecting Wireless Network Connections 
+Definition 
+Wireless network security means protecting Wi-Fi and other wireless communications from 
+unauthorized access, interception and manipulation. 
+Common Wireless Threats 
+1. Eavesdropping 
+An attacker attempts to observe wireless communication. 
+2. Evil Twin 
+Fake Wi-Fi network pretending to be legitimate. 
+3. Man-in-the-Middle 
+Attacker attempts to intercept communication. 
+4. Unauthorized Access 
+An unauthorized user attempts to connect to the network. 
+5. Denial of Service 
+An attacker attempts to make the wireless service unavailable. 
+ 
+Security Measures 
+1. Strong Wi-Fi Encryption 
+
+=== PAGE 32 ===
+Use modern secure wireless security protocols such as WPA2/WPA3 where supported. 
+2. Strong Password 
+Use a strong wireless network password. 
+3. Change Default Credentials 
+Router default administrative credentials should be changed. 
+4. Firmware Updates 
+Keep routers/access points updated. 
+5. Network Segmentation 
+Separate sensitive systems from guest devices. 
+Internet 
+   | 
+Router 
+   | 
+   +---- Corporate Network 
+   | 
+   +---- Guest Network 
+   | 
+   +---- IoT Network 
+6. VPN 
+A VPN can provide an additional protected communication channel when appropriately 
+configured. 
+7. Disable Unnecessary Features 
+Disable unnecessary wireless services. 
+8. Monitor Network 
+Monitor for suspicious devices and unusual network activity. 
+ 
+
+=== PAGE 33 ===
+17. Educating Employees About Mobile Security 
+Employees are often an important part of an organization's security system. 
+Even strong technical security can be weakened by unsafe user behavior. 
+Employee Training Should Cover 
+1. Phishing Awareness 
+Employees should learn how to recognize suspicious: 
+• Emails 
+• SMS 
+• Links 
+• Websites 
+• QR codes 
+2. Password Security 
+Employees should: 
+• Use strong passwords. 
+• Avoid password reuse. 
+• Use MFA. 
+3. Device Security 
+Employees should: 
+• Lock their devices. 
+• Avoid leaving devices unattended. 
+• Report lost devices immediately. 
+4. Safe Application Usage 
+Employees should install applications only from trusted sources. 
+5. Public Wi-Fi Awareness 
+Employees should avoid using insecure public networks for sensitive activities. 
+6. Data Protection 
+
+=== PAGE 34 ===
+Employees should not share confidential organizational information through unauthorized 
+applications or services. 
+7. Social Engineering Awareness 
+Employees should understand manipulation techniques used by attackers. 
+ 
+18. Complete Organizational Mobile Security Framework 
+This is a very important diagram for a 10–15 mark answer. 
+                 ORGANIZATIONAL 
+                 MOBILE SECURITY 
+                       | 
+       +---------------+----------------+ 
+       |               |                | 
+       ↓               ↓                ↓ 
+   PEOPLE          PROCESS          TECHNOLOGY 
+       |               |                | 
+ Employee          Security          MDM 
+ Training          Policies          Encryption 
+ Awareness         BYOD Policy       MFA 
+       |            Incident         Secure Apps 
+       |            Response         Network Security 
+       |               |                | 
+       +---------------+----------------+ 
+                       | 
+                       ↓ 
+                Secure Mobile 
+                  Environment 
+
+=== PAGE 35 ===
+ 
+19. Overall Mobile Security Strategy 
+An organization should follow a defense-in-depth approach. 
+Layer 1 – Device Security 
+• Screen lock 
+• Encryption 
+• Updates 
+• Antivirus/security tools 
+Layer 2 – Application Security 
+• Secure applications 
+• Permission management 
+• Secure APIs 
+Layer 3 – Network Security 
+• WPA2/WPA3 
+• VPN 
+• Network segmentation 
+• Monitoring 
+Layer 4 – Authentication 
+• Strong passwords 
+• MFA 
+• Biometrics 
+Layer 5 – Data Security 
+• Encryption 
+• Secure storage 
+• Backup 
+• Data loss prevention 
+
+=== PAGE 36 ===
+Layer 6 – Human Security 
+• Employee training 
+• Security awareness 
+• Incident reporting 
+             SECURITY 
+                 | 
+    +------------+------------+ 
+    |            |            | 
+  Device       Network      Data 
+    |            |            | 
+    +------------+------------+ 
+                 | 
+          Authentication 
+                 | 
+          Employee Awareness 
+                 | 
+          Incident Response 
+ 
+  Quick Revision Table 
+Topic Main Points to Remember 
+Cyber crime with mobile devices Malware, phishing, SIM swap, payment fraud 
+Proliferation Rapid growth of smartphones, IoT, wireless 
+Mobility trends 5G, cloud, BYOD, IoT, mobile payment 
+Credit card fraud Lost card, CNP , phishing, skimming, identity theft 
+Impact Financial loss, privacy loss, reputation 
+
+=== PAGE 37 ===
+Topic Main Points to Remember 
+Prevention MFA, alerts, monitoring, tokenization 
+Mobile security challenges Malware, theft, Wi-Fi, apps, privacy 
+Mitigation Encryption, updates, authentication, backup 
+Registry/settings Secure device configuration, permissions, MDM 
+Authentication Verify identity 
+Authentication factors Know, have, are, location/behavior 
+Mobile attacks Malware, phishing, MITM, evil twin, SIM swap 
+MDM Centralized mobile device management 
+Access control Authentication + authorization + least privilege 
+Mobile app security Secure coding, encryption, API security 
+Wireless security WPA2/WPA3, VPN, segmentation 
+Employee security Training, phishing awareness, safe device usage 
+ 
+          How to Write a 10–15 Mark Answer in Exam 
+For almost every topic in this unit, use this structure: 
+1. Definition – 1–2 marks 
+Write a clear definition. 
+2. Introduction – 1 mark 
+Explain why the topic is important. 
+3. Diagram – 1–2 marks 
+Draw a simple flowchart/architecture. 
+4. Main explanation – 5–6 marks 
+Write 6–8 subheadings with 2–4 lines each. 
+
+=== PAGE 38 ===
+5. Examples – 1 mark 
+Give 2–3 practical examples. 
+6. Prevention/Security Measures – 2–3 marks 
+Write relevant security controls. 
+7. Conclusion – 1 mark 
+End with 2–3 lines summarizing the topic. 
+Example answer flow 
+DEFINITION 
+    ↓ 
+INTRODUCTION 
+    ↓ 
+DIAGRAM 
+    ↓ 
+TYPES / COMPONENTS 
+    ↓ 
+WORKING / EXPLANATION 
+    ↓ 
+EXAMPLES 
+    ↓ 
+SECURITY / PREVENTION 
+    ↓ 
+ADVANTAGES / IMPACT 
+    ↓ 
+CONCLUSION 
+Exam tip: For a 10–15 mark question, don't write one huge paragraph. Use headings + bullet 
+points + diagrams + examples. This makes the answer easier for the examiner to evaluate and 
+helps you cover more points. 
+
+=== PAGE 39 ===
+ 

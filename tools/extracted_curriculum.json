@@ -1,0 +1,678 @@
+{
+  "U1 new.pdf": [
+    {
+      "page": 1,
+      "text": "Unit 1 – Introduction to Cyber Crime \nDetailed 10–15 Marks Exam Notes \n \nThe topics in your syllabus are: \n \nDefinition and Origins of Cyber Crime \nIntroduction to Cyber Crime \nClassification of Cyber Crime \nAgainst Individual \nAgainst Property \nAgainst Government \nAgainst Society \nGlobal Perspective on Cyber Crime \nCyber Crime Transcends National Boundaries \nCase Studies of Cyber Crime \nGlobal Struggle with Cyber Security \nCase Study related to Global Cyber Security \nInternational Cooperation to Combat Cyber Crime \nCase Study of International Cooperation \nPlanning of Cyber Offences by Criminals \n1. Definition and Origins of Cyber Crime \nDefinition \n \nCyber crime refers to any illegal activity in which a computer, computer network, digital device, \nor the Internet is used as a tool, target, or medium for committing a crime. \n "
+    },
+    {
+      "page": 2,
+      "text": "Simple definition \n \nCyber crime = Crime committed using or against computers, networks, or digital systems. \n \nExamples include: \n \nHacking \nPhishing \nIdentity theft \nOnline fraud \nMalware attacks \nCyber stalking \nRansomware \nData theft \nDenial-of-Service attacks \nImportant point \n \nA computer can play three different roles in cyber crime: \n \nRole Meaning Example \nTarget Computer/system itself is attacked Hacking a server \nTool Computer is used to commit crime Online banking fraud \nStorage Computer stores illegal/stolen information Storing stolen databases \nOrigins of Cyber Crime \n \nCyber crime developed along with the development of computers and the Internet. "
+    },
+    {
+      "page": 3,
+      "text": " \n1. Early computer misuse \n \nDuring the 1960s and 1970s, computers were mainly used by governments, universities and \nlarge organizations. \n \nUnauthorized access to computer systems began appearing as computer networks became \nmore common. \n \n2. Phone/Phreaking era \n \nBefore widespread Internet usage, criminals experimented with telephone systems. \n \nThis activity became known as phreaking. \n \nAttackers attempted to manipulate telephone networks to obtain unauthorized access or free \nservices. \n \n3. Computer viruses \n \nDuring the 1980s, computer viruses became an important form of computer-related crime. \n \nA virus could: \n \nReplicate itself \nInfect other files \nDamage systems "
+    },
+    {
+      "page": 4,
+      "text": "Modify data \nDisrupt computer operations \n4. Internet expansion \n \nDuring the 1990s, Internet usage expanded rapidly. \n \nThis created new opportunities for: \n \nEmail fraud \nHacking \nWebsite attacks \nOnline scams \nIdentity theft \n5. Modern cyber crime \n \nWith smartphones, cloud computing, social media, cryptocurrency and IoT , cyber crime has \nbecome more sophisticated. \n \nModern attacks include: \n \nRansomware \nAdvanced phishing \nCryptocurrency scams \nSupply-chain attacks \nSocial engineering \nState-sponsored cyber attacks "
+    },
+    {
+      "page": 5,
+      "text": "Deepfake-enabled fraud \nCharacteristics of Cyber Crime \nTechnology dependent \nCan be committed from anywhere \nCriminals can hide their identity \nCan affect millions of people simultaneously \nEvidence is mainly digital \nAttackers can operate across international borders \nCrimes can happen very quickly \nInvestigation requires specialized technical knowledge \nConclusion \n \nCyber crime originated with the misuse of early computer and communication systems and has \nevolved with technological development. Today, it is a global problem affecting individuals, \nbusinesses, governments and society. \n \nExam ending line \n \nThus, the growth of digital technology has created enormous benefits but has also created new \nopportunities for criminals, making cyber crime one of the major challenges of the digital age. \n \n2. Introduction to Cyber Crime \nMeaning \n \nCyber crime is a category of crime involving computers, networks, digital devices and the \nInternet. \n "
+    },
+    {
+      "page": 6,
+      "text": "Unlike traditional crimes, cyber crimes can often be conducted without the criminal being \nphysically present at the location of the victim. \n \nExample \n \nA criminal sitting in one country can steal money from the bank account of a person in another \ncountry using the Internet. \n \nWhy Cyber Crime is Increasing \n1. Rapid Internet growth \n \nMillions of people use the Internet for: \n \nBanking \nShopping \nEducation \nCommunication \nEntertainment \n \nThis provides criminals with a large target population. \n \n2. Digitalization \n \nOrganizations increasingly store information digitally. \n \nExamples: \n "
+    },
+    {
+      "page": 7,
+      "text": "Customer information \nBank information \nMedical records \nGovernment records \nBusiness secrets \n \nTherefore, valuable information has become a target. \n \n3. Easy availability of technology \n \nAttackers can obtain sophisticated tools and information online. \n \n4. Anonymity \n \nCriminals can use techniques such as: \n \nFake accounts \nCompromised systems \nProxy servers \nOther anonymizing technologies \n \nto make investigation more difficult. \n \n5. Financial motivation \n \nA large portion of cyber crime is financially motivated. "
+    },
+    {
+      "page": 8,
+      "text": " \nExamples: \n \nBanking fraud \nRansomware \nCredit-card fraud \nCryptocurrency scams \nCommon Types \nHacking \n \nUnauthorized access to a computer or network. \n \nPhishing \n \nFake emails/messages/websites are used to trick victims into revealing information. \n \nMalware \n \nMalicious software designed to damage, disrupt, spy on, or gain unauthorized access to \nsystems. \n \nRansomware \n \nMalware that makes data or systems inaccessible and demands payment. \n \nIdentity theft "
+    },
+    {
+      "page": 9,
+      "text": " \nUsing another person's personal information without authorization. \n \nCyber stalking \n \nRepeated unwanted monitoring or harassment through digital technologies. \n \nEffects of Cyber Crime \nIndividual level \nFinancial loss \nPrivacy violation \nIdentity theft \nEmotional distress \nBusiness level \nFinancial loss \nData breaches \nReputation damage \nOperational disruption \nGovernment level \nNational security risks \nCritical infrastructure disruption \nTheft of sensitive information \nSociety level \nLoss of trust in digital services \nEconomic damage \nSocial instability "
+    },
+    {
+      "page": 10,
+      "text": "3. Classification of Cyber Crime \n \nCyber crimes can broadly be classified according to the target/victim. \n \nThe four important categories in your syllabus are: \n \nCyber crime against individuals \nCyber crime against property \nCyber crime against government \nCyber crime against society \n3.1 Cyber Crime Against Individuals \nDefinition \n \nCyber crimes against individuals are crimes where a specific person is the primary target. \n \nExamples \nIdentity theft \nCyber stalking \nOnline harassment \nPhishing \nEmail spoofing \nOnline cheating \nDefamation \nAccount takeover \nCyber bullying \n1. Identity Theft "
+    },
+    {
+      "page": 11,
+      "text": " \nCriminal obtains personal information such as: \n \nName \nPassword \nBank details \nGovernment ID information \n \nand uses it without authorization. \n \nExample \n \nAn attacker obtains someone's login credentials and uses the account to make fraudulent \ntransactions. \n \n2. Cyber Stalking \n \nCyber stalking involves repeated unwanted monitoring, communication, harassment or \nintimidation through digital technologies. \n \nIt may occur through: \n \nSocial media \nEmail \nMessaging platforms \nOnline forums \n3. Cyber Bullying "
+    },
+    {
+      "page": 12,
+      "text": " \nUse of digital platforms to: \n \nThreaten \nHumiliate \nHarass \nIntimidate \n \nanother person. \n \n4. Phishing \n \nAttackers create fake messages or websites that appear legitimate. \n \nExample: \n \n\"Your bank account will be blocked. Click here to verify.\" \n \nThe victim enters credentials into the fake website. \n \nEffects \nFinancial loss \nLoss of privacy \nPsychological stress \nReputation damage \nUnauthorized account access "
+    },
+    {
+      "page": 13,
+      "text": "3.2 Cyber Crime Against Property \nDefinition \n \nThese crimes target digital or financial property. \n \nProperty may include: \n \nMoney \nDatabases \nSoftware \nIntellectual property \nDigital assets \nWebsites \nComputer systems \nMajor Examples \n1. Data Theft \n \nUnauthorized copying or stealing of confidential information. \n \n2. Intellectual Property Theft \n \nStealing: \n \nSoftware \nSource code \nDesigns "
+    },
+    {
+      "page": 14,
+      "text": "Research \nTrade secrets \n3. Ransomware \n \nAttackers encrypt or otherwise deny access to data and demand payment. \n \n4. Website Defacement \n \nUnauthorized modification of a website. \n \nFor example: \n \nOriginal website \n       ↓ \nUnauthorized access \n       ↓ \nWebsite modified \n       ↓ \nAttacker's message displayed \n5. Computer Sabotage \n \nIntentional damage or disruption of computer systems. \n \nEffects \nFinancial losses \nLoss of business data "
+    },
+    {
+      "page": 15,
+      "text": "Business interruption \nLoss of intellectual property \nRecovery costs \nReputation damage \n3.3 Cyber Crime Against Government \nDefinition \n \nCyber crimes against government target: \n \nGovernment websites \nGovernment databases \nMilitary systems \nCritical infrastructure \nPublic services \nGovernment communication systems \n \nThese attacks can become national security issues. \n \nMajor Examples \n1. Cyber Espionage \n \nUnauthorized access to systems to obtain sensitive information. \n \n2. Cyber Terrorism \n "
+    },
+    {
+      "page": 16,
+      "text": "Use of cyber attacks with the objective of causing serious disruption or creating fear in \nconnection with broader political or ideological aims. \n \n3. Website Attacks \n \nGovernment websites may be attacked or defaced. \n \n4. Critical Infrastructure Attacks \n \nPotential targets include: \n \nElectricity \nTransportation \nTelecommunications \nWater systems \nHealthcare systems \nEffects \nNational security risks \nEconomic losses \nDisruption of public services \nTheft of sensitive information \nDamage to critical infrastructure \n3.4 Cyber Crime Against Society \nDefinition \n \nCyber crimes against society affect large groups of people or society as a whole. "
+    },
+    {
+      "page": 17,
+      "text": " \nExamples \nOnline misinformation and malicious manipulation \nDistribution of illegal content \nOnline financial scams \nCyber terrorism \nLarge-scale fraud \nOrganized cyber crime \nAttacks on public services \nEffects \nSocial disruption \nFinancial losses \nLoss of public trust \nThreats to public safety \nDamage to social harmony \nIncreased fear and insecurity \nEasy Classification to Remember \n \nRemember: \n \nI – P – G – S \n \nI = Individual \nP = Property \nG = Government \nS = Society "
+    },
+    {
+      "page": 18,
+      "text": " \n4. Global Perspective on Cyber Crime \nIntroduction \n \nCyber crime is no longer limited to one country or region. \n \nThe Internet connects computers across the world, allowing criminals to attack victims \nregardless of geographical boundaries. \n \nTherefore: \n \nCyber crime is a global problem requiring global cooperation. \n \nWhy Cyber Crime is Global \n1. Global Internet Connectivity \n \nAn attacker can operate remotely from another country. \n \n2. International Criminal Networks \n \nCyber criminals can work together across different countries. \n \n3. International Victims \n \nOne attack can affect users from multiple countries. \n "
+    },
+    {
+      "page": 19,
+      "text": "4. Cross-border infrastructure \n \nAttackers may use systems located in several countries during a single operation. \n \nFor example: \n \nAttacker \n   ↓ \nCompromised System A \n   ↓ \nCompromised System B \n   ↓ \nVictim Server \n \nThe attacker and victim may be in completely different countries. \n \nGlobal Impact \nEconomic impact \n \nCyber crime causes: \n \nFinancial fraud \nBusiness interruption \nData recovery costs \nCybersecurity expenditure \nNational security "
+    },
+    {
+      "page": 20,
+      "text": " \nGovernments must protect: \n \nMilitary systems \nGovernment databases \nCritical infrastructure \nPrivacy \n \nPersonal information can be stolen and misused internationally. \n \nChallenges \nDifferent laws in different countries \nDifficulty identifying attackers \nJurisdiction problems \nDifferent investigation procedures \nDifficulty collecting evidence from another country \nRapid technological development \n5. Cyber Crime Transcends National Boundaries \n \nThis is an important 10–15 mark question. \n \nMeaning \n \nA cyber crime is said to transcend national boundaries when different parts of the crime occur \nin different countries. \n "
+    },
+    {
+      "page": 21,
+      "text": "Unlike traditional crimes, physical distance is often not a major barrier. \n \nExample \n \nSuppose: \n \nCriminal is in Country A \nServer is in Country B \nVictim is in Country C \nStolen money goes to Country D \n \nThen: \n \nCountry A \nAttacker \n   ↓ \nCountry B \nServer \n   ↓ \nCountry C \nVictim \n   ↓ \nCountry D \nFinancial destination \n \nOne cyber crime can therefore involve four jurisdictions. "
+    },
+    {
+      "page": 22,
+      "text": " \nWhy This Creates Problems \n1. Jurisdiction \n \nWhich country's police should investigate? \n \n2. Different laws \n \nAn action may be illegal in one country but treated differently in another. \n \n3. Evidence collection \n \nDigital evidence may be stored on servers in another country. \n \n4. Attribution \n \nIdentifying the actual attacker can be difficult. \n \n5. International cooperation \n \nAuthorities may need assistance from foreign agencies. \n \nSolution \n \nCountries need: \n "
+    },
+    {
+      "page": 23,
+      "text": "International treaties \nInformation sharing \nMutual legal assistance \nJoint investigations \nCybersecurity cooperation \nCommon legal frameworks \nDigital forensic cooperation \nConclusion \n \nThe borderless nature of cyberspace makes cyber crime a transnational problem, and effective \ninvestigation requires cooperation between countries. \n \n6. Case Studies of Cyber Crime \n \nCase studies are useful in exams because they demonstrate how cyber crime works in the real \nworld. \n \nCase Study 1 – WannaCry Ransomware Attack \n \nWannaCry was a major ransomware outbreak in 2017. \n \nIt spread rapidly across vulnerable Windows systems. \n \nWorking \nVulnerable Computer \n        ↓ \nWannaCry infection "
+    },
+    {
+      "page": 24,
+      "text": "        ↓ \nFiles/System affected \n        ↓ \nRansom demand \n        ↓ \nAttempt to spread to other systems \nImpact \n \nThe attack affected organizations in multiple countries. \n \nOne highly publicized impact was disruption to parts of the UK's National Health Service (NHS). \n \nLessons \nSecurity updates are important. \nOrganizations need backups. \nNetwork segmentation can reduce spread. \nCybersecurity requires continuous monitoring. \nOld/unpatched systems create major risks. \n7. Global Struggle with Cyber Security \nIntroduction \n \nAs cyber attacks become more sophisticated, countries, organizations and international bodies \nface the challenge of protecting digital infrastructure. \n \nThe global struggle with cybersecurity refers to the continuous effort to protect information \nsystems against cyber threats while maintaining economic activity, privacy and international \ncooperation. "
+    },
+    {
+      "page": 25,
+      "text": " \nMajor Challenges \n1. Rapidly changing technology \n \nTechnology develops faster than many security policies. \n \n2. Sophisticated attacks \n \nAttackers increasingly use: \n \nAutomation \nSocial engineering \nMalware \nRansomware \nAI-assisted techniques \n3. Lack of cybersecurity awareness \n \nHuman mistakes remain an important source of security incidents. \n \n4. Critical infrastructure risks \n \nAttacks against: \n \nElectricity \nHospitals \nTransportation "
+    },
+    {
+      "page": 26,
+      "text": "Communication \n \ncan have large-scale consequences. \n \n5. International jurisdiction \n \nAttackers can operate across borders. \n \n6. Shortage of skilled professionals \n \nOrganizations need trained cybersecurity professionals. \n \nMeasures Used Globally \nGovernments \nCybersecurity policies \nCybersecurity agencies \nNational incident response teams \nCybercrime laws \nOrganizations \nFirewalls \nEncryption \nMulti-factor authentication \nIntrusion detection \nBackups \nSecurity monitoring \nInternational cooperation "
+    },
+    {
+      "page": 27,
+      "text": "Information sharing \nJoint investigations \nCybersecurity agreements \nCapacity building \n8. Case Study – Global Cybersecurity Struggle \nSolarWinds Supply-Chain Incident \n \nThe SolarWinds incident is an important example of the difficulty of defending interconnected \ndigital systems. \n \nAttackers compromised the software supply chain associated with SolarWinds' Orion platform \nand inserted malicious code into legitimate software updates. \n \nOrganizations that installed affected updates could consequently become compromised. \n \nWhy it was significant \n \nIt demonstrated that: \n \nOrganizations can be attacked through trusted suppliers. \nSoftware supply chains are important security risks. \nCybersecurity cannot focus only on an organization's internal network. \nInternational cooperation and information sharing are important. \nLesson \n \nModern cybersecurity requires protection of the entire ecosystem: \n "
+    },
+    {
+      "page": 28,
+      "text": "Organization \n     ↓ \nSoftware \n     ↓ \nSupplier \n     ↓ \nCloud services \n     ↓ \nThird-party providers \n     ↓ \nUsers \n \nSecurity at only one point is not sufficient. \n \n9. International Cooperation to Combat Cyber Crime \nIntroduction \n \nBecause cyber crime can cross national boundaries, a single country cannot always investigate \nand prosecute a cyber criminal alone. \n \nTherefore, international cooperation is essential. \n \nMajor Forms of Cooperation \n1. Information Sharing \n \nCountries and cybersecurity organizations exchange information about: "
+    },
+    {
+      "page": 29,
+      "text": " \nThreats \nMalware \nAttack techniques \nIndicators of compromise \n2. Mutual Legal Assistance \n \nA country may request legal assistance from another country to obtain: \n \nDigital evidence \nRecords \nWitness information \nOther investigative assistance \n3. Joint Investigations \n \nLaw enforcement agencies from different countries may cooperate on international cybercrime \ninvestigations. \n \n4. Extradition \n \nIf legally permitted, a suspected criminal may be transferred to another country for prosecution. \n \n5. International Treaties \n \nInternational legal frameworks help countries cooperate in cybercrime investigations. \n "
+    },
+    {
+      "page": 30,
+      "text": "An important example is the Budapest Convention on Cybercrime. \n \nRole of International Organizations \n \nOrganizations such as: \n \nINTERPOL \nUnited Nations \nRegional law-enforcement organizations \nNational cybersecurity agencies \n \ncontribute to international cybersecurity cooperation. \n \nBenefits \nFaster information sharing \nBetter investigations \nEasier evidence collection \nImproved prosecution \nBetter understanding of international threats \nStronger cybersecurity capabilities \nChallenges \nDifferent laws \nPrivacy requirements \nSovereignty issues \nDifferent legal procedures \nLanguage barriers "
+    },
+    {
+      "page": 31,
+      "text": "Evidence-sharing restrictions \nPolitical and diplomatic considerations \n10. Case Study – International Cooperation Against Cyber Crime \nOperation Against Emotet \n \nEmotet was a major malware/botnet operation that affected systems internationally. \n \nLaw enforcement agencies from several countries cooperated to disrupt its infrastructure. \n \nGeneral process \nCyber criminals \n       ↓ \nEmotet infrastructure \n       ↓ \nVictims in multiple countries \n       ↓ \nInternational investigation \n       ↓ \nLaw-enforcement cooperation \n       ↓ \nInfrastructure disruption \nImportance \n \nThis demonstrates that international cybercrime investigations can involve: \n \nMultiple countries "
+    },
+    {
+      "page": 32,
+      "text": "Technical investigation \nEvidence sharing \nCoordinated law enforcement \nInfrastructure disruption \nLesson \n \nCyber criminals may operate globally, so law enforcement must also cooperate globally. \n \n11. Planning of Cyber Offences by Cyber Criminals \n \nThis is another very important 10–15 mark question. \n \nDefinition \n \nPlanning of a cyber offence refers to the process through which criminals prepare, organize and \nexecute a cyber attack. \n \nCyber criminals generally do not randomly attack every target. Many attacks involve some level \nof preparation. \n \nStages of Planning a Cyber Offence \nStage 1 – Target Selection \n \nThe criminal first identifies a target. \n \nPossible targets: \n "
+    },
+    {
+      "page": 33,
+      "text": "Individual \nCompany \nGovernment organization \nBank \nWebsite \nNetwork \nFactors criminals may consider \nValue of information \nSecurity weaknesses \nFinancial potential \nAccessibility \nStage 2 – Information Gathering \n \nThe attacker collects information about the target. \n \nThis is often called reconnaissance. \n \nInformation may include: \n \nPublicly available information \nOrganization structure \nTechnology used \nPublic contact information \nDomain information \nExample \n "
+    },
+    {
+      "page": 34,
+      "text": "An attacker may examine publicly available information about an organization's employees and \ntechnology. \n \nStage 3 – Identifying Vulnerabilities \n \nThe attacker looks for weaknesses in: \n \nSoftware \nSystems \nNetwork configurations \nHuman behavior \nAuthentication practices \n \nThe objective is to identify a possible entry point. \n \nStage 4 – Choosing Attack Method \n \nDepending on the target, criminals may choose methods such as: \n \nPhishing \nMalware \nCredential theft \nSocial engineering \nExploitation of vulnerabilities \nAccount takeover \nStage 5 – Preparation "
+    },
+    {
+      "page": 35,
+      "text": " \nThe attacker prepares the required resources. \n \nThese may include: \n \nMalicious software \nFake communication \nCompromised accounts \nInfrastructure used to conduct the attack \nStage 6 – Initial Access \n \nThe attacker attempts to gain unauthorized access. \n \nCommon examples: \n \nPhishing \n   ↓ \nVictim provides credentials \n   ↓ \nAttacker obtains account access \n \nor \n \nUnpatched system \n       ↓ \nVulnerability exploited "
+    },
+    {
+      "page": 36,
+      "text": "       ↓ \nUnauthorized access \nStage 7 – Establishing Persistence \n \nAfter obtaining access, an attacker may attempt to maintain unauthorized access. \n \nThe goal is to prevent losing access if the initial entry point is closed. \n \nStage 8 – Privilege Escalation \n \nThe attacker may attempt to obtain higher privileges. \n \nFor example: \n \nNormal account \n      ↓ \nHigher privileges \n      ↓ \nAdministrative access \n \nHigher privileges can provide greater control over systems. \n \nStage 9 – Achieving the Objective \n \nThe attacker's objective depends on the type of crime. \n "
+    },
+    {
+      "page": 37,
+      "text": "Examples: \n \nFinancial crime \n \nSteal money. \n \nData theft \n \nSteal confidential information. \n \nRansomware \n \nDisrupt access to data and demand payment. \n \nEspionage \n \nObtain sensitive information. \n \nSabotage \n \nDisrupt systems or services. \n \nStage 10 – Concealing Activity \n \nCriminals may attempt to make investigation difficult by: \n "
+    },
+    {
+      "page": 38,
+      "text": "Using compromised infrastructure \nDeleting or manipulating evidence \nUsing multiple systems \nHiding malicious activity among legitimate traffic \n \nFor exam purposes, remember this as the concealment stage. \n \nEasy Flowchart for Exam \n \nDraw this: \n \nTarget Selection \n       ↓ \nInformation Gathering \n       ↓ \nVulnerability Identification \n       ↓ \nAttack Method Selection \n       ↓ \nPreparation \n       ↓ \nInitial Access \n       ↓ \nPersistence \n       ↓ \nPrivilege Escalation "
+    },
+    {
+      "page": 39,
+      "text": "       ↓ \nAttack Objective \n       ↓ \nConcealment \n \nThis flowchart can significantly improve a 10–15 mark answer. \n \nComplete Example \n \nConsider a hypothetical phishing-based attack against an organization. \n \nStep 1 \n \nCriminal selects an organization. \n \nStep 2 \n \nPublic information about employees and the organization is collected. \n \nStep 3 \n \nThe criminal identifies weaknesses in security awareness or authentication. \n \nStep 4 \n \nA deceptive communication is prepared. "
+    },
+    {
+      "page": 40,
+      "text": " \nStep 5 \n \nThe message is sent to the target. \n \nStep 6 \n \nIf credentials are compromised, unauthorized account access may occur. \n \nStep 7 \n \nThe criminal may attempt to maintain access. \n \nStep 8 \n \nThe criminal may seek additional privileges. \n \nStep 9 \n \nData or money may be targeted. \n \nStep 10 \n \nThe criminal may attempt to conceal activity. \n \n   Very Important Exam Revision Table "
+    },
+    {
+      "page": 41,
+      "text": "Topic Main Points to Remember \nCyber Crime Definition Crime using/against computers or networks \nOrigins Computers → networks → Internet → modern cyber crime \nAgainst Individual Identity theft, phishing, stalking, bullying \nAgainst Property Data theft, ransomware, IP theft, website attacks \nAgainst Government Espionage, infrastructure attacks, government system attacks \nAgainst Society Large-scale fraud, illegal content, disruption \nGlobal Perspective Cyber crime is worldwide \nTransnational Crime Attacker, server and victim can be in different countries \nGlobal Cybersecurity Countries continuously defend digital infrastructure \nInternational Cooperation Information sharing, treaties, joint investigation, legal assistance \nPlanning Cyber Offence Target → Reconnaissance → Vulnerability → Access → Objective \n→ Concealment \n  How to Write a 10–15 Mark Answer \n \nFor almost every topic in this unit, use this structure: \n \n1. Definition – 2 marks \n \nStart with a clear definition. \n \n2. Introduction – 1–2 marks \n \nExplain why the topic is important. \n \n3. Main explanation – 5–7 marks "
+    },
+    {
+      "page": 42,
+      "text": " \nUse headings + numbered points. \n \n4. Example/Case Study – 2–3 marks \n \nGive a relevant real-world example such as WannaCry, SolarWinds or Emotet where \nappropriate. \n \n5. Diagram/Flowchart – 1–2 marks \n \nDraw a simple flowchart. \n \n6. Conclusion – 1 mark \n \nEnd with 2–3 strong lines. \n \nGolden formula: \n \nDefinition → Introduction → Types/Stages → Explanation → Example → Effects → Diagram → \nConclusion \n \nThis format is particularly useful for your GTU-style 10–15 mark questions because you can \nexpand or shorten each section according to the marks. \n \nIf you are preparing this specifically for your mid-sem, the highest-value topics to learn \nthoroughly from this unit are classification of cyber crime, transnational nature of cyber crime, \ninternational cooperation, global cybersecurity struggle, and planning of cyber offences. \n "
+    },
+    {
+      "page": 43,
+      "text": " \n "
+    }
+  ],
+  "U2 new.pdf": [
+    {
+      "page": 1,
+      "text": "CYBERCRIME & SOCIAL MEDIA — DETAILED EXAM NOTES \nUNIT 2 — IMPORTANT 10–15 MARK QUESTIONS \nTopics covered \n1. Cybercrime and Social Media — Structure and Objectives  \n2. Social Engineering  \no Evolution  \no Types  \no Phishing  \no Pretexting  \no Baiting  \no Quid Pro Quo  \no Tailgating/Piggybacking  \no Impersonation  \no Scareware  \n3. Social Media Platforms — Case Study  \n4. Cyberstalking  \no Types of cyberstalking behavior  \no Direct cyberstalking  \no Indirect cyberstalking  \no Prevention and protection  \n5. Cybercrimes  \no Taxonomies of cybercrime  \no Social media as cybercrime ecosystem  \no Cybercrime-as-a-Service  \no Economic impact  \no Challenges in cybercrime investigation  "
+    },
+    {
+      "page": 2,
+      "text": "6. Botnets  \no Architecture and evolution  \no Capabilities and criminal applications  \no Monetization strategies  \no Case study  \n7. Attack Vectors — Classification  \n \n1. CYBERCRIME AND SOCIAL MEDIA — STRUCTURE AND OBJECTIVES \n1.1 What is Cybercrime? \nCybercrime refers to illegal activities in which computers, networks, digital devices, or the \nInternet are used as a tool, target, or environment for committing a crime. \nExamples \n• Hacking  \n• Identity theft  \n• Online fraud  \n• Phishing  \n• Cyberstalking  \n• Malware attacks  \n• Ransomware  \n• Data theft  \n• Account takeover  \n• Online harassment  \nSimple definition for exam \nCybercrime is any unlawful activity carried out using computers, digital devices, communication \nnetworks, or the Internet. \n \n1.2 What is Social Media? "
+    },
+    {
+      "page": 3,
+      "text": "Social media refers to online platforms that allow users to create, share, communicate and \ninteract with digital content. \nExamples: \n• Facebook  \n• Instagram  \n• X  \n• LinkedIn  \n• YouTube  \n• WhatsApp  \n• Telegram  \n• Snapchat  \n \n1.3 Relationship Between Cybercrime and Social Media \nSocial media provides criminals with a huge environment containing: \n• Personal information  \n• Photos  \n• Contact information  \n• Location information  \n• Social connections  \n• Professional information  \n• User interests  \n• Public conversations  \nThis information can be misused for cybercrime. \nBasic structure \n             SOCIAL MEDIA \n                  | "
+    },
+    {
+      "page": 4,
+      "text": "      +-----------+-----------+ \n      |           |           | \n   Users       Data       Communication \n      |           |           | \n      +-----------+-----------+ \n                  | \n          Criminal exploitation \n                  | \n      +-----------+-----------+ \n      |           |           | \n   Phishing    Fraud      Stalking \n      |           |           | \n   Identity    Account     Privacy \n    Theft      Takeover    Violation \n \n1.4 Structure of Cybercrime on Social Media \nThe social-media cybercrime ecosystem generally contains: \n1. Victim \nThe person or organization targeted by the criminal. \n2. Attacker \nThe individual or group attempting to commit the crime. \n3. Platform \nThe social-media service through which communication or activity occurs. \n4. Information \nInformation collected from profiles, posts, messages, photos, etc. \n5. Attack mechanism "
+    },
+    {
+      "page": 5,
+      "text": "The technique used by the attacker. \nExamples: \n• Phishing  \n• Fake profiles  \n• Malicious links  \n• Social engineering  \n• Account takeover  \n6. Criminal objective \nThe final goal of the attacker. \nExamples: \n• Money  \n• Personal information  \n• Account access  \n• Revenge  \n• Espionage  \n• Fraud  \n \n1.5 Objectives of Cybercrime on Social Media \n1. Financial gain \nAttackers may attempt to steal money through: \n• Fake investment schemes  \n• Shopping fraud  \n• Payment scams  \n• Account takeover  \n2. Identity theft \nPersonal information can be used to impersonate a victim. "
+    },
+    {
+      "page": 6,
+      "text": "3. Credential theft \nAttackers may attempt to obtain: \n• Usernames  \n• Passwords  \n• Authentication information  \n4. Privacy violation \nPrivate photographs, conversations or personal information may be obtained or exposed. \n5. Cyberstalking \nRepeated unwanted monitoring or contact can be performed through social platforms. \n6. Reputation damage \nFake posts or accounts may be used to damage someone's reputation. \n7. Malware distribution \nMalicious links or files can be distributed through social platforms. \n8. Misinformation and manipulation \nSocial media can be used to distribute false or misleading information. \n \n1.6 Why Social Media is Attractive to Cybercriminals \n• Large number of users  \n• Huge amount of personal information  \n• Easy communication  \n• Fake accounts can be created  \n• Users often trust familiar-looking profiles  \n• Information can be collected through public posts  \n• Rapid information sharing  \n• Global reach  \nConclusion "
+    },
+    {
+      "page": 7,
+      "text": "Social media provides significant benefits for communication and information sharing, but its \nlarge user base and availability of personal information also create opportunities for \ncybercriminal activities. \n \n2. SOCIAL ENGINEERING \n2.1 Definition \nSocial engineering is the manipulation of people into performing an action or revealing \ninformation that compromises security. \nThe attacker generally exploits human psychology rather than only technical vulnerabilities. \nImportant line for exam \nSocial engineering attacks target the human element of security. \n \n2.2 Basic Social Engineering Process \nInformation Gathering \n        ↓ \nTarget Selection \n        ↓ \nBuilding Trust \n        ↓ \nManipulation \n        ↓ \nVictim performs action \n        ↓ \nInformation / Access obtained \n        ↓ \nCriminal objective \n "
+    },
+    {
+      "page": 8,
+      "text": "2.3 Why Social Engineering Works \nAttackers commonly exploit psychological factors such as: \n• Trust  \n• Fear  \n• Curiosity  \n• Urgency  \n• Authority  \n• Greed  \n• Helpfulness  \n• Social pressure  \nFor example: \n\"Your account will be blocked unless you verify it immediately.\" \nThe attacker creates fear + urgency, encouraging the victim to act without checking the \nmessage. \n \n2.4 Evolution of Social Engineering \nSocial engineering has evolved alongside communication technology. \nStage 1 — Traditional social engineering \nAttackers manipulated people through: \n• Telephone calls  \n• Face-to-face communication  \n• Letters  \nStage 2 — Email-based attacks \nWith the growth of email, criminals began using deceptive messages to obtain information. \nStage 3 — Web-based attacks \nFake websites and online services became common attack mechanisms. "
+    },
+    {
+      "page": 9,
+      "text": "Stage 4 — Social-media attacks \nAttackers started using: \n• Fake profiles  \n• Direct messages  \n• Fake advertisements  \n• Social-media impersonation  \nStage 5 — Mobile-based attacks \nSmartphones introduced: \n• SMS scams  \n• Fake mobile applications  \n• Messaging-platform scams  \nStage 6 — AI-assisted social engineering \nModern attacks can use automation and AI to create highly convincing: \n• Messages  \n• Fake profiles  \n• Voice impersonation  \n• Images  \n• Emails  \nEvolution diagram \nTraditional \n   ↓ \nTelephone \n   ↓ \nEmail \n   ↓ \nWeb "
+    },
+    {
+      "page": 10,
+      "text": "   ↓ \nSocial Media \n   ↓ \nMobile/Messaging \n   ↓ \nAI-assisted attacks \n \n3. TYPES OF SOCIAL ENGINEERING ATTACKS \n \n3.1 PHISHING \nDefinition \nPhishing is a social-engineering attack in which an attacker pretends to be a legitimate person \nor organization to trick a victim into revealing information or performing an unsafe action. \nCommon targets \n• Passwords  \n• Banking information  \n• Account credentials  \n• Personal information  \nCommon characteristics \n• Fake identity  \n• Urgent message  \n• Suspicious link  \n• Fake login page  \n• Request for sensitive information  \nExample \nA victim receives: "
+    },
+    {
+      "page": 11,
+      "text": "\"Your account requires immediate verification.\" \nThe message contains a link to a fraudulent website designed to imitate a legitimate service. \nTypes of phishing \nEmail phishing \nFraudulent emails are sent to victims. \nSpear phishing \nA phishing attack specifically targeted at a particular person or organization. \nWhaling \nA targeted attack against high-level individuals such as executives. \nSmishing \nPhishing through SMS/text messages. \nVishing \nPhishing through voice calls. \nSocial-media phishing \nPhishing through social-media messages or fake profiles. \nPrevention \n• Verify the sender  \n• Don't blindly click links  \n• Check website addresses  \n• Use MFA  \n• Never share passwords  \n• Use password managers  \n• Report suspicious messages  \n \n3.2 PRETEXTING \nDefinition "
+    },
+    {
+      "page": 12,
+      "text": "Pretexting is an attack in which the attacker creates a false story or situation, called a pretext, to \nconvince the victim to provide information or perform an action. \nExample \nAn attacker pretends to be: \n\"IT support\" \nand claims that the employee's account has a technical problem. \nThe attacker attempts to convince the employee to reveal sensitive information. \nKey idea \nPretext = Fake story \nCharacteristics \n• Fake identity  \n• Fake scenario  \n• Trust building  \n• Information request  \nPrevention \n• Verify identity independently  \n• Follow organizational procedures  \n• Never disclose confidential information based only on a phone/email request  \n \n3.3 BAITING \nDefinition \nBaiting uses something attractive or interesting to tempt a victim into performing an unsafe \naction. \nThe \"bait\" may involve: \n• Free software  \n• Free rewards  \n• Interesting files  "
+    },
+    {
+      "page": 13,
+      "text": "• Fake offers  \n• Suspicious physical devices  \nExample \nA person receives a message: \n\"Congratulations! You have won a reward. Click here.\" \nCuriosity causes the person to interact with the malicious content. \nKey word \nBaiting = Temptation \nPrevention \n• Avoid unknown downloads  \n• Don't accept unknown devices  \n• Verify offers  \n• Use security software  \n \n3.4 QUID PRO QUO \nDefinition \nQuid pro quo means \"something for something.\" \nThe attacker offers a supposed benefit or service in exchange for information or access. \nExample \nAn attacker pretends to be technical support and offers to \"fix\" a computer problem in exchange \nfor account information. \nKey concept \nAttacker offers benefit \n          ↓ \nVictim accepts \n          ↓ "
+    },
+    {
+      "page": 14,
+      "text": "Victim provides information/access \nDifference from baiting \nBaiting Quid Pro Quo \nUses temptation Uses exchange \n\"Take this reward\" \"Give me this and I will give you something\" \nVictim is attracted Victim expects a benefit \n \n3.5 TAILGATING / PIGGYBACKING \nDefinition \nTailgating is an unauthorized physical entry into a restricted area by following an authorized \nperson. \nExample \nAn unauthorized person follows an employee through a secure door. \nAuthorized employee \n        ↓ \nSecure door \n        ↓ \nUnauthorized person follows \n        ↓ \nRestricted area \nTailgating vs Piggybacking \nTailgating: Unauthorized person enters without explicit permission. \nPiggybacking: The authorized person may knowingly or unknowingly allow the other person to \nenter. \nPrevention \n• Access cards  "
+    },
+    {
+      "page": 15,
+      "text": "• Security guards  \n• Visitor verification  \n• Turnstiles  \n• Security awareness  \n• Don't hold secure doors open for unknown people  \n \n3.6 IMPERSONATION \nDefinition \nImpersonation occurs when an attacker pretends to be another person or trusted entity. \nExamples: \n• Fake employee  \n• Fake customer-support agent  \n• Fake friend  \n• Fake company representative  \n• Fake social-media account  \nObjective \nTo gain: \n• Trust  \n• Information  \n• Money  \n• Access  \nPrevention \n• Verify identity  \n• Use official communication channels  \n• Don't trust profile pictures alone  \n• Use MFA  "
+    },
+    {
+      "page": 16,
+      "text": " \n3.7 SCAREWARE \nDefinition \nScareware is a technique that uses fear or alarming warnings to convince victims to perform an \naction. \nExample \nA fake popup says: \n\"Your computer is infected! Click immediately to fix it.\" \nThe user may be encouraged to download malicious software or provide information. \nPsychological principle \nFear \n ↓ \nUrgency \n ↓ \nReduced thinking \n ↓ \nUnsafe action \nPrevention \n• Don't trust unexpected security warnings  \n• Use legitimate security software  \n• Close suspicious popups  \n• Keep software updated  \n \n4. SOCIAL MEDIA PLATFORMS — CASE STUDY \nFor a 10–15 mark answer, you can use a generic social-media case study. \nCase Study: Fake Social Media Account and Phishing "
+    },
+    {
+      "page": 17,
+      "text": "Situation \nAn attacker creates a fake social-media profile that looks similar to a legitimate organization. \nThe attacker contacts users and sends a message claiming: \n\"Your account requires verification.\" \nA link directs users to a fraudulent page. \nAttack flow \nFake Profile \n     ↓ \nBuilds credibility \n     ↓ \nContacts users \n     ↓ \nSends fraudulent message \n     ↓ \nVictim clicks link \n     ↓ \nFake website \n     ↓ \nVictim enters information \n     ↓ \nAttacker obtains information \nTechniques involved \n• Impersonation  \n• Social engineering  \n• Phishing  \n• Fake profile  "
+    },
+    {
+      "page": 18,
+      "text": "• Psychological manipulation  \nImpact \n• Account compromise  \n• Identity theft  \n• Financial loss  \n• Privacy violation  \n• Reputation damage  \nPrevention \n1. Verify accounts.  \n2. Don't trust unsolicited messages.  \n3. Check URLs.  \n4. Enable MFA.  \n5. Don't share OTPs/passwords.  \n6. Report fake profiles.  \n7. Use privacy settings.  \n8. Educate users.  \nConclusion \nSocial-media platforms can become cybercrime ecosystems when attackers exploit trust, \npersonal information and communication features. \n \n5. CYBERSTALKING \n5.1 Definition \nCyberstalking is the repeated use of digital communication technologies to monitor, harass, \nthreaten, intimidate, or otherwise unwantedly target an individual. \nIt may occur through: \n• Social media  \n• Email  "
+    },
+    {
+      "page": 19,
+      "text": "• Messaging platforms  \n• Forums  \n• Online communities  \n \n5.2 Characteristics \n• Repeated unwanted contact  \n• Monitoring online activities  \n• Harassing messages  \n• Threatening communication  \n• Fake profiles  \n• Spreading personal information  \n• Tracking online activity  \n \n5.3 Types of Cyberstalking Behavior \n1. Harassment \nRepeated unwanted messages or communication. \n2. Monitoring \nRepeatedly observing someone's online activities. \n3. Impersonation \nCreating fake accounts pretending to be the victim. \n4. Threatening behavior \nSending threatening or intimidating messages. \n5. Information gathering \nCollecting personal information from public sources. \n6. Defamation \nPosting false or damaging information. "
+    },
+    {
+      "page": 20,
+      "text": "7. Identity misuse \nUsing another person's identity or information online. \n \n6. DIRECT CYBERSTALKING \nDefinition \nDirect cyberstalking involves direct communication or interaction with the victim. \nExamples: \n• Repeated unwanted messages  \n• Threatening emails  \n• Repeated calls  \n• Direct messages  \n• Harassing comments  \nDiagram \nStalker \n   ↓ \nDirect communication \n   ↓ \nVictim \n \n7. INDIRECT CYBERSTALKING \nDefinition \nIndirect cyberstalking involves monitoring, influencing, or targeting the victim without \nnecessarily communicating directly with them. \nExamples: \n• Monitoring public activities  \n• Creating fake accounts  "
+    },
+    {
+      "page": 21,
+      "text": "• Collecting personal information  \n• Contacting people connected to the victim  \n• Spreading information about the victim  \nDiagram \nStalker \n   ↓ \nOnline information / third parties \n   ↓ \nVictim \n \n8. DIRECT VS INDIRECT CYBERSTALKING \nDirect Indirect \nDirect contact with victim May occur without direct contact \nMessages/calls/comments Monitoring/information gathering \nEasier to recognize May be difficult to detect \nThreats may be explicit Behavior may be less obvious \n \n9. PREVENTION AND PROTECTION AGAINST CYBERSTALKING \n1. Privacy settings \nRestrict who can see personal information. \n2. Block the stalker \nUse platform blocking features. \n3. Report the account \nReport abusive or threatening behavior. \n4. Preserve evidence "
+    },
+    {
+      "page": 22,
+      "text": "Keep: \n• Screenshots  \n• URLs  \n• Messages  \n• Dates and times  \n• Usernames  \n5. Strengthen accounts \nUse: \n• Strong passwords  \n• Unique passwords  \n• MFA  \n6. Reduce personal information \nAvoid publicly sharing: \n• Phone numbers  \n• Home addresses  \n• Real-time locations  \n• Sensitive personal details  \n7. Inform trusted people \nTell trusted family members, friends, educational institutions, or employers where appropriate. \n8. Contact authorities when necessary \nThreatening or serious cases should be reported to appropriate law-enforcement/cybercrime \nauthorities. \n \n10. CYBERCRIME TAXONOMIES \nTaxonomy means systematic classification. \nCybercrime can be classified based on the role played by technology. "
+    },
+    {
+      "page": 23,
+      "text": "10.1 Computer as a Target \nThe computer/system itself is attacked. \nExamples: \n• Hacking  \n• Malware  \n• Denial-of-service attacks  \n• Unauthorized access  \n \n10.2 Computer as a Tool \nThe computer is used to commit another crime. \nExamples: \n• Online fraud  \n• Identity theft  \n• Cyberstalking  \n• Online extortion  \n \n10.3 Computer as a Storage/Environment \nDigital systems are used to store or distribute illegal information. \nExamples: \n• Stolen databases  \n• Illegally obtained information  \n• Malicious content  \n \nAnother useful classification \n1. Crimes against individuals \n• Identity theft  "
+    },
+    {
+      "page": 24,
+      "text": "• Cyberstalking  \n• Online harassment  \n• Phishing  \n2. Crimes against organizations \n• Data breaches  \n• Ransomware  \n• DDoS  \n• Corporate espionage  \n3. Crimes against governments \n• Cyber espionage  \n• Attacks against government infrastructure  \n• Website defacement  \n4. Crimes against society \n• Large-scale fraud  \n• Illegal online markets  \n• Distribution of harmful content  \n \n11. SOCIAL MEDIA AS A CYBERCRIME ECOSYSTEM \nDefinition \nA cybercrime ecosystem is a network of people, technologies, services, platforms and resources \nthat collectively support cybercriminal activities. \nSocial media can provide criminals with: \nVictims \n   + \nInformation \n   + "
+    },
+    {
+      "page": 25,
+      "text": "Communication \n   + \nTrust \n   + \nDistribution \n   ↓ \nCybercrime Ecosystem \nMajor components \n1. Attackers \nIndividuals or criminal groups. \n2. Victims \nIndividuals, businesses and organizations. \n3. Platforms \nSocial-media and messaging platforms. \n4. Information \nPersonal and professional data. \n5. Criminal services \nFraud, stolen-account markets, malicious services, etc. \n6. Financial infrastructure \nPayment mechanisms used by criminals. \nWhy it is an ecosystem \nA cybercriminal may not perform every step personally. \nOne actor may obtain information, another may conduct fraud, and another may provide \ntechnical services. \n \n12. CYBERCRIME-AS-A-SERVICE (CaaS) "
+    },
+    {
+      "page": 26,
+      "text": "Definition \nCybercrime-as-a-Service is a model in which cybercriminal capabilities, infrastructure, or \nservices are provided to other criminals for payment. \nIt is similar to the legitimate as-a-Service business model, but used for illegal activities. \nGeneral structure \nService Provider \n       ↓ \nCriminal Service \n       ↓ \nCustomer/Criminal \n       ↓ \nAttack \n       ↓ \nVictim \nExamples of criminal services \nAt a high level, these can include: \n• Stolen credentials  \n• Malware-related services  \n• Fraud infrastructure  \n• Botnet access  \n• Compromised accounts  \nAdvantages to criminals \n• Reduces technical knowledge required  \n• Reduces cost of entry  \n• Allows specialization  \n• Enables large-scale operations  "
+    },
+    {
+      "page": 27,
+      "text": "Impact \nCaaS can increase the scale and accessibility of cybercrime. \n \n13. ECONOMIC IMPACT OF CYBERCRIME \nCybercrime causes both direct and indirect economic losses. \nDirect losses \n1. Financial theft \nMoney may be stolen from individuals or organizations. \n2. Ransom payments \nOrganizations may face demands for payment after ransomware attacks. \n3. Data recovery \nOrganizations may spend money recovering systems and data. \n \nIndirect losses \n1. Business interruption \nSystems may become unavailable. \n2. Reputation damage \nCustomers may lose trust. \n3. Legal costs \nOrganizations may face investigation and legal expenses. \n4. Security investment \nOrganizations need to spend more on: \n• Cybersecurity  \n• Training  \n• Monitoring  \n• Incident response  "
+    },
+    {
+      "page": 28,
+      "text": "5. Productivity loss \nEmployees may be unable to work during an incident. \nEconomic impact chain \nCyberattack \n    ↓ \nSystem/Data compromise \n    ↓ \nBusiness disruption \n    ↓ \nRecovery cost \n    ↓ \nRevenue loss \n    ↓ \nReputation damage \n    ↓ \nLong-term economic impact \n \n14. CHALLENGES IN CYBERCRIME INVESTIGATION \nThis is a very important 10–15 mark question. \n1. Anonymity \nAttackers may hide their identity using different technical and online mechanisms. \n2. Jurisdiction \nThe attacker, victim, server and evidence may be located in different countries. \nAttacker → Country A \nServer   → Country B \nVictim   → Country C "
+    },
+    {
+      "page": 29,
+      "text": "This creates legal and investigative challenges. \n3. Encryption \nEncrypted communication can make evidence difficult to obtain or interpret. \n4. Large volume of data \nInvestigators may need to examine: \n• Emails  \n• Logs  \n• Messages  \n• Files  \n• Devices  \n• Network traffic  \n5. Volatile evidence \nSome digital evidence can disappear or change quickly. \n6. Attribution \nFinding out who actually performed the attack can be difficult. \n7. Multiple identities \nCriminals may use: \n• Fake accounts  \n• Multiple usernames  \n• Compromised accounts  \n8. Anti-forensic techniques \nAttackers may attempt to hide or destroy evidence. \n9. Rapidly changing technology \nCybercriminal methods and technologies continuously evolve. \n10. International cooperation \nInvestigations may require cooperation between: "
+    },
+    {
+      "page": 30,
+      "text": "• Law-enforcement agencies  \n• Service providers  \n• Organizations  \n• Different countries  \nConclusion \nCybercrime investigation requires technical expertise, proper evidence preservation, legal \nauthority, digital-forensics capabilities and cooperation between multiple organizations and \njurisdictions. \n \n15. BOTNETS \n15.1 Definition \nA botnet is a network of compromised Internet-connected devices that can be controlled by an \nattacker. \nThe infected devices are commonly called bots or zombies. \nBasic structure \n             Botnet Controller \n                    | \n          +---------+---------+ \n          |         |         | \n         Bot       Bot       Bot \n          |         |         | \n       Device    Device    Device \nThe devices can potentially be used together for malicious activities. \n \n15.2 Botnet Architecture \nTwo common architectural concepts are: \n1. Centralized architecture "
+    },
+    {
+      "page": 31,
+      "text": "Bots communicate with a centralized command-and-control system. \n       C2 Server \n       /  |  \\ \n      /   |   \\ \n   Bot   Bot   Bot \nAdvantage for attacker \nCentralized management can make coordination straightforward. \nWeakness \nIf the central infrastructure is disrupted, many bots may lose communication. \n \n15.3 Decentralized / Peer-to-Peer Architecture \nBots communicate through multiple nodes instead of depending on one central server. \nBot ↔ Bot ↔ Bot \n ↕         ↕ \nBot ↔ Bot ↔ Bot \nAdvantage \nThere is no single central point that necessarily controls all communication. \nChallenge \nDisrupting such a network may be more difficult. \n \n16. EVOLUTION OF BOTNETS \nEarly botnets \nInitially, botnets were relatively simple networks of compromised computers. \nDevelopment \nThey evolved to include: \n• Automated control  "
+    },
+    {
+      "page": 32,
+      "text": "• Larger numbers of devices  \n• More resilient communication  \n• Multiple types of Internet-connected devices  \nIoT era \nBotnets increasingly targeted: \n• Routers  \n• Cameras  \n• IoT devices  \n• Other Internet-connected devices  \nModern botnets \nModern botnets can potentially contain large numbers of compromised devices and may be \nused for multiple criminal purposes. \n \n17. BOTNET CAPABILITIES AND CRIMINAL APPLICATIONS \nAt a high level, botnets can be used for: \n1. Distributed denial-of-service attacks \nLarge numbers of compromised devices send traffic toward a target. \nBot 1 ──┐ \nBot 2 ──┤ \nBot 3 ──┤──→ Target \nBot 4 ──┤ \nBot 5 ──┘ \n2. Spam distribution \nCompromised devices can be used to send large amounts of unwanted messages. \n3. Malware distribution \nBots can help distribute malicious software. "
+    },
+    {
+      "page": 33,
+      "text": "4. Credential/data theft \nCompromised systems may be used to steal information. \n5. Cryptocurrency-related abuse \nCompromised computing resources may be misused for unauthorized computation. \n6. Proxying/traffic routing \nCompromised devices may be used to route malicious traffic. \n \n18. BOTNET MONETIZATION STRATEGIES \nMonetization means converting criminal capabilities into financial benefit. \n1. Renting botnet resources \nCriminal groups may sell access to compromised infrastructure. \n2. DDoS-for-hire \nBotnet capabilities may be offered to other criminals for attacks. \n3. Spam services \nBotnets can be used as infrastructure for large-scale spam campaigns. \n4. Credential theft \nStolen credentials may be monetized through criminal markets or fraud. \n5. Resource abuse \nCompromised computing resources may be used for unauthorized computation. \nImportant diagram \nCompromised Devices \n        ↓ \n      Botnet \n        ↓ \n+-------+--------+ \n|       |        | "
+    },
+    {
+      "page": 34,
+      "text": "DDoS   Spam   Data theft \n|       |        | \n+-------+--------+ \n        ↓ \n   Criminal profit \n \n19. BOTNET CASE STUDY — MIRAI \nMirai is a well-known example of an IoT botnet. \nBasic concept \nMirai demonstrated how vulnerable IoT devices could be compromised and organized into a \nbotnet. \nGeneral attack chain \nVulnerable IoT Devices \n          ↓ \n       Infection \n          ↓ \n     Botnet formation \n          ↓ \n     Coordinated activity \n          ↓ \n       DDoS attacks \nImportance of Mirai \nThe case demonstrated: \n• Security risks of IoT devices  \n• Importance of changing default credentials  \n• Risks of insecure connected devices  "
+    },
+    {
+      "page": 35,
+      "text": "• Potential scale of IoT-based botnets  \nSecurity lessons \n• Change default passwords  \n• Update firmware  \n• Disable unnecessary services  \n• Segment IoT networks  \n• Monitor unusual traffic  \n• Replace unsupported devices  \n \n20. ATTACK VECTORS — CLASSIFICATION \n20.1 Definition \nAn attack vector is the method, pathway, or technique through which an attacker gains \nunauthorized access to a system, network, account, or information. \nSimple definition \nAttack vector = Path used by an attacker to reach the target. \n \n20.2 Major Classification of Attack Vectors \nA. Human-based attack vectors \nThese exploit human behavior. \nExamples: \n• Phishing  \n• Pretexting  \n• Baiting  \n• Impersonation  \n• Social engineering  \nAttacker "
+    },
+    {
+      "page": 36,
+      "text": "   ↓ \nHuman manipulation \n   ↓ \nVictim \n   ↓ \nAccess/information \n \nB. Network-based attack vectors \nThese exploit weaknesses in network communication or infrastructure. \nExamples: \n• Network attacks  \n• Denial-of-service attacks  \n• Network traffic interception  \n• Exploitation of exposed services  \n \nC. Software-based attack vectors \nThese exploit vulnerabilities in software. \nExamples: \n• Malicious software  \n• Exploitation of software vulnerabilities  \n• Malicious files  \n• Web application vulnerabilities  \n \nD. Web-based attack vectors \nThese use websites or web applications. \nExamples: "
+    },
+    {
+      "page": 37,
+      "text": "• Malicious websites  \n• Fake login pages  \n• Web application vulnerabilities  \n• Drive-by downloads  \n \nE. Email-based attack vectors \nExamples: \n• Phishing emails  \n• Malicious attachments  \n• Malicious links  \n• Business email compromise  \n \nF. Physical attack vectors \nThese require physical access or physical interaction. \nExamples: \n• Unauthorized device access  \n• Malicious USB devices  \n• Tailgating  \n• Device theft  \n \nG. Mobile attack vectors \nExamples: \n• Malicious applications  \n• SMS-based scams  \n• Fake applications  \n• Unsafe links  "
+    },
+    {
+      "page": 38,
+      "text": " \nH. Cloud-based attack vectors \nExamples: \n• Compromised cloud credentials  \n• Misconfigured storage  \n• Weak authentication  \n• Excessive permissions  \n \nI. Supply-chain attack vectors \nAn attacker compromises a trusted third party or software/service provider to reach the final \ntarget. \nAttacker \n   ↓ \nThird-party supplier \n   ↓ \nTrusted software/service \n   ↓ \nTarget organization \n \n21. ATTACK VECTOR CLASSIFICATION — EXAM TABLE \nAttack Vector Target/Weakness Example \nHuman Human behavior Phishing \nNetwork Network infrastructure DoS \nSoftware Software vulnerability Malware/exploit \nWeb Website/web application Fake website "
+    },
+    {
+      "page": 39,
+      "text": "Attack Vector Target/Weakness Example \nEmail Email communication Phishing \nPhysical Physical access Tailgating \nMobile Mobile device/app Malicious app \nCloud Cloud configuration/account Account compromise \nSupply chain Trusted third party Compromised software \n \n  VERY IMPORTANT DIFFERENCES FOR EXAM \nPhishing vs Pretexting vs Baiting vs Quid Pro Quo \nTechnique Main idea Memory Trick \nPhishing Fake communication             Fish for information \nPretexting Fake story        Pretext = Story \nBaiting Attractive bait        Temptation \nQuid Pro Quo Something for something     Exchange \nTailgating Follow authorized person       Follow \nImpersonation Pretend to be someone    Fake identity \nScareware Use fear     Scare \n \n  CYBERSTALKING — EASY MEMORY \nRemember: \nH-M-I-T-D-I \n• H — Harassment  \n• M — Monitoring  "
+    },
+    {
+      "page": 40,
+      "text": "• I — Impersonation  \n• T — Threats  \n• D — Defamation  \n• I — Identity misuse  \n \n  SOCIAL ENGINEERING — EASY FLOW \nRemember: \nG → T → M → A → G \nGather information \n↓ \nTarget victim \n↓ \nManipulate victim \n↓ \nAction by victim \n↓ \nGain access/information \n \n  CYBERCRIME INVESTIGATION — 10 MARKS QUICK REVISION \nRemember: \nA-E-J-E-D-A-V-I \n• A — Anonymity  \n• E — Encryption  \n• J — Jurisdiction  \n• E — Evidence volatility  \n• D — Data volume  \n• A — Attribution  \n• V — Multiple virtual identities  "
+    },
+    {
+      "page": 41,
+      "text": "• I — International cooperation  \n \n  BOTNET — EASY EXAM DIAGRAM \nDraw this: \n                  BOTMASTER \n                     | \n              Command & Control \n                     | \n        +------------+------------+ \n        |            |            | \n       BOT          BOT          BOT \n        |            |            | \n     Computer       IoT         Server \n        |            |            | \n        +------------+------------+ \n                     ↓ \n              Criminal Activity \n                     ↓ \n        +------------+-------------+ \n        |            |             | \n       DDoS        Spam       Data Theft \n \n  COMPLETE UNIT REVISION MAP \n                  CYBERCRIME \n                      | \n       +--------------+--------------+ "
+    },
+    {
+      "page": 42,
+      "text": "       |                             | \n   SOCIAL MEDIA                 TECHNOLOGY \n       |                             | \n       |                         +---+---+ \n       |                         |       | \n Social Engineering           Botnets  Attack \n       |                               Vectors \n +-----+-----+ \n |     |     | \nPhish Pretext Bait \n |      |     | \nQuid Pro Quo  Impersonation \n | \nScareware \n | \nTailgating \n \n       | \n       +----------------+ \n       |                | \n Cyberstalking     Cybercrime Ecosystem \n       |                | \n Direct/Indirect       CaaS \n       |                | \n Prevention       Economic Impact \n                        | "
+    },
+    {
+      "page": 43,
+      "text": "              Investigation Challenges \nHow to write a 10–15 marks answer \nFor almost every topic in this unit, follow this structure in the exam: \n1. Definition — 1–2 marks \nGive a precise definition. \n2. Introduction — 1 mark \nExplain the topic in 2–3 lines. \n3. Types/Classification — 3–4 marks \nExplain each type with a small example. \n4. Working/Structure — 2–3 marks \nDraw a flow diagram. \n5. Example/Case Study — 2 marks \nGive one realistic example. \n6. Prevention/Impact — 2–3 marks \nWrite 5–7 points. \n7. Conclusion — 1 mark \nEnd with 2–3 lines. \nThis structure can comfortably turn a short topic into a complete 10–15 mark answer. \nIf your exam is tomorrow, the highest-priority topics to prepare in full-answer format are: \nSocial Engineering & its types, Cyberstalking, Cybercrime Taxonomy, Social Media as a \nCybercrime Ecosystem, Cybercrime-as-a-Service, Challenges in Cybercrime Investigation, \nBotnet Architecture & Applications, and Attack Vector Classification. \n "
+    }
+  ],
+  "U3 new.pdf": [
+    {
+      "page": 1,
+      "text": "Unit 3 – Cyber Crime with Mobile and Wireless Devices \nComplete 10–15 Marks Exam Notes \nBelow are exam-oriented answers for every topic in the syllabus. You can write these directly in \na 10–15 mark question. I have kept the language simple and added diagrams, examples, \nadvantages/importance, attacks and prevention points wherever useful. \n \n1. Cyber Crime with Mobile and Wireless Devices \nIntroduction \nA mobile device is a portable electronic device such as a smartphone, tablet, smartwatch, etc. \nthat can connect to the Internet or wireless networks. \nCyber crime with mobile and wireless devices refers to illegal activities performed using mobile \nphones, wireless networks or targeting mobile devices to steal information, money, identity or \nservices. \nExamples: \n• Mobile banking fraud \n• UPI/payment fraud \n• SIM swapping \n• Phishing through SMS \n• Malicious mobile applications \n• Identity theft \n• Wi-Fi attacks \n• Bluetooth attacks \n• Data theft \n• Mobile ransomware \nBasic diagram \n             MOBILE / WIRELESS CYBER CRIME \n                        | "
+    },
+    {
+      "page": 2,
+      "text": "        +---------------+---------------+ \n        |               |               | \n     Mobile           Wireless        Online \n     Device            Network        Services \n        |               |               | \n   Malware          Wi-Fi Attack     Banking Fraud \n   Spyware          MITM             Phishing \n   Ransomware       Evil Twin        Identity Theft \n   Data Theft       Sniffing         Payment Fraud \nCommon Mobile Cyber Crimes \n1. Mobile Malware \nMalicious software installed on a mobile device to steal information or damage the device. \nExamples: \n• Spyware \n• Trojan \n• Ransomware \n• Banking malware \n2. Phishing and Smishing \nPhishing uses fake websites/emails. \nSmishing uses fraudulent SMS messages. \nExample: \n\"Your bank account will be blocked. Click here to verify.\" \nThe link may lead to a fake banking website. \n3. SIM Swap Fraud \nAn attacker obtains control of the victim's mobile number by transferring the number to \nanother SIM. "
+    },
+    {
+      "page": 3,
+      "text": "The attacker may then receive: \n• OTPs \n• Banking messages \n• Password-reset codes \n4. Mobile Payment Fraud \nAttackers may target: \n• UPI \n• Mobile banking \n• Digital wallets \n• Credit/debit cards \n5. Identity Theft \nPersonal information such as: \n• Name \n• Mobile number \n• Aadhaar-related information \n• Email \n• Passwords \nmay be stolen and misused. \n6. Bluetooth Attacks \nAttackers can attempt to exploit insecure Bluetooth connections to access or transfer \ninformation. \n7. Wi-Fi Attacks \nAttackers may create fake Wi-Fi networks or intercept poorly protected communications. \n \nImpact \nMobile cyber crimes can result in: "
+    },
+    {
+      "page": 4,
+      "text": "1. Financial loss \n2. Identity theft \n3. Privacy violation \n4. Loss of confidential data \n5. Reputation damage \n6. Unauthorized transactions \n7. Business losses \n8. Emotional stress \n9. Legal consequences \n \nPrevention \n• Use strong passwords/PINs. \n• Enable biometric authentication. \n• Install applications only from trusted sources. \n• Keep OS and applications updated. \n• Avoid unknown Wi-Fi networks. \n• Do not click suspicious SMS links. \n• Enable device encryption. \n• Use multi-factor authentication. \n• Lock the device automatically. \n• Enable remote tracking/wiping. \n• Review application permissions. \nConclusion \nMobile devices have become an important part of communication, banking and business. \nTherefore, securing mobile devices and wireless communication is essential to prevent financial, \nprivacy and identity-related cyber crimes. \n "
+    },
+    {
+      "page": 5,
+      "text": "2. Introduction and Proliferation of Mobile and Wireless Devices \nIntroduction \nThe rapid growth in the use of smartphones, tablets, laptops, smartwatches and IoT devices is \ncalled the proliferation of mobile and wireless devices. \nWireless technology allows devices to communicate without physical cables. \nExamples: \n• Wi-Fi \n• Bluetooth \n• NFC \n• 4G/5G \n• GPS \n• Mobile networks \nEvolution \nBasic Mobile \n     ↓ \nFeature Phone \n     ↓ \nSmartphone \n     ↓ \n4G / 5G Smartphone \n     ↓ \nIoT + Wearables + Smart Devices \nReasons for Rapid Growth \n1. Internet availability \nAffordable mobile Internet has increased smartphone usage. \n2. Affordable smartphones "
+    },
+    {
+      "page": 6,
+      "text": "Smartphones are now available in different price ranges. \n3. Mobile applications \nApps are available for: \n• Banking \n• Education \n• Shopping \n• Entertainment \n• Healthcare \n• Transportation \n4. Digital payments \nUPI, mobile banking and wallets have increased dependence on smartphones. \n5. Remote work and education \nMobile and wireless technologies allow users to work and study remotely. \n6. IoT growth \nDevices such as: \n• Smart TVs \n• Smart watches \n• Smart cameras \n• Smart speakers \nuse wireless connectivity. \n \nAdvantages \n• Easy communication \n• Internet access anywhere \n• Mobile banking \n• Online education "
+    },
+    {
+      "page": 7,
+      "text": "• Remote working \n• Location-based services \n• Digital payments \n• Entertainment \n• Emergency communication \n \nSecurity Problems \nThe increased number of connected devices also creates more opportunities for attackers. \nCommon risks: \n• Malware \n• Data theft \n• Phishing \n• Wi-Fi attacks \n• Identity theft \n• Password attacks \n• Unauthorized access \n• Privacy violations \nImportant concept \nMore connected devices → larger attack surface → greater security requirements \nConclusion \nThe proliferation of mobile and wireless devices has transformed modern society. However, \nincreased connectivity also increases cyber-security risks, making authentication, encryption, \nsecure applications and user awareness important. \n \n3. Trends in Mobility \nMeaning "
+    },
+    {
+      "page": 8,
+      "text": "Mobility trends describe the major changes in the way people use mobile devices, wireless \nnetworks and mobile applications. \nMajor Trends \n1. Smartphone Dominance \nSmartphones are increasingly being used for: \n• Communication \n• Banking \n• Shopping \n• Education \n• Entertainment \n• Work \n2. 5G Technology \n5G provides: \n• Higher speed \n• Lower latency \n• Greater device connectivity \n• Support for IoT \n3. Mobile Cloud Computing \nMobile devices use cloud services to store and process data. \nMobile Device \n      | \n      | Internet \n      ↓ \n   Cloud Server \n      | \n      ↓ "
+    },
+    {
+      "page": 9,
+      "text": "Applications + Storage + Processing \n4. Bring Your Own Device (BYOD) \nEmployees use their personal smartphones/laptops for organizational work. \nBenefits: \n• Flexibility \n• Reduced hardware cost \n• Increased productivity \nRisks: \n• Data leakage \n• Malware \n• Unauthorized access \n• Loss of device \n5. Internet of Things \nMore physical objects are becoming connected to the Internet. \nExamples: \n• Smartwatch \n• Smart home \n• Smart vehicle \n• Smart camera \n6. Mobile Payments \nUPI, wallets and mobile banking are rapidly increasing. \n7. Wearable Technology \nExamples: \n• Smartwatch \n• Fitness tracker \n• Smart glasses "
+    },
+    {
+      "page": 10,
+      "text": "These devices collect sensitive personal data. \n8. Remote Working \nMobile devices allow employees to access organizational resources remotely. \n9. AI-powered Mobile Applications \nAI is increasingly used in: \n• Voice assistants \n• Image recognition \n• Fraud detection \n• Recommendation systems \n \nSecurity Challenges of Mobility \nMobility \n   ↓ \nMore Devices \n   ↓ \nMore Connectivity \n   ↓ \nMore Data \n   ↓ \nLarger Attack Surface \n   ↓ \nMore Security Requirements \nConclusion \nModern mobility is moving toward 5G, cloud computing, IoT, mobile payments, BYOD and AI. \nThese technologies provide convenience but require strong security mechanisms. \n "
+    },
+    {
+      "page": 11,
+      "text": "4. Credit Card Fraud – Types \nDefinition \nCredit card fraud is the unauthorized use of a credit card or credit-card information to obtain \nmoney, goods or services. \nThe attacker may steal: \n• Card number \n• CVV \n• Expiry date \n• PIN \n• OTP \n• Account credentials \n \nTypes of Credit Card Fraud \n1. Lost or Stolen Card Fraud \nThe physical card is lost or stolen and used by another person. \n2. Card-Not-Present Fraud \nThe physical card is not required. \nIt commonly occurs during: \n• Online shopping \n• Online subscriptions \n• Telephone transactions \nThe attacker only needs stolen card information. \n3. Phishing \nVictim receives a fake email/SMS/website requesting card details. \nExample: \nFake Bank Message "
+    },
+    {
+      "page": 12,
+      "text": "       ↓ \nFake Website \n       ↓ \nCard Details \n       ↓ \nAttacker \n4. Skimming \nA skimming device captures card information during a transaction. \nIt can target: \n• ATMs \n• Payment terminals \n5. Identity Theft \nAn attacker obtains personal information and uses it to create or misuse financial accounts. \n6. Account Takeover \nThe attacker gains access to the victim's online banking/card account. \n7. Application Fraud \nFraudulent personal information may be used to apply for a new credit card. \n8. Card Cloning \nStolen card information can potentially be used to create a fraudulent duplicate card. \n \n5. Impact of Credit Card Fraud \nCredit card fraud affects individuals, banks and businesses. \n1. Financial Loss \nUnauthorized transactions can cause direct monetary loss. \n2. Identity Theft \nPersonal and financial information may be misused. "
+    },
+    {
+      "page": 13,
+      "text": "3. Credit Score Problems \nFraudulent transactions or accounts may negatively affect the victim's credit history. \n4. Privacy Loss \nSensitive financial information may be exposed. \n5. Business Loss \nMerchants and financial institutions may face fraud-related costs. \n6. Reputation Damage \nBanks and businesses can lose customer trust. \n7. Investigation Costs \nOrganizations may spend significant resources investigating fraudulent activities. \n \n6. Strategies to Prevent Credit Card Fraud \n1. Multi-Factor Authentication \nUse more than one authentication factor. \nPassword \n   + \nOTP / Biometric \n   ↓ \nAccess \n2. Transaction Alerts \nEnable SMS/email/app notifications for every transaction. \n3. Secure Online Shopping \nCheck that the website uses HTTPS and is a legitimate website. \n4. Never Share OTP \nBanks generally advise customers not to share OTPs, PINs or CVVs with others. \n5. Use Transaction Limits "
+    },
+    {
+      "page": 14,
+      "text": "Set suitable spending/transaction limits. \n6. Fraud Detection Systems \nBanks use machine-learning and rule-based systems to detect unusual transactions. \nExample: \nNormal Transaction \n       ↓ \nCustomer buys locally \n       ↓ \nNormal \n \nUnusual Transaction \n       ↓ \nSudden high-value transaction \n       ↓ \nRisk Analysis \n       ↓ \nPossible Fraud Alert \n7. Card Blocking \nImmediately block the card if it is lost or stolen. \n8. Virtual/Tokenized Cards \nTokenization replaces sensitive card information with a token. \n9. Regular Monitoring \nCheck: \n• Bank statements \n• Card transactions \n• Account activity "
+    },
+    {
+      "page": 15,
+      "text": "Conclusion \nCredit card fraud can cause financial and privacy losses. Strong authentication, transaction \nmonitoring, fraud detection and user awareness can significantly reduce the risk. \n \n7. Security Challenges of Mobile Devices \nMobile devices have unique security challenges because they are portable, connected and \ncontain large amounts of personal information. \nMajor Challenges \n1. Device Theft or Loss \nA stolen phone can expose: \n• Photos \n• Contacts \n• Emails \n• Applications \n• Documents \n2. Malware \nMalicious apps may steal information or monitor activities. \n3. Weak Authentication \nSimple PINs or passwords can be guessed or compromised. \n4. Insecure Applications \nPoorly developed applications may contain vulnerabilities. \n5. Unsecured Wi-Fi \nPublic Wi-Fi can create risks if communications are not properly protected. \n6. Data Leakage \nApplications may access or transmit more information than necessary. \n7. Outdated Software \nOld operating systems may contain known vulnerabilities. "
+    },
+    {
+      "page": 16,
+      "text": "8. Phishing and Social Engineering \nUsers can be tricked through SMS, email, calls or fake applications. \n9. Bluetooth/NFC Risks \nWireless communication technologies can introduce additional attack surfaces. \n10. Privacy Issues \nApplications may collect: \n• Location \n• Contacts \n• Camera data \n• Microphone data \n• Device information \n \nSecurity Measures \n• Strong authentication \n• Encryption \n• Secure application development \n• Regular updates \n• Antivirus/mobile security tools \n• Secure Wi-Fi \n• Permission management \n• Remote wipe \n• Employee awareness \n \n8. Mitigation Strategies for Mobile Security \nMitigation means reducing the probability or impact of a security threat. \n1. Strong Authentication "
+    },
+    {
+      "page": 17,
+      "text": "Use: \n• Strong password \n• PIN \n• Fingerprint \n• Face authentication \n• MFA \n2. Encryption \nEncrypt data stored on the device and data transmitted through networks. \n3. Regular Updates \nKeep: \n• Operating system \n• Applications \n• Security software \nupdated. \n4. Application Control \nInstall applications only from trusted sources. \n5. Permission Management \nReview whether an application really requires: \n• Camera \n• Microphone \n• Location \n• Contacts \n• Storage \n6. Remote Lock/Wipe \nIf the phone is lost, it can be remotely locked or erased. \n7. Secure Network "
+    },
+    {
+      "page": 18,
+      "text": "Avoid transmitting sensitive information over unsecured public networks. \n8. Backup \nImportant information should be backed up securely. \n9. Security Awareness \nUsers should be trained to identify: \n• Phishing \n• Fake applications \n• Fraudulent calls \n• Suspicious links \n \n9. Registry Setting for Mobile Devices \nMeaning \nRegistry/settings configuration refers to configuring operating-system and security settings that \ncontrol how a mobile device operates and how applications access device resources. \nIn practical mobile security, this includes controlling: \n• Security settings \n• Application permissions \n• Network settings \n• Authentication \n• Encryption \n• Device restrictions \n• Storage \n• Updates \nIn exams, write this topic as secure configuration and registry/settings management of mobile \ndevices. \n \nImportant Security Settings "
+    },
+    {
+      "page": 19,
+      "text": "1. Screen Lock \nUse: \n• PIN \n• Password \n• Pattern \n• Biometrics \n2. Automatic Lock \nThe device should automatically lock after a period of inactivity. \n3. Encryption \nEnable device/storage encryption. \n4. Application Permissions \nRestrict unnecessary permissions. \n5. Unknown Sources \nPrevent installation of applications from untrusted sources. \n6. Developer Options \nOrganizations may restrict unnecessary developer/debugging features. \n7. Network Configuration \nUse secure Wi-Fi and avoid unnecessary network connections. \n8. Bluetooth \nBluetooth should be disabled when not required and configured securely. \n9. Automatic Updates \nEnable security and OS updates. \n10. Remote Management \nOrganizations can use Mobile Device Management (MDM) to enforce security policies. \n \nMDM Architecture "
+    },
+    {
+      "page": 20,
+      "text": "              Organization \n                   | \n             MDM Server \n                   | \n       +-----------+-----------+ \n       |           |           | \n    Mobile 1    Mobile 2    Mobile 3 \n       |           |           | \n    Policies    Policies    Policies \nBenefits \n• Centralized security \n• Policy enforcement \n• Remote device management \n• Remote wiping \n• Application control \n• Better compliance \n \n10. Authentication Service Security \nDefinition \nAuthentication is the process of verifying whether a user is actually who they claim to be. \nExample: \nUser \n ↓ \nUsername + Password \n ↓ \nAuthentication Server "
+    },
+    {
+      "page": 21,
+      "text": " ↓ \nVerification \n ↓ \nAccess Granted / Denied \nAuthentication Factors \n1. Something You Know \nExamples: \n• Password \n• PIN \n• Security answer \n2. Something You Have \nExamples: \n• Smartphone \n• Security token \n• Smart card \n3. Something You Are \nExamples: \n• Fingerprint \n• Face \n• Iris \n4. Somewhere You Are \nLocation-based authentication. \n5. Something You Do \nBehavioral characteristics such as typing patterns. \n \nMulti-Factor Authentication "
+    },
+    {
+      "page": 22,
+      "text": "MFA combines two or more authentication factors. \nExample: \nPassword \n   + \nOTP \n   + \nFingerprint \n   ↓ \nAuthenticated User \nAuthentication Security Threats \n• Password guessing \n• Credential theft \n• Phishing \n• Credential stuffing \n• Brute-force attacks \n• Session hijacking \n• SIM-based OTP interception \nSecurity Measures \nStrong Password Policy \nPasswords should be difficult to guess. \nMFA \nUse multiple authentication factors. \nAccount Lockout/Rate Limiting \nRepeated failed attempts should trigger restrictions. \nSecure Password Storage \nPasswords should not be stored as plain text. "
+    },
+    {
+      "page": 23,
+      "text": "Session Security \nSessions should be protected against unauthorized access. \nBiometric Authentication \nBiometric authentication provides an additional factor, especially when combined with a secure \ndevice credential. \nConclusion \nAuthentication is a critical component of mobile security because it prevents unauthorized \nusers from accessing devices, applications and data. \n \n11. Attacks on Mobile Devices \nMobile devices can be attacked through applications, networks, social engineering and physical \naccess. \n1. Malware Attack \nMalicious applications can: \n• Steal data \n• Monitor activity \n• Encrypt files \n• Perform unauthorized actions \nTypes \n• Trojan \n• Spyware \n• Ransomware \n• Adware \n \n2. Phishing/Smishing \nFake messages attempt to convince users to reveal sensitive information. \nFake SMS "
+    },
+    {
+      "page": 24,
+      "text": "   ↓ \nMalicious Link \n   ↓ \nFake Website \n   ↓ \nCredentials Stolen \n \n3. Man-in-the-Middle Attack \nAn attacker attempts to intercept communication between two parties. \nUser ←→ Attacker ←→ Server \nProper encryption and certificate validation help mitigate this risk. \n \n4. Evil Twin Attack \nAn attacker creates a fake Wi-Fi network that resembles a legitimate network. \nExample: \nReal Wi-Fi: College_WiFi \nFake Wi-Fi: College_WiFi \n                 ↓ \n              Attacker \nUsers may accidentally connect to the fake network. \n \n5. SIM Swap \nThe attacker obtains control of the victim's phone number. \nPotential consequences include: \n• OTP interception \n• Account recovery abuse "
+    },
+    {
+      "page": 25,
+      "text": "• Unauthorized transactions \n \n6. Bluetooth Attacks \nPoorly configured Bluetooth can expose devices to unauthorized communication. \n \n7. Malicious Application \nA seemingly useful application may contain malicious functionality. \n \n8. Ransomware \nAttackers may encrypt or lock data and demand payment. \n \n9. Spyware \nSpyware secretly monitors activities or collects information. \n \n10. Physical Attacks \nA stolen or unattended phone can provide access if it is poorly protected. \n \nPrevention \n• Use official application stores. \n• Keep software updated. \n• Use strong authentication. \n• Encrypt sensitive data. \n• Avoid suspicious links. \n• Use secure Wi-Fi. \n• Review permissions. \n• Enable remote tracking/wiping. "
+    },
+    {
+      "page": 26,
+      "text": "• Do not root/jailbreak devices unnecessarily. \n \n12. Organizational Measures for Handling Mobile Security \nOrganizations must create policies and technical controls to protect mobile devices used for \nbusiness. \nThe major measures are: \nMobile Security \n      | \n      +-- Mobile Device Management \n      | \n      +-- Authentication \n      | \n      +-- Application Security \n      | \n      +-- Data Protection \n      | \n      +-- Network Security \n      | \n      +-- Employee Training \n \n13. Implementing Strong Mobile Device Management Policy \nDefinition \nMobile Device Management (MDM) is a system that allows an organization to centrally manage \nand secure mobile devices. \nMDM can control: \n• Device configuration \n• Applications "
+    },
+    {
+      "page": 27,
+      "text": "• Security policies \n• Password requirements \n• Encryption \n• Network access \n• Remote lock \n• Remote wipe \nArchitecture \n             IT Administrator \n                    | \n                    ↓ \n               MDM Server \n              /     |      \\ \n             /      |       \\ \n        Laptop    Mobile    Tablet \n           |         |         | \n        Policy    Policy     Policy \nImportant MDM Policies \n1. Password Policy \nRequire strong device passwords/PINs. \n2. Encryption Policy \nRequire encryption for organizational data. \n3. Application Policy \nBlock unauthorized applications. \n4. Remote Wipe \nAllow administrators to erase organizational data from a lost device. \n5. Device Compliance "
+    },
+    {
+      "page": 28,
+      "text": "Devices must satisfy security requirements before accessing company resources. \n6. BYOD Policy \nDefine security requirements for employee-owned devices. \n \n14. Enforcing Strong Authentication and Access Controls \nAuthentication \nDetermines: \nWho are you? \nAuthorization \nDetermines: \nWhat are you allowed to access? \nExample \nEmployee \n   ↓ \nLogin \n   ↓ \nAuthentication \n   ↓ \nIdentity Verified \n   ↓ \nAuthorization \n   ↓ \nAccess only permitted resources \nAccess Control Principles \nLeast Privilege \nUsers should receive only the permissions they need. "
+    },
+    {
+      "page": 29,
+      "text": "Role-Based Access Control \nPermissions are assigned according to job role. \nExample: \nRole Access \nStudent Own records \nFaculty Student academic records \nAdministrator Administrative data \nMFA \nUse multiple authentication factors. \nSession Management \nSecure sessions and terminate inactive sessions. \n \n15. Securing Mobile Applications and Data \nMobile Application Security \nMobile applications may process highly sensitive data. \nExamples: \n• Banking applications \n• Healthcare applications \n• Payment applications \n• Educational applications \nSecurity Measures \n1. Secure Coding \nDevelopers should follow secure programming practices. \n2. Input Validation \nApplications should validate input to reduce security vulnerabilities. "
+    },
+    {
+      "page": 30,
+      "text": "3. Encryption \nSensitive data should be encrypted. \n4. Secure API \nAPIs should use authentication and authorization. \n5. Secure Storage \nDo not store sensitive information insecurely. \n6. Permission Management \nApplications should request only required permissions. \n7. Regular Security Testing \nPerform: \n• Vulnerability assessment \n• Security testing \n• Code review \n8. Secure Authentication \nUse: \n• MFA \n• Secure tokens \n• Strong session management \n \nData Security \nData should be protected: \n       MOBILE DATA \n           | \n    +------+------+ \n    |             | \n Data at Rest   Data in Transit "
+    },
+    {
+      "page": 31,
+      "text": "    |             | \n Encryption    TLS/HTTPS \nData at Rest \nData stored on the phone. \nData in Transit \nData travelling between mobile device and server. \nBoth require appropriate security controls. \n \n16. Protecting Wireless Network Connections \nDefinition \nWireless network security means protecting Wi-Fi and other wireless communications from \nunauthorized access, interception and manipulation. \nCommon Wireless Threats \n1. Eavesdropping \nAn attacker attempts to observe wireless communication. \n2. Evil Twin \nFake Wi-Fi network pretending to be legitimate. \n3. Man-in-the-Middle \nAttacker attempts to intercept communication. \n4. Unauthorized Access \nAn unauthorized user attempts to connect to the network. \n5. Denial of Service \nAn attacker attempts to make the wireless service unavailable. \n \nSecurity Measures \n1. Strong Wi-Fi Encryption "
+    },
+    {
+      "page": 32,
+      "text": "Use modern secure wireless security protocols such as WPA2/WPA3 where supported. \n2. Strong Password \nUse a strong wireless network password. \n3. Change Default Credentials \nRouter default administrative credentials should be changed. \n4. Firmware Updates \nKeep routers/access points updated. \n5. Network Segmentation \nSeparate sensitive systems from guest devices. \nInternet \n   | \nRouter \n   | \n   +---- Corporate Network \n   | \n   +---- Guest Network \n   | \n   +---- IoT Network \n6. VPN \nA VPN can provide an additional protected communication channel when appropriately \nconfigured. \n7. Disable Unnecessary Features \nDisable unnecessary wireless services. \n8. Monitor Network \nMonitor for suspicious devices and unusual network activity. \n "
+    },
+    {
+      "page": 33,
+      "text": "17. Educating Employees About Mobile Security \nEmployees are often an important part of an organization's security system. \nEven strong technical security can be weakened by unsafe user behavior. \nEmployee Training Should Cover \n1. Phishing Awareness \nEmployees should learn how to recognize suspicious: \n• Emails \n• SMS \n• Links \n• Websites \n• QR codes \n2. Password Security \nEmployees should: \n• Use strong passwords. \n• Avoid password reuse. \n• Use MFA. \n3. Device Security \nEmployees should: \n• Lock their devices. \n• Avoid leaving devices unattended. \n• Report lost devices immediately. \n4. Safe Application Usage \nEmployees should install applications only from trusted sources. \n5. Public Wi-Fi Awareness \nEmployees should avoid using insecure public networks for sensitive activities. \n6. Data Protection "
+    },
+    {
+      "page": 34,
+      "text": "Employees should not share confidential organizational information through unauthorized \napplications or services. \n7. Social Engineering Awareness \nEmployees should understand manipulation techniques used by attackers. \n \n18. Complete Organizational Mobile Security Framework \nThis is a very important diagram for a 10–15 mark answer. \n                 ORGANIZATIONAL \n                 MOBILE SECURITY \n                       | \n       +---------------+----------------+ \n       |               |                | \n       ↓               ↓                ↓ \n   PEOPLE          PROCESS          TECHNOLOGY \n       |               |                | \n Employee          Security          MDM \n Training          Policies          Encryption \n Awareness         BYOD Policy       MFA \n       |            Incident         Secure Apps \n       |            Response         Network Security \n       |               |                | \n       +---------------+----------------+ \n                       | \n                       ↓ \n                Secure Mobile \n                  Environment "
+    },
+    {
+      "page": 35,
+      "text": " \n19. Overall Mobile Security Strategy \nAn organization should follow a defense-in-depth approach. \nLayer 1 – Device Security \n• Screen lock \n• Encryption \n• Updates \n• Antivirus/security tools \nLayer 2 – Application Security \n• Secure applications \n• Permission management \n• Secure APIs \nLayer 3 – Network Security \n• WPA2/WPA3 \n• VPN \n• Network segmentation \n• Monitoring \nLayer 4 – Authentication \n• Strong passwords \n• MFA \n• Biometrics \nLayer 5 – Data Security \n• Encryption \n• Secure storage \n• Backup \n• Data loss prevention "
+    },
+    {
+      "page": 36,
+      "text": "Layer 6 – Human Security \n• Employee training \n• Security awareness \n• Incident reporting \n             SECURITY \n                 | \n    +------------+------------+ \n    |            |            | \n  Device       Network      Data \n    |            |            | \n    +------------+------------+ \n                 | \n          Authentication \n                 | \n          Employee Awareness \n                 | \n          Incident Response \n \n  Quick Revision Table \nTopic Main Points to Remember \nCyber crime with mobile devices Malware, phishing, SIM swap, payment fraud \nProliferation Rapid growth of smartphones, IoT, wireless \nMobility trends 5G, cloud, BYOD, IoT, mobile payment \nCredit card fraud Lost card, CNP , phishing, skimming, identity theft \nImpact Financial loss, privacy loss, reputation "
+    },
+    {
+      "page": 37,
+      "text": "Topic Main Points to Remember \nPrevention MFA, alerts, monitoring, tokenization \nMobile security challenges Malware, theft, Wi-Fi, apps, privacy \nMitigation Encryption, updates, authentication, backup \nRegistry/settings Secure device configuration, permissions, MDM \nAuthentication Verify identity \nAuthentication factors Know, have, are, location/behavior \nMobile attacks Malware, phishing, MITM, evil twin, SIM swap \nMDM Centralized mobile device management \nAccess control Authentication + authorization + least privilege \nMobile app security Secure coding, encryption, API security \nWireless security WPA2/WPA3, VPN, segmentation \nEmployee security Training, phishing awareness, safe device usage \n \n          How to Write a 10–15 Mark Answer in Exam \nFor almost every topic in this unit, use this structure: \n1. Definition – 1–2 marks \nWrite a clear definition. \n2. Introduction – 1 mark \nExplain why the topic is important. \n3. Diagram – 1–2 marks \nDraw a simple flowchart/architecture. \n4. Main explanation – 5–6 marks \nWrite 6–8 subheadings with 2–4 lines each. "
+    },
+    {
+      "page": 38,
+      "text": "5. Examples – 1 mark \nGive 2–3 practical examples. \n6. Prevention/Security Measures – 2–3 marks \nWrite relevant security controls. \n7. Conclusion – 1 mark \nEnd with 2–3 lines summarizing the topic. \nExample answer flow \nDEFINITION \n    ↓ \nINTRODUCTION \n    ↓ \nDIAGRAM \n    ↓ \nTYPES / COMPONENTS \n    ↓ \nWORKING / EXPLANATION \n    ↓ \nEXAMPLES \n    ↓ \nSECURITY / PREVENTION \n    ↓ \nADVANTAGES / IMPACT \n    ↓ \nCONCLUSION \nExam tip: For a 10–15 mark question, don't write one huge paragraph. Use headings + bullet \npoints + diagrams + examples. This makes the answer easier for the examiner to evaluate and \nhelps you cover more points. "
+    },
+    {
+      "page": 39,
+      "text": " "
+    }
+  ],
+  "U4 new.pdf": [
+    {
+      "page": 1,
+      "text": "Cyber Security – Unit 4: Tools Used in Cybercrime \nComplete 10–15 Marks Exam-Oriented Notes \nThe topics visible in your syllabus are: \n1. Proxy Servers \n2. Cybercrime Tools \n3. Proxy Types \n4. Proxy-based Cybercrime, Detection & Mitigation \n5. Anonymizers \n6. Tor Network Architecture \n7. Operation Bayonet & AlphaBay Takedown \n8. Phishing \n9. Advanced Phishing Techniques \n10. Password Cracking \n11. Password Hash Types & Relative Security \n12. Keyloggers \n13. Spyware \n14. Viruses \n15. Worms \n16. Virus/Worm Anatomy \n17. Trojan Horses \n18. Backdoors \n19. DDoS Attacks \nI'll explain each in a way you can directly convert into a 10–15 mark GTU answer. \n \n1. Proxy Server \nDefinition "
+    },
+    {
+      "page": 2,
+      "text": "A proxy server is an intermediary computer/server that receives requests from a client and \nforwards those requests to the destination server. \nInstead of: \nUser → Internet Server \nthe communication becomes: \nUser → Proxy Server → Internet Server \nThe destination server generally sees the proxy's IP address rather than directly seeing the \nclient's IP address. \nBasic Architecture \n             Request \nUser ───────────────────► Proxy \n                            │ \n                            │ Request \n                            ▼ \n                       Web Server \n                            │ \n                            │ Response \n                            ▼ \nUser ◄────────────────── Proxy \n \nFunctions of Proxy Servers \n1. IP masking \nA proxy can hide the client's original IP address from the destination server. \n2. Access control \nOrganizations can control which websites or services users can access. \n3. Caching \nFrequently requested resources can be cached to reduce bandwidth usage. "
+    },
+    {
+      "page": 3,
+      "text": "4. Monitoring \nOrganizations can monitor network traffic passing through the proxy. \n5. Content filtering \nMalicious or inappropriate websites can be blocked. \n6. Security \nA proxy can act as an additional security layer between users and the Internet. \n \n2. Introduction to Cybercrime Tools \nCybercrime tools are software, services, techniques or infrastructure that may be used to \nperform, facilitate, conceal or automate cyberattacks. \nThe same technology can sometimes have legitimate security uses. \nFor example: \nTool/Technology Legitimate Use Criminal Abuse \nProxy Privacy/network control Concealing attack source \nPassword testing tools Security auditing Unauthorized password attacks \nKeylogger Authorized monitoring Credential theft \nScanner Vulnerability assessment Reconnaissance \nEncryption Data protection Concealing criminal communication \nBotnet Distributed computing research DDoS \nMajor categories \nCybercrime Tools \n      │ \n      ├── Anonymity Tools \n      │     ├── Proxy \n      │     └── Tor "
+    },
+    {
+      "page": 4,
+      "text": "      │ \n      ├── Credential Theft \n      │     ├── Keyloggers \n      │     ├── Phishing \n      │     └── Spyware \n      │ \n      ├── Malware \n      │     ├── Virus \n      │     ├── Worm \n      │     └── Trojan \n      │ \n      ├── Password Attack Tools \n      │ \n      └── Network Attack Tools \n            └── DDoS \n \n3. Types of Proxy Servers \nThis is an important exam question. \n1. Forward Proxy \nA forward proxy represents the client. \nClient → Forward Proxy → Internet \nIt is commonly used by organizations to control employee Internet access. \nUses \n• Content filtering \n• Caching \n• Monitoring "
+    },
+    {
+      "page": 5,
+      "text": "• Access control \n \n2. Reverse Proxy \nA reverse proxy represents the server. \nInternet → Reverse Proxy → Web Server \nIt is commonly used by websites and applications. \nUses \n• Load balancing \n• Web security \n• SSL/TLS termination \n• Hiding backend infrastructure \n• DDoS protection \n \n3. Transparent Proxy \nA transparent proxy forwards traffic while generally requiring little or no client-side \nconfiguration. \nIt is commonly used for: \n• Network monitoring \n• Content filtering \n• Caching \n \n4. Anonymous Proxy \nAn anonymous proxy attempts to hide the client's IP address from the destination. \n \n5. High-Anonymity Proxy \nA high-anonymity proxy provides stronger separation between the client and destination and \nmay avoid revealing identifying proxy information. "
+    },
+    {
+      "page": 6,
+      "text": " \n6. Open Proxy \nAn open proxy is a proxy accessible by users outside the organization operating it. \nOpen proxies can be abused by attackers to obscure the source of traffic. \n \n4. Proxy-Based Cybercrime \nAttackers may abuse proxy infrastructure to make malicious traffic harder to associate with their \noriginal connection. \nGeneral concept \nAttacker \n   ↓ \nProxy 1 \n   ↓ \nProxy 2 \n   ↓ \nProxy 3 \n   ↓ \nTarget \nThis is sometimes called proxy chaining. \nWhy criminals use proxies \n• Hide source IP \n• Make attribution more difficult \n• Bypass network restrictions \n• Distribute malicious traffic \n• Conduct reconnaissance \n• Access services from different network locations "
+    },
+    {
+      "page": 7,
+      "text": "Important point \nA proxy does not automatically make someone anonymous. \nOther information may still reveal the source, such as: \n• Authentication records \n• Browser/device characteristics \n• Timing information \n• DNS information \n• Application logs \n• Proxy logs \n• Payment records \n• Operational mistakes \n \n5. Proxy Detection and Mitigation \nOrganizations can detect suspicious proxy usage using multiple techniques. \nDetection Methods \n1. IP reputation \nSecurity systems can identify IP addresses associated with: \n• Open proxies \n• Known malicious infrastructure \n• Botnets \n• Abuse networks \n2. Traffic analysis \nUnusual traffic patterns may indicate proxy or anonymization activity. \n3. Authentication monitoring \nRepeated logins from geographically unusual locations can be suspicious. \n4. DNS analysis "
+    },
+    {
+      "page": 8,
+      "text": "Unexpected DNS behavior can indicate attempts to bypass normal network controls. \n5. Log analysis \nSecurity teams can correlate: \nFirewall Logs \n     + \nProxy Logs \n     + \nAuthentication Logs \n     + \nApplication Logs \nMitigation \n• Use firewalls \n• Block known malicious IPs \n• Apply access-control policies \n• Monitor proxy traffic \n• Use IDS/IPS \n• Apply MFA \n• Maintain logs \n• Update threat-intelligence lists \n \n6. Anonymizers \nDefinition \nAn anonymizer is a technology designed to reduce the ability of websites or network observers \nto directly associate online activity with a user's original network identity. \nExamples include: \n• Proxy services "
+    },
+    {
+      "page": 9,
+      "text": "• VPNs \n• Tor \n• Privacy-oriented relay systems \nBasic idea \nNormal: \n \nUser → Website \n  ↓ \nWebsite sees user's IP \n \n \nAnonymized: \n \nUser → Anonymizer → Website \n                    ↓ \n              Sees intermediary \n \nTypes of Anonymizers \n1. Proxy-based anonymizer \nUses an intermediary server. \n2. VPN \nCreates an encrypted connection between the user and VPN infrastructure. \n3. Tor \nRoutes traffic through multiple volunteer-operated relays. \n4. Multi-hop systems \nTraffic passes through multiple intermediary systems. "
+    },
+    {
+      "page": 10,
+      "text": " \n7. Technical Functions of Anonymizers \nAnonymizers generally provide some combination of: \n1. Identity separation \nThe destination may see the intermediary rather than the original IP . \n2. Traffic routing \nTraffic is forwarded through intermediary systems. \n3. Encryption \nSome anonymization systems encrypt traffic between selected network points. \n4. Location masking \nThe destination may see the intermediary's network location rather than the user's. \n5. Traffic separation \nMulti-hop systems attempt to prevent a single intermediary from learning the complete \ncommunication relationship. \n \n8. Tor Network Architecture \nTor = The Onion Router. \nTor is a distributed anonymity network designed to make traffic analysis and direct source \nidentification more difficult. \nWhy \"onion\"? \nThe communication is protected through multiple layers, similar conceptually to layers of an \nonion. \nBasic architecture \n                 TOR NETWORK \n \nUser \n │ "
+    },
+    {
+      "page": 11,
+      "text": " ▼ \nEntry / Guard Relay \n │ \n ▼ \nMiddle Relay \n │ \n ▼ \nExit Relay \n │ \n ▼ \nInternet \n │ \n ▼ \nWebsite \n \nWorking of Tor \nSuppose a user wants to visit a website. \nStep 1 – Entry relay \nThe user's Tor client connects to an entry/guard relay. \nStep 2 – Middle relay \nTraffic passes through another relay. \nStep 3 – Exit relay \nTraffic leaves the Tor network through an exit relay. \nStep 4 – Destination \nThe destination website receives the connection from the exit relay. \n "
+    },
+    {
+      "page": 12,
+      "text": "Onion Routing \nConceptually: \nLayer 1 → Entry relay \nLayer 2 → Middle relay \nLayer 3 → Exit relay \nEach relay has limited knowledge of the complete path. \nImportant components \nComponent Function \nTor Client Runs on user's system \nGuard/Entry Relay First Tor relay \nMiddle Relay Intermediate forwarding \nExit Relay Connects toward normal Internet \nDirectory System Helps clients learn relay information \n \nAdvantages of Tor \n• Privacy \n• Resistance to some forms of traffic analysis \n• Hides user's IP from destination websites \n• Helps users access information privately \nLimitations \n• Slower than normal browsing \n• Exit traffic may be monitored by destination-side observers \n• Does not guarantee perfect anonymity \n• Endpoint/application leaks can still identify users \n• Misconfiguration can expose information "
+    },
+    {
+      "page": 13,
+      "text": " \n9. Operation Bayonet \nOperation Bayonet was a major international law-enforcement operation involving the \ntakedown of major dark-web marketplaces. \nTwo major marketplaces involved were: \n• AlphaBay \n• Hansa Market \nThe operation demonstrated international cooperation against illegal activities conducted \nthrough dark-web marketplaces. \n \nAlphaBay \nAlphaBay was a large dark-web marketplace that facilitated illegal transactions. \nIt was taken down in 2017 as part of international law-enforcement efforts. \n \nHansa \nHansa was another major dark-web marketplace. \nLaw enforcement did something particularly significant with Hansa: after taking control of the \nmarketplace, investigators were able to observe activity and gather evidence before the service \nwas ultimately shut down. \n \nImportance of Operation Bayonet \nIt demonstrated: \n1. International law-enforcement cooperation \n2. Investigation of dark-web infrastructure \n3. Importance of digital evidence \n4. Cryptocurrency tracing and financial investigation \n5. Operational-security weaknesses "
+    },
+    {
+      "page": 14,
+      "text": "6. Importance of server and infrastructure seizure \nExam conclusion \nOperation Bayonet demonstrated that anonymity technologies and dark-web marketplaces do \nnot guarantee immunity from investigation. Traditional investigation, digital forensics, \ninfrastructure analysis and international cooperation can collectively identify and disrupt \ncybercriminal operations. \n \n10. Phishing \nDefinition \nPhishing is a social-engineering attack in which an attacker attempts to trick a victim into \nrevealing sensitive information or performing an unwanted action by pretending to be a trusted \nperson, organization or service. \nExamples of targeted information: \n• Username \n• Password \n• OTP \n• Banking information \n• Personal information \n• Authentication tokens \n \n11. Phishing Attack Lifecycle \nThis is a very important 10-mark question. \nTarget Selection \n       ↓ \nInformation Gathering \n       ↓ \nAttack Preparation "
+    },
+    {
+      "page": 15,
+      "text": "       ↓ \nDelivery \n       ↓ \nVictim Interaction \n       ↓ \nCredential/Data Capture \n       ↓ \nUnauthorized Use \n       ↓ \nCovering/Monetization \nStep 1 – Target Selection \nAttacker chooses individuals or organizations. \nStep 2 – Information Gathering \nPublicly available information may be used to make fraudulent communication appear \nconvincing. \nStep 3 – Preparation \nAttacker prepares a deceptive message or fake communication channel. \nStep 4 – Delivery \nThe message may be delivered through: \n• Email \n• SMS \n• Social media \n• Messaging platforms \n• Fake websites \nStep 5 – Victim Interaction \nThe victim may click a link, open an attachment or respond. "
+    },
+    {
+      "page": 16,
+      "text": "Step 6 – Information Capture \nThe victim may unknowingly submit sensitive information. \nStep 7 – Abuse \nStolen information may be used for: \n• Account takeover \n• Fraud \n• Identity theft \n• Further attacks \nStep 8 – Concealment \nAttackers may attempt to hide or delete evidence. \n \n12. Types of Phishing \n1. Email Phishing \nFraudulent emails impersonate legitimate organizations. \n \n2. Spear Phishing \nA targeted phishing attack directed toward a specific person or organization. \nExample \nInstead of sending a generic email to thousands of people, an attacker creates a message \nspecifically designed for an employee. \n \n3. Whaling \nPhishing directed toward high-level individuals such as executives. \nEmployee → Spear Phishing \nExecutive → Whaling \n "
+    },
+    {
+      "page": 17,
+      "text": "4. Smishing \nPhishing through SMS or text messages. \nSMS + Phishing = Smishing \n \n5. Vishing \nPhishing through voice calls. \nVoice + Phishing = Vishing \n \n6. Clone Phishing \nA legitimate-looking message or website is copied and modified to deceive users. \n \n13. Advanced Phishing Techniques \nModern phishing may combine social engineering with technical deception. \n1. Social engineering \nThe attacker manipulates the victim psychologically. \nCommon principles: \n• Urgency \n• Fear \n• Authority \n• Curiosity \n• Reward \n• Trust \n \n2. Website impersonation \nAttackers create websites that visually resemble legitimate services. \n "
+    },
+    {
+      "page": 18,
+      "text": "3. Look-alike domains \nDomains may be designed to appear similar to legitimate domains. \n \n4. QR-code phishing \nFraudulent QR codes can direct victims toward malicious or deceptive destinations. \n \n5. Multi-stage phishing \nA phishing attack may use multiple steps instead of immediately requesting credentials. \nMessage \n  ↓ \nRedirect \n  ↓ \nFake authentication page \n  ↓ \nInformation collection \n \nPrevention \n• Verify sender \n• Check domain carefully \n• Avoid unexpected links \n• Use MFA \n• Use password managers \n• Verify urgent requests through another communication channel \n• Use email security systems \n• Train employees \n• Report suspicious messages "
+    },
+    {
+      "page": 19,
+      "text": " \n14. Password Cracking \nDefinition \nPassword cracking refers to techniques used to recover or guess passwords, usually by testing \npossible password values. \nIn authorized security testing, password auditing is used to evaluate password strength. \n \n15. Password Cracking Methods \n1. Brute Force \nAttempts possible combinations systematically. \nConceptually: \n0000 \n0001 \n0002 \n... \n9999 \nFor longer passwords, the number of possibilities becomes extremely large. \nDisadvantage \nVery time-consuming for strong passwords. \n \n2. Dictionary Attack \nUses a list of likely passwords or words. \nFor example: \npassword \nadmin \nwelcome "
+    },
+    {
+      "page": 20,
+      "text": "qwerty \n... \nIt is effective against weak, predictable passwords. \n \n3. Hybrid Attack \nCombines dictionary words with common modifications. \nConceptually: \npassword \npassword1 \npassword123 \nPassword1 \n \n4. Credential Stuffing \nAttackers use previously leaked username/password combinations against other services. \nThis works because some users reuse passwords. \n \n5. Password Spraying \nInstead of trying many passwords against one account, an attacker tries a small number of \ncommonly used passwords across many accounts. \nThis can help evade some account-lockout policies. \n \n6. Rainbow Tables \nPrecomputed data structures can be used against certain unsalted password hashes. \nModern systems can reduce this risk using salting and strong password hashing. \n \n16. Popular Password-Cracking/Auditing Tools "
+    },
+    {
+      "page": 21,
+      "text": "For an exam, remember examples: \n• John the Ripper \n• Hashcat \n• Hydra \n• Medusa \n• Cain & Abel — historically associated with Windows password recovery/auditing \nImportant \nThese tools have legitimate penetration-testing and password-auditing applications, but \nunauthorized use against accounts or systems is illegal. \n \n17. Password Hashing \nA hash function converts input into a fixed-length representation. \nPassword \n   ↓ \nHash Function \n   ↓ \nHash \nA properly designed password-storage system does not store passwords directly. \n \n18. Types of Password Hashes and Relative Security \nHash/Method General Security Context \nMD5 Obsolete for password storage \nSHA-1 Obsolete for password storage \nSHA-256 alone Not designed specifically for password storage \nbcrypt Designed for password hashing "
+    },
+    {
+      "page": 22,
+      "text": "Hash/Method General Security Context \nscrypt Memory-hard password hashing \nArgon2 Modern password hashing approach \nSalted password hash Stronger against precomputed attacks \nWhy MD5/SHA-1 are unsuitable for passwords \nThey are designed to be computationally fast. \nFor password storage, we actually want hashing to be deliberately expensive. \n \n19. Salt \nA salt is a unique random value added to a password before password hashing. \nPassword + Unique Salt \n          ↓ \n     Password Hash \nWithout salt \nTwo users having the same password may have the same hash. \nWith unique salts \nUser A: \nPassword + Salt A → Hash A \n \nUser B: \nPassword + Salt B → Hash B \nEven if both passwords are identical, their stored hashes differ. \n \n20. Keylogger \nDefinition "
+    },
+    {
+      "page": 23,
+      "text": "A keylogger is software or hardware capable of recording keystrokes. \nIt may be used legitimately in controlled environments, but malicious keyloggers can steal \nsensitive information. \nInformation potentially captured \n• Usernames \n• Passwords \n• Messages \n• Search terms \n• Financial information \n \n21. Types of Keyloggers \n1. Software Keylogger \nInstalled as malicious or unauthorized software. \n \n2. Hardware Keylogger \nA physical device placed between a keyboard and computer, or implemented within hardware. \n \n3. Kernel-Level Keylogger \nOperates at a low level of the operating system and can be difficult to detect. \n \n4. Browser-Based/Script-Based Logging \nSome malicious scripts can capture user input within web applications. \n \n22. Spyware \nDefinition \nSpyware is malicious or unwanted software designed to monitor users and collect information \nwithout appropriate consent. "
+    },
+    {
+      "page": 24,
+      "text": "Spyware capabilities \nDepending on the type, spyware may: \n• Monitor activity \n• Collect browsing information \n• Capture credentials \n• Track applications \n• Collect personal information \n• Record input \n• Communicate information to an external party \n \n23. Spyware Distribution \nSpyware may be distributed through: \nMalicious Attachment \n        ↓ \nMalicious Software \n        ↓ \nDrive-by/Deceptive Download \n        ↓ \nCompromised Application \n        ↓ \nSocial Engineering \nOther routes include: \n• Fake applications \n• Pirated software \n• Malicious advertisements \n• Compromised websites "
+    },
+    {
+      "page": 25,
+      "text": "• Phishing \n \n24. Spyware Detection and Prevention \nDetection \n• Antivirus/EDR \n• Process monitoring \n• Network monitoring \n• Unexpected startup programs \n• Unusual outbound connections \n• Security logs \nPrevention \n• Keep OS updated \n• Use reputable security software \n• Avoid unknown software \n• Use MFA \n• Restrict application privileges \n• Avoid suspicious attachments \n• Regularly review installed applications \n \n25. Virus \nDefinition \nA computer virus is malicious code that can replicate by attaching itself to another file or \nprogram and generally requires some form of user/system execution to spread. \nKey characteristic \nA virus normally needs a host. \nHost File "
+    },
+    {
+      "page": 26,
+      "text": "   + \nVirus Code \n   ↓ \nInfected File \n \n26. Worm \nDefinition \nA worm is malware capable of self-replication and spreading between systems, often through \nnetworks or vulnerabilities, without requiring a traditional host file. \nKey characteristic \nA worm is self-propagating. \nComputer A \n    ↓ \nComputer B \n    ↓ \nComputer C \n    ↓ \nComputer D \n \n27. Virus vs Worm \nFeature Virus Worm \nHost required Usually yes No traditional host required \nReplication Yes Yes \nNetwork spreading May occur Major characteristic \nUser interaction Often required Often less dependent on user interaction "
+    },
+    {
+      "page": 27,
+      "text": "Feature Virus Worm \nMain impact File/system infection Rapid network/system spread \nSpeed of spread Generally slower Potentially very fast \nEasy memory trick \nVirus = needs a vehicle/host \nWorm = walks/spreads by itself \n \n28. Virus/Worm Anatomy \nA useful exam diagram: \n             Malware \n                │ \n       ┌────────┴────────┐ \n       │                 │ \n    Virus               Worm \n       │                 │ \n       ▼                 ▼ \n  Replication        Replication \n       │                 │ \n       ▼                 ▼ \n   Payload          Propagation \n       │                 │ \n       ▼                 ▼ \n   Infection         Network Spread \nA malicious program may contain several conceptual components. \n1. Replication mechanism \nResponsible for creating or propagating copies. "
+    },
+    {
+      "page": 28,
+      "text": "2. Propagation mechanism \nDetermines how malware moves between files or systems. \n3. Payload \nThe action performed after infection. \nPossible consequences include: \n• Data destruction \n• Data theft \n• System disruption \n• Installation of additional malware \n4. Trigger \nA condition that causes a particular action. \nExamples: \n• Specific date \n• System event \n• Number of infections \n5. Concealment \nSome malware attempts to avoid detection. \n \n29. Trojan Horse \nDefinition \nA Trojan horse is malware that disguises itself as legitimate or useful software to trick the user \ninto installing or executing it. \nUnlike a virus or worm, a Trojan's defining characteristic is deception. \nExample concept \nUser believes: \n "
+    },
+    {
+      "page": 29,
+      "text": "\"Useful Application\" \n        ↓ \n     Install \n        ↓ \nTrojan executes \n \n30. Types of Trojans \n1. Backdoor Trojan \nCreates unauthorized access to a compromised system. \n2. Banking Trojan \nTargets financial credentials and transactions. \n3. Downloader Trojan \nDownloads additional malicious software. \n4. Spy Trojan \nCollects information about the victim. \n5. Ransomware Trojan \nActs as a delivery mechanism for ransomware. \n6. Remote Access Trojan (RAT) \nProvides unauthorized remote-control capabilities. \n \n31. Trojan Architecture \nConceptually: \n        Trojan \n           │ \n ┌─────────┼──────────┐ \n │         │          │ "
+    },
+    {
+      "page": 30,
+      "text": "Loader   Payload   Communication \n │         │          │ \n │         │          │ \nExecutes  Performs   External \nMalware   Action     Server \nComponents \n1. Delivery mechanism \nHow the Trojan reaches the victim. \n2. Loader \nStarts or installs the malicious component. \n3. Payload \nPerforms the intended malicious activity. \n4. Communication component \nMay communicate with external infrastructure. \n5. Persistence component \nMay attempt to remain active after system restart. \n \n32. Trojan Detection Methods \n1. Antivirus/EDR \nDetect suspicious files and behavior. \n2. Behavioral analysis \nLook for unusual activities such as: \n• Unexpected process creation \n• Unauthorized persistence \n• Suspicious network connections \n3. Network monitoring \nDetect unusual outbound communication. "
+    },
+    {
+      "page": 31,
+      "text": "4. File integrity monitoring \nDetect unauthorized changes to important files. \n5. Application allowlisting \nOnly approved applications are allowed to execute. \n \n33. Backdoors \nDefinition \nA backdoor is a mechanism that provides unauthorized or hidden access to a system while \nbypassing normal authentication or security controls. \nBasic concept \nNormal Access: \n \nUser → Authentication → System \n \n \nBackdoor: \n \nAttacker → Hidden Access Mechanism → System \n \n34. Types of Backdoors \n1. Software Backdoor \nImplemented through malicious or vulnerable software. \n2. Hardware Backdoor \nA hidden mechanism associated with hardware or firmware. \n3. Remote Backdoor \nAllows unauthorized remote access. "
+    },
+    {
+      "page": 32,
+      "text": "4. Local Backdoor \nProvides unauthorized access to users/processes already on the system. \n \n35. Common Backdoor Techniques – High-Level \nFor your exam, explain conceptually: \n1. Hidden accounts \nUnauthorized accounts may be created to maintain access. \n2. Modified services \nA legitimate service may be altered to provide unauthorized functionality. \n3. Malicious startup mechanisms \nMalware may attempt to execute automatically when a system starts. \n4. Remote command channels \nA compromised machine may communicate with external infrastructure. \n5. Web/application backdoors \nCompromised web applications may contain hidden functionality. \n \n36. Backdoor Communication Methods \nA backdoor needs some mechanism for receiving commands or sending information. \nConceptually: \nCompromised System \n        │ \n        │ Communication \n        ▼ \nRemote Infrastructure \n        │ \n        │ Commands "
+    },
+    {
+      "page": 33,
+      "text": "        ▼ \nCompromised System \nCommunication may use: \n• HTTP/HTTPS \n• DNS \n• Other network protocols \n• Encrypted communication channels \nSecurity systems can identify suspicious patterns through network monitoring. \n \n37. Detection and Prevention of Backdoors \nDetection \n• Monitor unexpected network connections \n• Review user accounts \n• Monitor startup programs \n• Analyze system logs \n• Use EDR \n• Check file integrity \n• Monitor unusual processes \nPrevention \n• Patch vulnerabilities \n• Use least privilege \n• Strong authentication \n• MFA \n• Network segmentation \n• Application allowlisting \n• Regular security audits "
+    },
+    {
+      "page": 34,
+      "text": "• Disable unnecessary services \n \n38. DoS Attack \nDefinition \nDenial of Service (DoS) is an attack intended to make a service, server or network resource \nunavailable or significantly degraded for legitimate users. \nBasic concept \nNormal: \n \nUsers ──────► Server \n                │ \n             Service \nDuring DoS: \nAttacker \n   │ \n   ├────► \n   ├────► Server \n   ├────► \n   └────► \n \nServer resources exhausted \n          ↓ \nLegitimate users affected \n \n39. DDoS Attack \nDefinition "
+    },
+    {
+      "page": 35,
+      "text": "Distributed Denial of Service (DDoS) is a DoS attack in which traffic or requests originate from \nmultiple distributed systems. \n          Compromised Devices \n          /      |       \\ \n         /       |        \\ \n        ▼        ▼         ▼ \n      Bot 1    Bot 2     Bot 3 \n         \\       |        / \n          \\      |       / \n             ▼ \n           Target \nThe distributed nature makes mitigation more difficult. \n \n40. Types of DDoS Attacks \n1. Volumetric Attacks \nAttempt to consume network bandwidth with large amounts of traffic. \nGoal \nAvailable bandwidth \n       ↓ \nTraffic overload \n       ↓ \nService degradation \n \n2. Protocol Attacks \nExploit weaknesses or resource limitations in network/protocol handling. \nThey may exhaust: "
+    },
+    {
+      "page": 36,
+      "text": "• Connection tables \n• Network devices \n• Firewall resources \n \n3. Application-Layer Attacks \nTarget the application itself. \nFor example, an attacker may generate large numbers of apparently legitimate application \nrequests. \n \n41. DoS vs DDoS \nFeature DoS DDoS \nFull form Denial of Service Distributed Denial of Service \nSources Usually one/fewer sources Many distributed sources \nCoordination Limited Often coordinated \nDetection Comparatively simpler More difficult \nMitigation Usually simpler More complex \nTraffic origin Concentrated Distributed \nEasy memory \nDoS = One/Few → Target \nDDoS = Many → Target \n \n42. DDoS Detection \nOrganizations can monitor: \nTraffic volume \nSudden increases can indicate an attack. \nTraffic patterns "
+    },
+    {
+      "page": 37,
+      "text": "Look for abnormal: \n• Request rates \n• Source distributions \n• Protocol behavior \n• Geographic patterns \nServer performance \nMonitor: \n• CPU \n• Memory \n• Connections \n• Response time \nNetwork monitoring \nUse: \n• IDS/IPS \n• Firewalls \n• Flow monitoring \n• SIEM \n• DDoS protection services \n \n43. DDoS Mitigation \n1. Rate limiting \nRestrict excessive requests. \n2. Traffic filtering \nBlock clearly malicious traffic. \n3. Load balancing \nDistribute traffic among multiple servers. "
+    },
+    {
+      "page": 38,
+      "text": "4. Content Delivery Networks \nCDNs can distribute and absorb traffic at large scale. \n5. Anycast/network distribution \nTraffic can be distributed across multiple network locations. \n6. DDoS protection services \nSpecialized infrastructure can identify and absorb/filter attack traffic. \n7. Incident response \nOrganizations should have a predefined DDoS response plan. \n \n  Very Important Comparison for Exam \nVirus vs Worm vs Trojan vs Backdoor \nFeature Virus Worm Trojan Backdoor \nMain \ncharacteristic Infects/replicates Self-spreads Deception Hidden access \nHost needed Usually No No No \nSelf-replication Yes Yes Usually no No \nSocial \nengineering Sometimes Sometimes Common Sometimes \nNetwork \nspreading Possible Common Possible Possible \nMain objective Infection/damage Propagation Gain malicious \nfunctionality \nMaintain unauthorized \naccess \nOne-line memory trick \nVirus → Infects \nWorm → Spreads \nTrojan → Tricks \nBackdoor → Enters "
+    },
+    {
+      "page": 39,
+      "text": " \n  Complete Unit Mind Map \n                TOOLS USED IN CYBERCRIME \n                         │ \n       ┌─────────────────┼──────────────────┐ \n       │                 │                  │ \n    Anonymity          Social            Malware \n       │              Engineering           │ \n       │                 │                  │ \n   ┌───┴───┐         Phishing       ┌──────┼──────┐ \n   │       │             │           │      │      │ \n Proxy    Tor       ┌────┼────┐    Virus  Worm  Trojan \n   │                 │    │    │ \n   │               Email Spear Smishing \n   │ \n   └── Proxy Detection/ \n       Mitigation \n \n                    │ \n                    ├── Password Attacks \n                    │      │ \n                    │   Hashes \n                    │   Brute Force \n                    │   Dictionary \n                    │ \n                    ├── Keylogger "
+    },
+    {
+      "page": 40,
+      "text": "                    │ \n                    ├── Spyware \n                    │ \n                    ├── Backdoor \n                    │ \n                    └── DoS/DDoS \n \n          How to Write a 10–15 Mark Answer in GTU \nFor almost any topic from this unit, use this structure: \n1. Definition – 1–2 marks \nGive a clear textbook definition. \n2. Introduction – 1 mark \nExplain why the technology/attack is important. \n3. Architecture/Diagram – 2 marks \nAlways draw a simple diagram. \nExample: \nAttacker → Intermediate System → Target \n4. Working – 3–4 marks \nExplain the process step-by-step. \n5. Types – 2–3 marks \nGive 4–6 types with one-line explanations. \n6. Detection/Prevention – 2–3 marks \nEspecially for cyberattack questions. \n7. Advantages/Disadvantages or Impact – 1–2 marks \n8. Conclusion – 1 mark \n "
+    },
+    {
+      "page": 41,
+      "text": "   Most Important Questions to Prepare \nBased on this portion of your syllabus, make sure you can write full answers for: \n1. Explain proxy server, its types and applications. \n2. Explain proxy-based cybercrime and its detection/mitigation. \n3. Explain anonymizers and their types. \n4. Explain Tor network architecture and onion routing. \n5. Explain Operation Bayonet and AlphaBay takedown. \n6. Explain phishing, its lifecycle and different types. \n7. Explain advanced phishing techniques and prevention. \n8. Explain password cracking methods. \n9. Explain different password hash types and their relative security. \n10. Explain keyloggers, their types and prevention. \n11. Explain spyware, its capabilities, distribution, detection and prevention. \n12. Differentiate virus and worm. \n13. Explain virus/worm anatomy. \n14. Explain Trojan horse, its types, architecture and detection methods. \n15. Explain backdoors, their types and communication methods. \n16. Explain DoS and DDoS attacks and their types. \n17. Explain DDoS detection and mitigation techniques. \n18. Differentiate Virus, Worm, Trojan and Backdoor. \n    Ultra-short revision trick \nProxy → hides/relays \nTor → multi-hop anonymity \nPhishing → tricks user \nPassword cracking → guesses/recover passwords \nKeylogger → records keys \nSpyware → secretly monitors \nVirus → infects "
+    },
+    {
+      "page": 42,
+      "text": "Worm → spreads \nTrojan → disguises \nBackdoor → hidden access \nDoS → denies service \nDDoS → distributed denial of service \n "
+    }
+  ]
+}

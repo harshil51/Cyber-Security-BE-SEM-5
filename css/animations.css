@@ -1,0 +1,223 @@
+/* ==========================================================================
+   CYBERNEXUS - KEYFRAME ANIMATIONS & DYNAMIC MICRO-INTERACTIONS
+   ========================================================================== */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.15);
+  }
+}
+
+@keyframes cyber-radar-sweep {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes packet-flow-horizontal {
+  0% {
+    left: 10%;
+    opacity: 0;
+    transform: scale(0.6);
+  }
+  20% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  80% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    left: 88%;
+    opacity: 0;
+    transform: scale(0.6);
+  }
+}
+
+@keyframes onion-peel {
+  0% {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.25);
+    opacity: 0.3;
+  }
+  100% {
+    transform: scale(1.4);
+    opacity: 0;
+  }
+}
+
+@keyframes glitch-anim {
+  0% {
+    clip-path: inset(40% 0 61% 0);
+    transform: skew(0.3deg);
+  }
+  20% {
+    clip-path: inset(92% 0 1% 0);
+    transform: skew(-0.5deg);
+  }
+  40% {
+    clip-path: inset(10% 0 85% 0);
+    transform: skew(0.8deg);
+  }
+  60% {
+    clip-path: inset(50% 0 30% 0);
+    transform: skew(-0.2deg);
+  }
+  80% {
+    clip-path: inset(80% 0 5% 0);
+    transform: skew(0.4deg);
+  }
+  100% {
+    clip-path: inset(0% 0 98% 0);
+    transform: skew(0deg);
+  }
+}
+
+@keyframes border-glow-pulse {
+  0%, 100% {
+    border-color: rgba(0, 242, 254, 0.3);
+    box-shadow: 0 0 15px rgba(0, 242, 254, 0.2);
+  }
+  50% {
+    border-color: rgba(0, 255, 135, 0.5);
+    box-shadow: 0 0 25px rgba(0, 255, 135, 0.35);
+  }
+}
+
+/* Dynamic Classes */
+.animate-fade-in {
+  animation: fadeIn 0.35s ease forwards;
+}
+
+.animate-pulse {
+  animation: pulse-glow 2s infinite ease-in-out;
+}
+
+.animate-border-glow {
+  animation: border-glow-pulse 3s infinite ease-in-out;
+}
+
+/* Interactive Simulator Node Elements */
+.sim-node {
+  position: relative;
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  background: rgba(13, 18, 36, 0.9);
+  border: 1px solid var(--border-cyan);
+  box-shadow: var(--glow-cyan);
+  text-align: center;
+  transition: all 0.3s ease;
+  z-index: 2;
+}
+
+.sim-node.active {
+  border-color: var(--cyber-green);
+  box-shadow: var(--glow-green);
+  transform: scale(1.05);
+}
+
+.sim-node.compromised {
+  border-color: var(--cyber-red);
+  box-shadow: 0 0 20px rgba(255, 51, 102, 0.4);
+}
+
+/* Packet Animation Element */
+.sim-packet {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: var(--cyber-cyan);
+  border-radius: 50%;
+  box-shadow: 0 0 12px var(--cyber-cyan);
+  z-index: 10;
+  pointer-events: none;
+}
+
+.sim-packet.malicious {
+  background: var(--cyber-red);
+  box-shadow: 0 0 12px var(--cyber-red);
+}
+
+.sim-packet.encrypted-3 {
+  border: 2px solid #7928ca;
+  background: #00f2fe;
+}
+
+.sim-packet.encrypted-2 {
+  border: 2px solid #00ff87;
+  background: #00f2fe;
+}
+
+.sim-packet.encrypted-1 {
+  background: #00f2fe;
+}
+
+/* Terminal Console View in Labs */
+.terminal-box {
+  background: #02040a;
+  border: 1px solid var(--border-subtle);
+  border-radius: 8px;
+  padding: 1rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: #38bdf8;
+  height: 160px;
+  overflow-y: auto;
+  line-height: 1.4;
+}
+
+.terminal-line {
+  margin-bottom: 0.25rem;
+}
+
+.terminal-line.success {
+  color: var(--cyber-green);
+}
+
+.terminal-line.warning {
+  color: var(--cyber-amber);
+}
+
+.terminal-line.danger {
+  color: var(--cyber-red);
+}
+
+.terminal-line::before {
+  content: '>';
+  margin-right: 0.5rem;
+  color: var(--cyber-cyan);
+}

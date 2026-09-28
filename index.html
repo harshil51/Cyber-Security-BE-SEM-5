@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Comprehensive interactive Cyber Security study and exam mastery platform covering Units 1 to 4 with interactive labs, GTU 10-15 mark answers, 3D flashcards, and gamified quizzes.">
+  <title>CYBERNEXUS // Cyber Security Mastery & Exam Readiness Platform</title>
+
+  <!-- Google Fonts: Outfit, Inter, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+  <!-- Cyber Grid Background Ambiance -->
+  <div class="cyber-grid-overlay"></div>
+
+  <!-- Top App Navigation Bar -->
+  <header class="app-header">
+    <a href="#" class="brand-container" onclick="CyberApp.switchView('syllabus')">
+      <div class="brand-logo">
+        <svg viewBox="0 0 24 24">
+          <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/>
+        </svg>
+      </div>
+      <div class="brand-text">
+        <h1>CYBERNEXUS <span class="brand-badge">Syllabus v2.0</span></h1>
+        <p>Cyber Security Interactive Study & Exam Hub</p>
+      </div>
+    </a>
+
+    <!-- Main Navigation Tabs -->
+    <nav class="nav-tabs">
+      <button class="nav-tab-btn active" data-view="syllabus" onclick="CyberApp.switchView('syllabus')">
+        📚 <span>Curriculum Notes</span>
+      </button>
+      <button class="nav-tab-btn" data-view="simulators" onclick="CyberApp.switchView('simulators')">
+        🔬 <span>Cyber Labs & Tools</span>
+      </button>
+      <button class="nav-tab-btn" data-view="exam-master" onclick="CyberApp.switchView('exam-master')">
+        🎯 <span>10-15M Exam Master</span>
+      </button>
+      <button class="nav-tab-btn" data-view="flashcards" onclick="CyberApp.switchView('flashcards')">
+        🃏 <span>3D Flashcards</span>
+      </button>
+      <button class="nav-tab-btn" data-view="quizzes" onclick="CyberApp.switchView('quizzes')">
+        ⚔️ <span>Quiz Arena</span>
+      </button>
+      <button class="nav-tab-btn" data-view="glossary" onclick="CyberApp.switchView('glossary')">
+        📖 <span>Dictionary</span>
+      </button>
+    </nav>
+
+    <!-- Header Utilities & XP Widget -->
+    <div class="header-actions">
+      <button class="search-trigger-btn" onclick="CyberApp.openSearchModal()">
+        <span>🔍 Search topics...</span>
+        <kbd class="shortcut-kbd">Ctrl K</kbd>
+      </button>
+
+      <div class="user-xp-widget" title="Experience Points gained through studying">
+        <span class="xp-icon">⚡</span>
+        <div class="xp-info">
+          <span class="xp-label">Security XP</span>
+          <span class="xp-value" id="user-xp-val">0 XP</span>
+        </div>
+      </div>
+
+      <button class="btn-icon" onclick="CyberApp.cycleTheme()" title="Toggle Theme (Cyber / Matrix / Light)">
+        🌓
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="main-wrapper">
+
+    <!-- Hero Banner -->
+    <section class="hero-banner">
+      <div class="hero-content">
+        <div class="hero-pill">
+          <span class="hero-pill-dot"></span>
+          <span>Complete Units 1 to 4 GTU / Engineering Syllabus</span>
+        </div>
+        <h2 class="hero-title">Master Cyber Security With Interactive Labs & Exam Notes</h2>
+        <p class="hero-subtitle">
+          Explore complete conceptual notes, structured 10-15 mark exam answers, live attack visualizers, 3D memory flashcards, and gamified challenges designed for university exam excellence.
+        </p>
+
+        <div class="hero-stats-row">
+          <div class="hero-stat-card">
+            <div class="stat-icon-wrap">📘</div>
+            <div>
+              <div class="stat-value" id="stat-mastered-topics">0 / 35</div>
+              <div class="stat-title">Topics Mastered</div>
+            </div>
+          </div>
+
+          <div class="hero-stat-card">
+            <div class="stat-icon-wrap">🔬</div>
+            <div>
+              <div class="stat-value">8 Labs</div>
+              <div class="stat-title">Live Simulators</div>
+            </div>
+          </div>
+
+          <div class="hero-stat-card">
+            <div class="stat-icon-wrap">📝</div>
+            <div>
+              <div class="stat-value">100% Exam</div>
+              <div class="stat-title">10-15M Ready</div>
+            </div>
+          </div>
+
+          <div class="hero-stat-card">
+            <div class="stat-icon-wrap">🛡️</div>
+            <div>
+              <div class="stat-value">Rank 1</div>
+              <div class="stat-title">Apprentice</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         VIEW 1: CURRICULUM SYLLABUS & NOTES
+         ========================================================================= -->
+    <section id="view-syllabus" class="view-section active">
+      <!-- 4 Units Navigation Grid -->
+      <div class="units-navigation-grid" id="units-grid-container">
+        <!-- Rendered by CyberApp.renderUnitsGrid() -->
+      </div>
+
+      <!-- Unit Deep Dive Detail Container -->
+      <div class="unit-detail-container">
+        <!-- Topic Sidebar -->
+        <aside class="topic-sidebar">
+          <div class="topic-sidebar-title">
+            <span>Unit Topics</span>
+            <span style="font-size:0.7rem; color:var(--cyber-cyan);">Click to study</span>
+          </div>
+          <ul class="topic-nav-list" id="topic-sidebar-list">
+            <!-- Populated dynamically -->
+          </ul>
+        </aside>
+
+        <!-- Topic Main Content Article -->
+        <article class="topic-main-content" id="topic-main-article">
+          <!-- Populated dynamically -->
+        </article>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         VIEW 2: CYBER LABS & INTERACTIVE SIMULATORS
+         ========================================================================= -->
+    <section id="view-simulators" class="view-section">
+      <div style="margin-bottom:1.5rem;">
+        <h2 style="font-size:1.6rem; font-weight:800; color:var(--text-primary); margin-bottom:0.4rem;">Interactive Cyber Labs & Visualizers</h2>
+        <p style="color:var(--text-secondary); font-size:0.9rem;">Hands-on practical visualizers demonstrating cryptography, network security, packet flows, and malware internals.</p>
+      </div>
+
+      <!-- Simulator Cards Grid -->
+      <div class="simulators-grid">
+        <div class="simulator-card" onclick="SimulatorsEngine.loadLab('tor'); window.scrollTo({top: 550, behavior: 'smooth'});">
+          <span class="sim-badge">Network & Anonymity</span>
+          <h3>🧅 Tor Onion Routing Visualizer</h3>
+          <p>Inspect 3-hop layered encryption stripping across Guard, Middle, and Exit relays.</p>
+          <button class="btn-cyber-primary" style="margin-top:auto;">Launch Lab →</button>
+        </div>
+
+        <div class="simulator-card" onclick="SimulatorsEngine.loadLab('password'); window.scrollTo({top: 550, behavior: 'smooth'});">
+          <span class="sim-badge">Cryptography & Passwords</span>
+          <h3>🔑 Password Entropy & Hash Cracker</h3>
+          <p>Real-time password entropy calculation, Web Crypto SHA-256 generator, and Rainbow Table cracker demo.</p>
+          <button class="btn-cyber-primary" style="margin-top:auto;">Launch Lab →</button>
+        </div>
+
+        <div class="simulator-card" onclick="SimulatorsEngine.loadLab('killchain'); window.scrollTo({top: 550, behavior: 'smooth'});">
+          <span class="sim-badge">Threat Operations</span>
+          <h3>⚔️ Cyber Kill Chain Tactical Stepper</h3>
+          <p>Step-by-step enterprise intrusion lifecycle from Recon to C2 and Actions on Objectives.</p>
+          <button class="btn-cyber-primary" style="margin-top:auto;">Launch Lab →</button>
+        </div>
+
+        <div class="simulator-card" onclick="SimulatorsEngine.loadLab('phishing'); window.scrollTo({top: 550, behavior: 'smooth'});">
+          <span class="sim-badge">Social Engineering</span>
+          <h3>🎣 Phishing & Social Engineering Radar</h3>
+          <p>Analyze realistic phishing emails, SMS smishing, and detect urgency triggers and spoofed domains.</p>
+          <button class="btn-cyber-primary" style="margin-top:auto;">Launch Lab →</button>
+        </div>
+
+        <div class="simulator-card" onclick="SimulatorsEngine.loadLab('eviltwin'); window.scrollTo({top: 550, behavior: 'smooth'});">
+          <span class="sim-badge">Wireless Security</span>
+          <h3>📶 Wi-Fi Evil Twin & MITM Sniffer</h3>
+          <p>Simulate rogue access point auto-associations and live cleartext HTTP credential sniffing.</p>
+          <button class="btn-cyber-primary" style="margin-top:auto;">Launch Lab →</button>
+        </div>
+
+        <div class="simulator-card" onclick="SimulatorsEngine.loadLab('malware'); window.scrollTo({top: 550, behavior: 'smooth'});">
+          <span class="sim-badge">Malware Architecture</span>
+          <h3>🦠 5-Stage Malware Anatomy Dissector</h3>
+          <p>Dissect modular components: Replication, Propagation, Trigger logic, Payload, and Concealment.</p>
+          <button class="btn-cyber-primary" style="margin-top:auto;">Launch Lab →</button>
+        </div>
+
+        <div class="simulator-card" onclick="SimulatorsEngine.loadLab('ddos'); window.scrollTo({top: 550, behavior: 'smooth'});">
+          <span class="sim-badge">Network Defense</span>
+          <h3>💥 DDoS Storm & Cloud Scrubbing Center</h3>
+          <p>Simulate 350 Gbps botnet traffic storms and activate cloud scrubbing and BGP Anycast filters.</p>
+          <button class="btn-cyber-primary" style="margin-top:auto;">Launch Lab →</button>
+        </div>
+
+        <div class="simulator-card" onclick="SimulatorsEngine.loadLab('mobile-mdm'); window.scrollTo({top: 550, behavior: 'smooth'});">
+          <span class="sim-badge">Mobile Security</span>
+          <h3>📱 Mobile Security MDM Configurator</h3>
+          <p>Audit dangerous mobile app permissions and configure enterprise Zero-Trust MDM policies.</p>
+          <button class="btn-cyber-primary" style="margin-top:auto;">Launch Lab →</button>
+        </div>
+      </div>
+
+      <!-- Active Interactive Workspace -->
+      <div class="lab-workspace" id="lab-workspace-box">
+        <div id="lab-workspace-content">
+          <!-- Loaded dynamically via SimulatorsEngine -->
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         VIEW 3: 10-15 MARKS EXAM MASTER QUESTION BANK
+         ========================================================================= -->
+    <section id="view-exam-master" class="view-section">
+      <div style="margin-bottom:1.5rem;">
+        <h2 style="font-size:1.6rem; font-weight:800; color:var(--text-primary); margin-bottom:0.4rem;">GTU / University 10-15 Mark Model Answers</h2>
+        <p style="color:var(--text-secondary); font-size:0.9rem;">Comprehensive exam-oriented answers structured with marking schemes, diagrams, comparison matrices, and conclusions.</p>
+      </div>
+
+      <!-- Filters Bar -->
+      <div class="exam-filters-bar">
+        <button class="exam-filter-btn active" onclick="CyberApp.filterExamQuestions('all', this)">All Units</button>
+        <button class="exam-filter-btn" onclick="CyberApp.filterExamQuestions('1', this)">Unit 1: Intro & Global</button>
+        <button class="exam-filter-btn" onclick="CyberApp.filterExamQuestions('2', this)">Unit 2: Social & Botnets</button>
+        <button class="exam-filter-btn" onclick="CyberApp.filterExamQuestions('3', this)">Unit 3: Mobile & Wireless</button>
+        <button class="exam-filter-btn" onclick="CyberApp.filterExamQuestions('4', this)">Unit 4: Tools & Malware</button>
+      </div>
+
+      <!-- Questions List -->
+      <div class="exam-questions-list" id="exam-questions-container">
+        <!-- Rendered by CyberApp.renderExamQuestions() -->
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         VIEW 4: 3D FLASHCARDS DECK
+         ========================================================================= -->
+    <section id="view-flashcards" class="view-section">
+      <div style="text-align:center; margin-bottom:1.5rem;">
+        <h2 style="font-size:1.6rem; font-weight:800; color:var(--text-primary); margin-bottom:0.4rem;">Interactive 3D Study Flashcards</h2>
+        <p style="color:var(--text-secondary); font-size:0.9rem;">Master key definitions, attack differences, and security concepts through active recall.</p>
+      </div>
+
+      <div class="flashcard-arena-wrap">
+        <div class="flashcard-perspective">
+          <div class="flashcard-3d-card" id="flashcard-3d-element" onclick="CyberApp.flipFlashcard()">
+            <!-- Front Face -->
+            <div class="card-face front">
+              <span class="unit-code-badge" id="flashcard-unit-badge" style="margin-bottom:1rem;">UNIT 01</span>
+              <h3 id="flashcard-front-text">What is Cyber Crime?</h3>
+              <div class="card-hint">
+                <span>🔄 Click anywhere to flip card & reveal answer</span>
+              </div>
+            </div>
+
+            <!-- Back Face -->
+            <div class="card-face back">
+              <span class="unit-weightage-badge" style="margin-bottom:1rem;">EXAM ANSWER</span>
+              <p id="flashcard-back-text" style="font-size:1rem; line-height:1.6; white-space:pre-line; color:var(--text-primary);"></p>
+              <div class="card-hint">
+                <span>🔄 Click to flip back</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-bottom:1.25rem; font-size:0.85rem; color:var(--text-muted);" id="flashcard-counter-label">
+          Card 1 of 35
+        </div>
+
+        <!-- Controls -->
+        <div class="flashcard-controls">
+          <button class="btn-cyber-outline" onclick="CyberApp.prevFlashcard()">← Previous</button>
+          <button class="btn-cyber-outline" onclick="CyberApp.nextFlashcard(false)">Review Again</button>
+          <button class="btn-cyber-primary" onclick="CyberApp.nextFlashcard(true)">✓ I Know This (+15 XP)</button>
+          <button class="btn-cyber-outline" onclick="CyberApp.nextFlashcard(false)">Next →</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         VIEW 5: GAMIFIED QUIZ ARENA
+         ========================================================================= -->
+    <section id="view-quizzes" class="view-section">
+      <div style="text-align:center; margin-bottom:1.5rem;">
+        <h2 style="font-size:1.6rem; font-weight:800; color:var(--text-primary); margin-bottom:0.4rem;">Cyber Defense Grand Exam Arena</h2>
+        <p style="color:var(--text-secondary); font-size:0.9rem;">Test your knowledge across all 4 units with instant feedback, explanations, and rank badges.</p>
+      </div>
+
+      <div class="quiz-container-box" id="quiz-content-box">
+        <div class="quiz-progress-row">
+          <span class="unit-code-badge" id="quiz-unit-badge">UNIT 01</span>
+          <span id="quiz-progress-text">Question 1 of 20 • Score: 0</span>
+        </div>
+
+        <h3 id="quiz-q-title" style="font-size:1.2rem; font-weight:700; color:var(--text-primary); margin-bottom:1.25rem; line-height:1.4;">
+          Loading question...
+        </h3>
+
+        <div class="quiz-options-list" id="quiz-options-container">
+          <!-- Populated dynamically -->
+        </div>
+
+        <div class="quiz-feedback-box" id="quiz-feedback-container">
+          <!-- Populated on click -->
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         VIEW 6: GLOSSARY & CYBER DICTIONARY
+         ========================================================================= -->
+    <section id="view-glossary" class="view-section">
+      <div style="margin-bottom:1.5rem;">
+        <h2 style="font-size:1.6rem; font-weight:800; color:var(--text-primary); margin-bottom:0.4rem;">Comprehensive Cyber Security Dictionary</h2>
+        <p style="color:var(--text-secondary); font-size:0.9rem;">Quick lookup for 40+ essential cybersecurity concepts, attack types, and technical terminology.</p>
+      </div>
+
+      <input type="text" class="glossary-search-input" placeholder="🔍 Search dictionary terms (e.g. Botnet, Evil Twin, Salt, Tor, Phishing)..." oninput="CyberApp.renderGlossary(this.value)">
+
+      <div class="glossary-grid" id="glossary-cards-grid">
+        <!-- Populated dynamically -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Global Search Modal (Ctrl+K) -->
+  <div class="cyber-modal-backdrop" id="search-modal-backdrop" onclick="if(event.target === this) CyberApp.closeSearchModal();">
+    <div class="cyber-modal-content">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
+        <h3 style="color:var(--cyber-cyan); font-size:1.1rem; font-weight:700;">🔍 Global Curriculum Search</h3>
+        <button class="btn-cyber-outline" style="padding:0.2rem 0.5rem; font-size:0.75rem;" onclick="CyberApp.closeSearchModal()">Esc</button>
+      </div>
+
+      <input type="text" id="global-search-input" class="glossary-search-input" placeholder="Search topics, definitions, case studies, or terms..." oninput="CyberApp.handleGlobalSearch(this.value)" />
+
+      <div id="search-results-list" style="max-height:350px; overflow-y:auto;">
+        <!-- Filled dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- App Footer -->
+  <footer class="app-footer">
+    <p>CYBERNEXUS // Built for GTU & Engineering Cyber Security Curriculum Mastery. Units 1, 2, 3 & 4 Included.</p>
+    <p style="margin-top:0.3rem; font-size:0.75rem; color:var(--text-muted);">Crafted with pure HTML5, Vanilla CSS, and JavaScript. 100% Offline Capable & Lightning Fast.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/simulators.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

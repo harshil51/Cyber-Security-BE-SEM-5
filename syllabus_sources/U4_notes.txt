@@ -1,0 +1,1162 @@
+=== PAGE 1 ===
+Cyber Security – Unit 4: Tools Used in Cybercrime 
+Complete 10–15 Marks Exam-Oriented Notes 
+The topics visible in your syllabus are: 
+1. Proxy Servers 
+2. Cybercrime Tools 
+3. Proxy Types 
+4. Proxy-based Cybercrime, Detection & Mitigation 
+5. Anonymizers 
+6. Tor Network Architecture 
+7. Operation Bayonet & AlphaBay Takedown 
+8. Phishing 
+9. Advanced Phishing Techniques 
+10. Password Cracking 
+11. Password Hash Types & Relative Security 
+12. Keyloggers 
+13. Spyware 
+14. Viruses 
+15. Worms 
+16. Virus/Worm Anatomy 
+17. Trojan Horses 
+18. Backdoors 
+19. DDoS Attacks 
+I'll explain each in a way you can directly convert into a 10–15 mark GTU answer. 
+ 
+1. Proxy Server 
+Definition 
+
+=== PAGE 2 ===
+A proxy server is an intermediary computer/server that receives requests from a client and 
+forwards those requests to the destination server. 
+Instead of: 
+User → Internet Server 
+the communication becomes: 
+User → Proxy Server → Internet Server 
+The destination server generally sees the proxy's IP address rather than directly seeing the 
+client's IP address. 
+Basic Architecture 
+             Request 
+User ───────────────────► Proxy 
+                            │ 
+                            │ Request 
+                            ▼ 
+                       Web Server 
+                            │ 
+                            │ Response 
+                            ▼ 
+User ◄────────────────── Proxy 
+ 
+Functions of Proxy Servers 
+1. IP masking 
+A proxy can hide the client's original IP address from the destination server. 
+2. Access control 
+Organizations can control which websites or services users can access. 
+3. Caching 
+Frequently requested resources can be cached to reduce bandwidth usage. 
+
+=== PAGE 3 ===
+4. Monitoring 
+Organizations can monitor network traffic passing through the proxy. 
+5. Content filtering 
+Malicious or inappropriate websites can be blocked. 
+6. Security 
+A proxy can act as an additional security layer between users and the Internet. 
+ 
+2. Introduction to Cybercrime Tools 
+Cybercrime tools are software, services, techniques or infrastructure that may be used to 
+perform, facilitate, conceal or automate cyberattacks. 
+The same technology can sometimes have legitimate security uses. 
+For example: 
+Tool/Technology Legitimate Use Criminal Abuse 
+Proxy Privacy/network control Concealing attack source 
+Password testing tools Security auditing Unauthorized password attacks 
+Keylogger Authorized monitoring Credential theft 
+Scanner Vulnerability assessment Reconnaissance 
+Encryption Data protection Concealing criminal communication 
+Botnet Distributed computing research DDoS 
+Major categories 
+Cybercrime Tools 
+      │ 
+      ├── Anonymity Tools 
+      │     ├── Proxy 
+      │     └── Tor 
+
+=== PAGE 4 ===
+      │ 
+      ├── Credential Theft 
+      │     ├── Keyloggers 
+      │     ├── Phishing 
+      │     └── Spyware 
+      │ 
+      ├── Malware 
+      │     ├── Virus 
+      │     ├── Worm 
+      │     └── Trojan 
+      │ 
+      ├── Password Attack Tools 
+      │ 
+      └── Network Attack Tools 
+            └── DDoS 
+ 
+3. Types of Proxy Servers 
+This is an important exam question. 
+1. Forward Proxy 
+A forward proxy represents the client. 
+Client → Forward Proxy → Internet 
+It is commonly used by organizations to control employee Internet access. 
+Uses 
+• Content filtering 
+• Caching 
+• Monitoring 
+
+=== PAGE 5 ===
+• Access control 
+ 
+2. Reverse Proxy 
+A reverse proxy represents the server. 
+Internet → Reverse Proxy → Web Server 
+It is commonly used by websites and applications. 
+Uses 
+• Load balancing 
+• Web security 
+• SSL/TLS termination 
+• Hiding backend infrastructure 
+• DDoS protection 
+ 
+3. Transparent Proxy 
+A transparent proxy forwards traffic while generally requiring little or no client-side 
+configuration. 
+It is commonly used for: 
+• Network monitoring 
+• Content filtering 
+• Caching 
+ 
+4. Anonymous Proxy 
+An anonymous proxy attempts to hide the client's IP address from the destination. 
+ 
+5. High-Anonymity Proxy 
+A high-anonymity proxy provides stronger separation between the client and destination and 
+may avoid revealing identifying proxy information. 
+
+=== PAGE 6 ===
+ 
+6. Open Proxy 
+An open proxy is a proxy accessible by users outside the organization operating it. 
+Open proxies can be abused by attackers to obscure the source of traffic. 
+ 
+4. Proxy-Based Cybercrime 
+Attackers may abuse proxy infrastructure to make malicious traffic harder to associate with their 
+original connection. 
+General concept 
+Attacker 
+   ↓ 
+Proxy 1 
+   ↓ 
+Proxy 2 
+   ↓ 
+Proxy 3 
+   ↓ 
+Target 
+This is sometimes called proxy chaining. 
+Why criminals use proxies 
+• Hide source IP 
+• Make attribution more difficult 
+• Bypass network restrictions 
+• Distribute malicious traffic 
+• Conduct reconnaissance 
+• Access services from different network locations 
+
+=== PAGE 7 ===
+Important point 
+A proxy does not automatically make someone anonymous. 
+Other information may still reveal the source, such as: 
+• Authentication records 
+• Browser/device characteristics 
+• Timing information 
+• DNS information 
+• Application logs 
+• Proxy logs 
+• Payment records 
+• Operational mistakes 
+ 
+5. Proxy Detection and Mitigation 
+Organizations can detect suspicious proxy usage using multiple techniques. 
+Detection Methods 
+1. IP reputation 
+Security systems can identify IP addresses associated with: 
+• Open proxies 
+• Known malicious infrastructure 
+• Botnets 
+• Abuse networks 
+2. Traffic analysis 
+Unusual traffic patterns may indicate proxy or anonymization activity. 
+3. Authentication monitoring 
+Repeated logins from geographically unusual locations can be suspicious. 
+4. DNS analysis 
+
+=== PAGE 8 ===
+Unexpected DNS behavior can indicate attempts to bypass normal network controls. 
+5. Log analysis 
+Security teams can correlate: 
+Firewall Logs 
+     + 
+Proxy Logs 
+     + 
+Authentication Logs 
+     + 
+Application Logs 
+Mitigation 
+• Use firewalls 
+• Block known malicious IPs 
+• Apply access-control policies 
+• Monitor proxy traffic 
+• Use IDS/IPS 
+• Apply MFA 
+• Maintain logs 
+• Update threat-intelligence lists 
+ 
+6. Anonymizers 
+Definition 
+An anonymizer is a technology designed to reduce the ability of websites or network observers 
+to directly associate online activity with a user's original network identity. 
+Examples include: 
+• Proxy services 
+
+=== PAGE 9 ===
+• VPNs 
+• Tor 
+• Privacy-oriented relay systems 
+Basic idea 
+Normal: 
+ 
+User → Website 
+  ↓ 
+Website sees user's IP 
+ 
+ 
+Anonymized: 
+ 
+User → Anonymizer → Website 
+                    ↓ 
+              Sees intermediary 
+ 
+Types of Anonymizers 
+1. Proxy-based anonymizer 
+Uses an intermediary server. 
+2. VPN 
+Creates an encrypted connection between the user and VPN infrastructure. 
+3. Tor 
+Routes traffic through multiple volunteer-operated relays. 
+4. Multi-hop systems 
+Traffic passes through multiple intermediary systems. 
+
+=== PAGE 10 ===
+ 
+7. Technical Functions of Anonymizers 
+Anonymizers generally provide some combination of: 
+1. Identity separation 
+The destination may see the intermediary rather than the original IP . 
+2. Traffic routing 
+Traffic is forwarded through intermediary systems. 
+3. Encryption 
+Some anonymization systems encrypt traffic between selected network points. 
+4. Location masking 
+The destination may see the intermediary's network location rather than the user's. 
+5. Traffic separation 
+Multi-hop systems attempt to prevent a single intermediary from learning the complete 
+communication relationship. 
+ 
+8. Tor Network Architecture 
+Tor = The Onion Router. 
+Tor is a distributed anonymity network designed to make traffic analysis and direct source 
+identification more difficult. 
+Why "onion"? 
+The communication is protected through multiple layers, similar conceptually to layers of an 
+onion. 
+Basic architecture 
+                 TOR NETWORK 
+ 
+User 
+ │ 
+
+=== PAGE 11 ===
+ ▼ 
+Entry / Guard Relay 
+ │ 
+ ▼ 
+Middle Relay 
+ │ 
+ ▼ 
+Exit Relay 
+ │ 
+ ▼ 
+Internet 
+ │ 
+ ▼ 
+Website 
+ 
+Working of Tor 
+Suppose a user wants to visit a website. 
+Step 1 – Entry relay 
+The user's Tor client connects to an entry/guard relay. 
+Step 2 – Middle relay 
+Traffic passes through another relay. 
+Step 3 – Exit relay 
+Traffic leaves the Tor network through an exit relay. 
+Step 4 – Destination 
+The destination website receives the connection from the exit relay. 
+ 
+
+=== PAGE 12 ===
+Onion Routing 
+Conceptually: 
+Layer 1 → Entry relay 
+Layer 2 → Middle relay 
+Layer 3 → Exit relay 
+Each relay has limited knowledge of the complete path. 
+Important components 
+Component Function 
+Tor Client Runs on user's system 
+Guard/Entry Relay First Tor relay 
+Middle Relay Intermediate forwarding 
+Exit Relay Connects toward normal Internet 
+Directory System Helps clients learn relay information 
+ 
+Advantages of Tor 
+• Privacy 
+• Resistance to some forms of traffic analysis 
+• Hides user's IP from destination websites 
+• Helps users access information privately 
+Limitations 
+• Slower than normal browsing 
+• Exit traffic may be monitored by destination-side observers 
+• Does not guarantee perfect anonymity 
+• Endpoint/application leaks can still identify users 
+• Misconfiguration can expose information 
+
+=== PAGE 13 ===
+ 
+9. Operation Bayonet 
+Operation Bayonet was a major international law-enforcement operation involving the 
+takedown of major dark-web marketplaces. 
+Two major marketplaces involved were: 
+• AlphaBay 
+• Hansa Market 
+The operation demonstrated international cooperation against illegal activities conducted 
+through dark-web marketplaces. 
+ 
+AlphaBay 
+AlphaBay was a large dark-web marketplace that facilitated illegal transactions. 
+It was taken down in 2017 as part of international law-enforcement efforts. 
+ 
+Hansa 
+Hansa was another major dark-web marketplace. 
+Law enforcement did something particularly significant with Hansa: after taking control of the 
+marketplace, investigators were able to observe activity and gather evidence before the service 
+was ultimately shut down. 
+ 
+Importance of Operation Bayonet 
+It demonstrated: 
+1. International law-enforcement cooperation 
+2. Investigation of dark-web infrastructure 
+3. Importance of digital evidence 
+4. Cryptocurrency tracing and financial investigation 
+5. Operational-security weaknesses 
+
+=== PAGE 14 ===
+6. Importance of server and infrastructure seizure 
+Exam conclusion 
+Operation Bayonet demonstrated that anonymity technologies and dark-web marketplaces do 
+not guarantee immunity from investigation. Traditional investigation, digital forensics, 
+infrastructure analysis and international cooperation can collectively identify and disrupt 
+cybercriminal operations. 
+ 
+10. Phishing 
+Definition 
+Phishing is a social-engineering attack in which an attacker attempts to trick a victim into 
+revealing sensitive information or performing an unwanted action by pretending to be a trusted 
+person, organization or service. 
+Examples of targeted information: 
+• Username 
+• Password 
+• OTP 
+• Banking information 
+• Personal information 
+• Authentication tokens 
+ 
+11. Phishing Attack Lifecycle 
+This is a very important 10-mark question. 
+Target Selection 
+       ↓ 
+Information Gathering 
+       ↓ 
+Attack Preparation 
+
+=== PAGE 15 ===
+       ↓ 
+Delivery 
+       ↓ 
+Victim Interaction 
+       ↓ 
+Credential/Data Capture 
+       ↓ 
+Unauthorized Use 
+       ↓ 
+Covering/Monetization 
+Step 1 – Target Selection 
+Attacker chooses individuals or organizations. 
+Step 2 – Information Gathering 
+Publicly available information may be used to make fraudulent communication appear 
+convincing. 
+Step 3 – Preparation 
+Attacker prepares a deceptive message or fake communication channel. 
+Step 4 – Delivery 
+The message may be delivered through: 
+• Email 
+• SMS 
+• Social media 
+• Messaging platforms 
+• Fake websites 
+Step 5 – Victim Interaction 
+The victim may click a link, open an attachment or respond. 
+
+=== PAGE 16 ===
+Step 6 – Information Capture 
+The victim may unknowingly submit sensitive information. 
+Step 7 – Abuse 
+Stolen information may be used for: 
+• Account takeover 
+• Fraud 
+• Identity theft 
+• Further attacks 
+Step 8 – Concealment 
+Attackers may attempt to hide or delete evidence. 
+ 
+12. Types of Phishing 
+1. Email Phishing 
+Fraudulent emails impersonate legitimate organizations. 
+ 
+2. Spear Phishing 
+A targeted phishing attack directed toward a specific person or organization. 
+Example 
+Instead of sending a generic email to thousands of people, an attacker creates a message 
+specifically designed for an employee. 
+ 
+3. Whaling 
+Phishing directed toward high-level individuals such as executives. 
+Employee → Spear Phishing 
+Executive → Whaling 
+ 
+
+=== PAGE 17 ===
+4. Smishing 
+Phishing through SMS or text messages. 
+SMS + Phishing = Smishing 
+ 
+5. Vishing 
+Phishing through voice calls. 
+Voice + Phishing = Vishing 
+ 
+6. Clone Phishing 
+A legitimate-looking message or website is copied and modified to deceive users. 
+ 
+13. Advanced Phishing Techniques 
+Modern phishing may combine social engineering with technical deception. 
+1. Social engineering 
+The attacker manipulates the victim psychologically. 
+Common principles: 
+• Urgency 
+• Fear 
+• Authority 
+• Curiosity 
+• Reward 
+• Trust 
+ 
+2. Website impersonation 
+Attackers create websites that visually resemble legitimate services. 
+ 
+
+=== PAGE 18 ===
+3. Look-alike domains 
+Domains may be designed to appear similar to legitimate domains. 
+ 
+4. QR-code phishing 
+Fraudulent QR codes can direct victims toward malicious or deceptive destinations. 
+ 
+5. Multi-stage phishing 
+A phishing attack may use multiple steps instead of immediately requesting credentials. 
+Message 
+  ↓ 
+Redirect 
+  ↓ 
+Fake authentication page 
+  ↓ 
+Information collection 
+ 
+Prevention 
+• Verify sender 
+• Check domain carefully 
+• Avoid unexpected links 
+• Use MFA 
+• Use password managers 
+• Verify urgent requests through another communication channel 
+• Use email security systems 
+• Train employees 
+• Report suspicious messages 
+
+=== PAGE 19 ===
+ 
+14. Password Cracking 
+Definition 
+Password cracking refers to techniques used to recover or guess passwords, usually by testing 
+possible password values. 
+In authorized security testing, password auditing is used to evaluate password strength. 
+ 
+15. Password Cracking Methods 
+1. Brute Force 
+Attempts possible combinations systematically. 
+Conceptually: 
+0000 
+0001 
+0002 
+... 
+9999 
+For longer passwords, the number of possibilities becomes extremely large. 
+Disadvantage 
+Very time-consuming for strong passwords. 
+ 
+2. Dictionary Attack 
+Uses a list of likely passwords or words. 
+For example: 
+password 
+admin 
+welcome 
+
+=== PAGE 20 ===
+qwerty 
+... 
+It is effective against weak, predictable passwords. 
+ 
+3. Hybrid Attack 
+Combines dictionary words with common modifications. 
+Conceptually: 
+password 
+password1 
+password123 
+Password1 
+ 
+4. Credential Stuffing 
+Attackers use previously leaked username/password combinations against other services. 
+This works because some users reuse passwords. 
+ 
+5. Password Spraying 
+Instead of trying many passwords against one account, an attacker tries a small number of 
+commonly used passwords across many accounts. 
+This can help evade some account-lockout policies. 
+ 
+6. Rainbow Tables 
+Precomputed data structures can be used against certain unsalted password hashes. 
+Modern systems can reduce this risk using salting and strong password hashing. 
+ 
+16. Popular Password-Cracking/Auditing Tools 
+
+=== PAGE 21 ===
+For an exam, remember examples: 
+• John the Ripper 
+• Hashcat 
+• Hydra 
+• Medusa 
+• Cain & Abel — historically associated with Windows password recovery/auditing 
+Important 
+These tools have legitimate penetration-testing and password-auditing applications, but 
+unauthorized use against accounts or systems is illegal. 
+ 
+17. Password Hashing 
+A hash function converts input into a fixed-length representation. 
+Password 
+   ↓ 
+Hash Function 
+   ↓ 
+Hash 
+A properly designed password-storage system does not store passwords directly. 
+ 
+18. Types of Password Hashes and Relative Security 
+Hash/Method General Security Context 
+MD5 Obsolete for password storage 
+SHA-1 Obsolete for password storage 
+SHA-256 alone Not designed specifically for password storage 
+bcrypt Designed for password hashing 
+
+=== PAGE 22 ===
+Hash/Method General Security Context 
+scrypt Memory-hard password hashing 
+Argon2 Modern password hashing approach 
+Salted password hash Stronger against precomputed attacks 
+Why MD5/SHA-1 are unsuitable for passwords 
+They are designed to be computationally fast. 
+For password storage, we actually want hashing to be deliberately expensive. 
+ 
+19. Salt 
+A salt is a unique random value added to a password before password hashing. 
+Password + Unique Salt 
+          ↓ 
+     Password Hash 
+Without salt 
+Two users having the same password may have the same hash. 
+With unique salts 
+User A: 
+Password + Salt A → Hash A 
+ 
+User B: 
+Password + Salt B → Hash B 
+Even if both passwords are identical, their stored hashes differ. 
+ 
+20. Keylogger 
+Definition 
+
+=== PAGE 23 ===
+A keylogger is software or hardware capable of recording keystrokes. 
+It may be used legitimately in controlled environments, but malicious keyloggers can steal 
+sensitive information. 
+Information potentially captured 
+• Usernames 
+• Passwords 
+• Messages 
+• Search terms 
+• Financial information 
+ 
+21. Types of Keyloggers 
+1. Software Keylogger 
+Installed as malicious or unauthorized software. 
+ 
+2. Hardware Keylogger 
+A physical device placed between a keyboard and computer, or implemented within hardware. 
+ 
+3. Kernel-Level Keylogger 
+Operates at a low level of the operating system and can be difficult to detect. 
+ 
+4. Browser-Based/Script-Based Logging 
+Some malicious scripts can capture user input within web applications. 
+ 
+22. Spyware 
+Definition 
+Spyware is malicious or unwanted software designed to monitor users and collect information 
+without appropriate consent. 
+
+=== PAGE 24 ===
+Spyware capabilities 
+Depending on the type, spyware may: 
+• Monitor activity 
+• Collect browsing information 
+• Capture credentials 
+• Track applications 
+• Collect personal information 
+• Record input 
+• Communicate information to an external party 
+ 
+23. Spyware Distribution 
+Spyware may be distributed through: 
+Malicious Attachment 
+        ↓ 
+Malicious Software 
+        ↓ 
+Drive-by/Deceptive Download 
+        ↓ 
+Compromised Application 
+        ↓ 
+Social Engineering 
+Other routes include: 
+• Fake applications 
+• Pirated software 
+• Malicious advertisements 
+• Compromised websites 
+
+=== PAGE 25 ===
+• Phishing 
+ 
+24. Spyware Detection and Prevention 
+Detection 
+• Antivirus/EDR 
+• Process monitoring 
+• Network monitoring 
+• Unexpected startup programs 
+• Unusual outbound connections 
+• Security logs 
+Prevention 
+• Keep OS updated 
+• Use reputable security software 
+• Avoid unknown software 
+• Use MFA 
+• Restrict application privileges 
+• Avoid suspicious attachments 
+• Regularly review installed applications 
+ 
+25. Virus 
+Definition 
+A computer virus is malicious code that can replicate by attaching itself to another file or 
+program and generally requires some form of user/system execution to spread. 
+Key characteristic 
+A virus normally needs a host. 
+Host File 
+
+=== PAGE 26 ===
+   + 
+Virus Code 
+   ↓ 
+Infected File 
+ 
+26. Worm 
+Definition 
+A worm is malware capable of self-replication and spreading between systems, often through 
+networks or vulnerabilities, without requiring a traditional host file. 
+Key characteristic 
+A worm is self-propagating. 
+Computer A 
+    ↓ 
+Computer B 
+    ↓ 
+Computer C 
+    ↓ 
+Computer D 
+ 
+27. Virus vs Worm 
+Feature Virus Worm 
+Host required Usually yes No traditional host required 
+Replication Yes Yes 
+Network spreading May occur Major characteristic 
+User interaction Often required Often less dependent on user interaction 
+
+=== PAGE 27 ===
+Feature Virus Worm 
+Main impact File/system infection Rapid network/system spread 
+Speed of spread Generally slower Potentially very fast 
+Easy memory trick 
+Virus = needs a vehicle/host 
+Worm = walks/spreads by itself 
+ 
+28. Virus/Worm Anatomy 
+A useful exam diagram: 
+             Malware 
+                │ 
+       ┌────────┴────────┐ 
+       │                 │ 
+    Virus               Worm 
+       │                 │ 
+       ▼                 ▼ 
+  Replication        Replication 
+       │                 │ 
+       ▼                 ▼ 
+   Payload          Propagation 
+       │                 │ 
+       ▼                 ▼ 
+   Infection         Network Spread 
+A malicious program may contain several conceptual components. 
+1. Replication mechanism 
+Responsible for creating or propagating copies. 
+
+=== PAGE 28 ===
+2. Propagation mechanism 
+Determines how malware moves between files or systems. 
+3. Payload 
+The action performed after infection. 
+Possible consequences include: 
+• Data destruction 
+• Data theft 
+• System disruption 
+• Installation of additional malware 
+4. Trigger 
+A condition that causes a particular action. 
+Examples: 
+• Specific date 
+• System event 
+• Number of infections 
+5. Concealment 
+Some malware attempts to avoid detection. 
+ 
+29. Trojan Horse 
+Definition 
+A Trojan horse is malware that disguises itself as legitimate or useful software to trick the user 
+into installing or executing it. 
+Unlike a virus or worm, a Trojan's defining characteristic is deception. 
+Example concept 
+User believes: 
+ 
+
+=== PAGE 29 ===
+"Useful Application" 
+        ↓ 
+     Install 
+        ↓ 
+Trojan executes 
+ 
+30. Types of Trojans 
+1. Backdoor Trojan 
+Creates unauthorized access to a compromised system. 
+2. Banking Trojan 
+Targets financial credentials and transactions. 
+3. Downloader Trojan 
+Downloads additional malicious software. 
+4. Spy Trojan 
+Collects information about the victim. 
+5. Ransomware Trojan 
+Acts as a delivery mechanism for ransomware. 
+6. Remote Access Trojan (RAT) 
+Provides unauthorized remote-control capabilities. 
+ 
+31. Trojan Architecture 
+Conceptually: 
+        Trojan 
+           │ 
+ ┌─────────┼──────────┐ 
+ │         │          │ 
+
+=== PAGE 30 ===
+Loader   Payload   Communication 
+ │         │          │ 
+ │         │          │ 
+Executes  Performs   External 
+Malware   Action     Server 
+Components 
+1. Delivery mechanism 
+How the Trojan reaches the victim. 
+2. Loader 
+Starts or installs the malicious component. 
+3. Payload 
+Performs the intended malicious activity. 
+4. Communication component 
+May communicate with external infrastructure. 
+5. Persistence component 
+May attempt to remain active after system restart. 
+ 
+32. Trojan Detection Methods 
+1. Antivirus/EDR 
+Detect suspicious files and behavior. 
+2. Behavioral analysis 
+Look for unusual activities such as: 
+• Unexpected process creation 
+• Unauthorized persistence 
+• Suspicious network connections 
+3. Network monitoring 
+Detect unusual outbound communication. 
+
+=== PAGE 31 ===
+4. File integrity monitoring 
+Detect unauthorized changes to important files. 
+5. Application allowlisting 
+Only approved applications are allowed to execute. 
+ 
+33. Backdoors 
+Definition 
+A backdoor is a mechanism that provides unauthorized or hidden access to a system while 
+bypassing normal authentication or security controls. 
+Basic concept 
+Normal Access: 
+ 
+User → Authentication → System 
+ 
+ 
+Backdoor: 
+ 
+Attacker → Hidden Access Mechanism → System 
+ 
+34. Types of Backdoors 
+1. Software Backdoor 
+Implemented through malicious or vulnerable software. 
+2. Hardware Backdoor 
+A hidden mechanism associated with hardware or firmware. 
+3. Remote Backdoor 
+Allows unauthorized remote access. 
+
+=== PAGE 32 ===
+4. Local Backdoor 
+Provides unauthorized access to users/processes already on the system. 
+ 
+35. Common Backdoor Techniques – High-Level 
+For your exam, explain conceptually: 
+1. Hidden accounts 
+Unauthorized accounts may be created to maintain access. 
+2. Modified services 
+A legitimate service may be altered to provide unauthorized functionality. 
+3. Malicious startup mechanisms 
+Malware may attempt to execute automatically when a system starts. 
+4. Remote command channels 
+A compromised machine may communicate with external infrastructure. 
+5. Web/application backdoors 
+Compromised web applications may contain hidden functionality. 
+ 
+36. Backdoor Communication Methods 
+A backdoor needs some mechanism for receiving commands or sending information. 
+Conceptually: 
+Compromised System 
+        │ 
+        │ Communication 
+        ▼ 
+Remote Infrastructure 
+        │ 
+        │ Commands 
+
+=== PAGE 33 ===
+        ▼ 
+Compromised System 
+Communication may use: 
+• HTTP/HTTPS 
+• DNS 
+• Other network protocols 
+• Encrypted communication channels 
+Security systems can identify suspicious patterns through network monitoring. 
+ 
+37. Detection and Prevention of Backdoors 
+Detection 
+• Monitor unexpected network connections 
+• Review user accounts 
+• Monitor startup programs 
+• Analyze system logs 
+• Use EDR 
+• Check file integrity 
+• Monitor unusual processes 
+Prevention 
+• Patch vulnerabilities 
+• Use least privilege 
+• Strong authentication 
+• MFA 
+• Network segmentation 
+• Application allowlisting 
+• Regular security audits 
+
+=== PAGE 34 ===
+• Disable unnecessary services 
+ 
+38. DoS Attack 
+Definition 
+Denial of Service (DoS) is an attack intended to make a service, server or network resource 
+unavailable or significantly degraded for legitimate users. 
+Basic concept 
+Normal: 
+ 
+Users ──────► Server 
+                │ 
+             Service 
+During DoS: 
+Attacker 
+   │ 
+   ├────► 
+   ├────► Server 
+   ├────► 
+   └────► 
+ 
+Server resources exhausted 
+          ↓ 
+Legitimate users affected 
+ 
+39. DDoS Attack 
+Definition 
+
+=== PAGE 35 ===
+Distributed Denial of Service (DDoS) is a DoS attack in which traffic or requests originate from 
+multiple distributed systems. 
+          Compromised Devices 
+          /      |       \ 
+         /       |        \ 
+        ▼        ▼         ▼ 
+      Bot 1    Bot 2     Bot 3 
+         \       |        / 
+          \      |       / 
+             ▼ 
+           Target 
+The distributed nature makes mitigation more difficult. 
+ 
+40. Types of DDoS Attacks 
+1. Volumetric Attacks 
+Attempt to consume network bandwidth with large amounts of traffic. 
+Goal 
+Available bandwidth 
+       ↓ 
+Traffic overload 
+       ↓ 
+Service degradation 
+ 
+2. Protocol Attacks 
+Exploit weaknesses or resource limitations in network/protocol handling. 
+They may exhaust: 
+
+=== PAGE 36 ===
+• Connection tables 
+• Network devices 
+• Firewall resources 
+ 
+3. Application-Layer Attacks 
+Target the application itself. 
+For example, an attacker may generate large numbers of apparently legitimate application 
+requests. 
+ 
+41. DoS vs DDoS 
+Feature DoS DDoS 
+Full form Denial of Service Distributed Denial of Service 
+Sources Usually one/fewer sources Many distributed sources 
+Coordination Limited Often coordinated 
+Detection Comparatively simpler More difficult 
+Mitigation Usually simpler More complex 
+Traffic origin Concentrated Distributed 
+Easy memory 
+DoS = One/Few → Target 
+DDoS = Many → Target 
+ 
+42. DDoS Detection 
+Organizations can monitor: 
+Traffic volume 
+Sudden increases can indicate an attack. 
+Traffic patterns 
+
+=== PAGE 37 ===
+Look for abnormal: 
+• Request rates 
+• Source distributions 
+• Protocol behavior 
+• Geographic patterns 
+Server performance 
+Monitor: 
+• CPU 
+• Memory 
+• Connections 
+• Response time 
+Network monitoring 
+Use: 
+• IDS/IPS 
+• Firewalls 
+• Flow monitoring 
+• SIEM 
+• DDoS protection services 
+ 
+43. DDoS Mitigation 
+1. Rate limiting 
+Restrict excessive requests. 
+2. Traffic filtering 
+Block clearly malicious traffic. 
+3. Load balancing 
+Distribute traffic among multiple servers. 
+
+=== PAGE 38 ===
+4. Content Delivery Networks 
+CDNs can distribute and absorb traffic at large scale. 
+5. Anycast/network distribution 
+Traffic can be distributed across multiple network locations. 
+6. DDoS protection services 
+Specialized infrastructure can identify and absorb/filter attack traffic. 
+7. Incident response 
+Organizations should have a predefined DDoS response plan. 
+ 
+  Very Important Comparison for Exam 
+Virus vs Worm vs Trojan vs Backdoor 
+Feature Virus Worm Trojan Backdoor 
+Main 
+characteristic Infects/replicates Self-spreads Deception Hidden access 
+Host needed Usually No No No 
+Self-replication Yes Yes Usually no No 
+Social 
+engineering Sometimes Sometimes Common Sometimes 
+Network 
+spreading Possible Common Possible Possible 
+Main objective Infection/damage Propagation Gain malicious 
+functionality 
+Maintain unauthorized 
+access 
+One-line memory trick 
+Virus → Infects 
+Worm → Spreads 
+Trojan → Tricks 
+Backdoor → Enters 
+
+=== PAGE 39 ===
+ 
+  Complete Unit Mind Map 
+                TOOLS USED IN CYBERCRIME 
+                         │ 
+       ┌─────────────────┼──────────────────┐ 
+       │                 │                  │ 
+    Anonymity          Social            Malware 
+       │              Engineering           │ 
+       │                 │                  │ 
+   ┌───┴───┐         Phishing       ┌──────┼──────┐ 
+   │       │             │           │      │      │ 
+ Proxy    Tor       ┌────┼────┐    Virus  Worm  Trojan 
+   │                 │    │    │ 
+   │               Email Spear Smishing 
+   │ 
+   └── Proxy Detection/ 
+       Mitigation 
+ 
+                    │ 
+                    ├── Password Attacks 
+                    │      │ 
+                    │   Hashes 
+                    │   Brute Force 
+                    │   Dictionary 
+                    │ 
+                    ├── Keylogger 
+
+=== PAGE 40 ===
+                    │ 
+                    ├── Spyware 
+                    │ 
+                    ├── Backdoor 
+                    │ 
+                    └── DoS/DDoS 
+ 
+          How to Write a 10–15 Mark Answer in GTU 
+For almost any topic from this unit, use this structure: 
+1. Definition – 1–2 marks 
+Give a clear textbook definition. 
+2. Introduction – 1 mark 
+Explain why the technology/attack is important. 
+3. Architecture/Diagram – 2 marks 
+Always draw a simple diagram. 
+Example: 
+Attacker → Intermediate System → Target 
+4. Working – 3–4 marks 
+Explain the process step-by-step. 
+5. Types – 2–3 marks 
+Give 4–6 types with one-line explanations. 
+6. Detection/Prevention – 2–3 marks 
+Especially for cyberattack questions. 
+7. Advantages/Disadvantages or Impact – 1–2 marks 
+8. Conclusion – 1 mark 
+ 
+
+=== PAGE 41 ===
+   Most Important Questions to Prepare 
+Based on this portion of your syllabus, make sure you can write full answers for: 
+1. Explain proxy server, its types and applications. 
+2. Explain proxy-based cybercrime and its detection/mitigation. 
+3. Explain anonymizers and their types. 
+4. Explain Tor network architecture and onion routing. 
+5. Explain Operation Bayonet and AlphaBay takedown. 
+6. Explain phishing, its lifecycle and different types. 
+7. Explain advanced phishing techniques and prevention. 
+8. Explain password cracking methods. 
+9. Explain different password hash types and their relative security. 
+10. Explain keyloggers, their types and prevention. 
+11. Explain spyware, its capabilities, distribution, detection and prevention. 
+12. Differentiate virus and worm. 
+13. Explain virus/worm anatomy. 
+14. Explain Trojan horse, its types, architecture and detection methods. 
+15. Explain backdoors, their types and communication methods. 
+16. Explain DoS and DDoS attacks and their types. 
+17. Explain DDoS detection and mitigation techniques. 
+18. Differentiate Virus, Worm, Trojan and Backdoor. 
+    Ultra-short revision trick 
+Proxy → hides/relays 
+Tor → multi-hop anonymity 
+Phishing → tricks user 
+Password cracking → guesses/recover passwords 
+Keylogger → records keys 
+Spyware → secretly monitors 
+Virus → infects 
+
+=== PAGE 42 ===
+Worm → spreads 
+Trojan → disguises 
+Backdoor → hidden access 
+DoS → denies service 
+DDoS → distributed denial of service 
+ 

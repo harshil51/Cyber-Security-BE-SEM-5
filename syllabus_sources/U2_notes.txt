@@ -1,0 +1,1202 @@
+=== PAGE 1 ===
+CYBERCRIME & SOCIAL MEDIA — DETAILED EXAM NOTES 
+UNIT 2 — IMPORTANT 10–15 MARK QUESTIONS 
+Topics covered 
+1. Cybercrime and Social Media — Structure and Objectives  
+2. Social Engineering  
+o Evolution  
+o Types  
+o Phishing  
+o Pretexting  
+o Baiting  
+o Quid Pro Quo  
+o Tailgating/Piggybacking  
+o Impersonation  
+o Scareware  
+3. Social Media Platforms — Case Study  
+4. Cyberstalking  
+o Types of cyberstalking behavior  
+o Direct cyberstalking  
+o Indirect cyberstalking  
+o Prevention and protection  
+5. Cybercrimes  
+o Taxonomies of cybercrime  
+o Social media as cybercrime ecosystem  
+o Cybercrime-as-a-Service  
+o Economic impact  
+o Challenges in cybercrime investigation  
+
+=== PAGE 2 ===
+6. Botnets  
+o Architecture and evolution  
+o Capabilities and criminal applications  
+o Monetization strategies  
+o Case study  
+7. Attack Vectors — Classification  
+ 
+1. CYBERCRIME AND SOCIAL MEDIA — STRUCTURE AND OBJECTIVES 
+1.1 What is Cybercrime? 
+Cybercrime refers to illegal activities in which computers, networks, digital devices, or the 
+Internet are used as a tool, target, or environment for committing a crime. 
+Examples 
+• Hacking  
+• Identity theft  
+• Online fraud  
+• Phishing  
+• Cyberstalking  
+• Malware attacks  
+• Ransomware  
+• Data theft  
+• Account takeover  
+• Online harassment  
+Simple definition for exam 
+Cybercrime is any unlawful activity carried out using computers, digital devices, communication 
+networks, or the Internet. 
+ 
+1.2 What is Social Media? 
+
+=== PAGE 3 ===
+Social media refers to online platforms that allow users to create, share, communicate and 
+interact with digital content. 
+Examples: 
+• Facebook  
+• Instagram  
+• X  
+• LinkedIn  
+• YouTube  
+• WhatsApp  
+• Telegram  
+• Snapchat  
+ 
+1.3 Relationship Between Cybercrime and Social Media 
+Social media provides criminals with a huge environment containing: 
+• Personal information  
+• Photos  
+• Contact information  
+• Location information  
+• Social connections  
+• Professional information  
+• User interests  
+• Public conversations  
+This information can be misused for cybercrime. 
+Basic structure 
+             SOCIAL MEDIA 
+                  | 
+
+=== PAGE 4 ===
+      +-----------+-----------+ 
+      |           |           | 
+   Users       Data       Communication 
+      |           |           | 
+      +-----------+-----------+ 
+                  | 
+          Criminal exploitation 
+                  | 
+      +-----------+-----------+ 
+      |           |           | 
+   Phishing    Fraud      Stalking 
+      |           |           | 
+   Identity    Account     Privacy 
+    Theft      Takeover    Violation 
+ 
+1.4 Structure of Cybercrime on Social Media 
+The social-media cybercrime ecosystem generally contains: 
+1. Victim 
+The person or organization targeted by the criminal. 
+2. Attacker 
+The individual or group attempting to commit the crime. 
+3. Platform 
+The social-media service through which communication or activity occurs. 
+4. Information 
+Information collected from profiles, posts, messages, photos, etc. 
+5. Attack mechanism 
+
+=== PAGE 5 ===
+The technique used by the attacker. 
+Examples: 
+• Phishing  
+• Fake profiles  
+• Malicious links  
+• Social engineering  
+• Account takeover  
+6. Criminal objective 
+The final goal of the attacker. 
+Examples: 
+• Money  
+• Personal information  
+• Account access  
+• Revenge  
+• Espionage  
+• Fraud  
+ 
+1.5 Objectives of Cybercrime on Social Media 
+1. Financial gain 
+Attackers may attempt to steal money through: 
+• Fake investment schemes  
+• Shopping fraud  
+• Payment scams  
+• Account takeover  
+2. Identity theft 
+Personal information can be used to impersonate a victim. 
+
+=== PAGE 6 ===
+3. Credential theft 
+Attackers may attempt to obtain: 
+• Usernames  
+• Passwords  
+• Authentication information  
+4. Privacy violation 
+Private photographs, conversations or personal information may be obtained or exposed. 
+5. Cyberstalking 
+Repeated unwanted monitoring or contact can be performed through social platforms. 
+6. Reputation damage 
+Fake posts or accounts may be used to damage someone's reputation. 
+7. Malware distribution 
+Malicious links or files can be distributed through social platforms. 
+8. Misinformation and manipulation 
+Social media can be used to distribute false or misleading information. 
+ 
+1.6 Why Social Media is Attractive to Cybercriminals 
+• Large number of users  
+• Huge amount of personal information  
+• Easy communication  
+• Fake accounts can be created  
+• Users often trust familiar-looking profiles  
+• Information can be collected through public posts  
+• Rapid information sharing  
+• Global reach  
+Conclusion 
+
+=== PAGE 7 ===
+Social media provides significant benefits for communication and information sharing, but its 
+large user base and availability of personal information also create opportunities for 
+cybercriminal activities. 
+ 
+2. SOCIAL ENGINEERING 
+2.1 Definition 
+Social engineering is the manipulation of people into performing an action or revealing 
+information that compromises security. 
+The attacker generally exploits human psychology rather than only technical vulnerabilities. 
+Important line for exam 
+Social engineering attacks target the human element of security. 
+ 
+2.2 Basic Social Engineering Process 
+Information Gathering 
+        ↓ 
+Target Selection 
+        ↓ 
+Building Trust 
+        ↓ 
+Manipulation 
+        ↓ 
+Victim performs action 
+        ↓ 
+Information / Access obtained 
+        ↓ 
+Criminal objective 
+ 
+
+=== PAGE 8 ===
+2.3 Why Social Engineering Works 
+Attackers commonly exploit psychological factors such as: 
+• Trust  
+• Fear  
+• Curiosity  
+• Urgency  
+• Authority  
+• Greed  
+• Helpfulness  
+• Social pressure  
+For example: 
+"Your account will be blocked unless you verify it immediately." 
+The attacker creates fear + urgency, encouraging the victim to act without checking the 
+message. 
+ 
+2.4 Evolution of Social Engineering 
+Social engineering has evolved alongside communication technology. 
+Stage 1 — Traditional social engineering 
+Attackers manipulated people through: 
+• Telephone calls  
+• Face-to-face communication  
+• Letters  
+Stage 2 — Email-based attacks 
+With the growth of email, criminals began using deceptive messages to obtain information. 
+Stage 3 — Web-based attacks 
+Fake websites and online services became common attack mechanisms. 
+
+=== PAGE 9 ===
+Stage 4 — Social-media attacks 
+Attackers started using: 
+• Fake profiles  
+• Direct messages  
+• Fake advertisements  
+• Social-media impersonation  
+Stage 5 — Mobile-based attacks 
+Smartphones introduced: 
+• SMS scams  
+• Fake mobile applications  
+• Messaging-platform scams  
+Stage 6 — AI-assisted social engineering 
+Modern attacks can use automation and AI to create highly convincing: 
+• Messages  
+• Fake profiles  
+• Voice impersonation  
+• Images  
+• Emails  
+Evolution diagram 
+Traditional 
+   ↓ 
+Telephone 
+   ↓ 
+Email 
+   ↓ 
+Web 
+
+=== PAGE 10 ===
+   ↓ 
+Social Media 
+   ↓ 
+Mobile/Messaging 
+   ↓ 
+AI-assisted attacks 
+ 
+3. TYPES OF SOCIAL ENGINEERING ATTACKS 
+ 
+3.1 PHISHING 
+Definition 
+Phishing is a social-engineering attack in which an attacker pretends to be a legitimate person 
+or organization to trick a victim into revealing information or performing an unsafe action. 
+Common targets 
+• Passwords  
+• Banking information  
+• Account credentials  
+• Personal information  
+Common characteristics 
+• Fake identity  
+• Urgent message  
+• Suspicious link  
+• Fake login page  
+• Request for sensitive information  
+Example 
+A victim receives: 
+
+=== PAGE 11 ===
+"Your account requires immediate verification." 
+The message contains a link to a fraudulent website designed to imitate a legitimate service. 
+Types of phishing 
+Email phishing 
+Fraudulent emails are sent to victims. 
+Spear phishing 
+A phishing attack specifically targeted at a particular person or organization. 
+Whaling 
+A targeted attack against high-level individuals such as executives. 
+Smishing 
+Phishing through SMS/text messages. 
+Vishing 
+Phishing through voice calls. 
+Social-media phishing 
+Phishing through social-media messages or fake profiles. 
+Prevention 
+• Verify the sender  
+• Don't blindly click links  
+• Check website addresses  
+• Use MFA  
+• Never share passwords  
+• Use password managers  
+• Report suspicious messages  
+ 
+3.2 PRETEXTING 
+Definition 
+
+=== PAGE 12 ===
+Pretexting is an attack in which the attacker creates a false story or situation, called a pretext, to 
+convince the victim to provide information or perform an action. 
+Example 
+An attacker pretends to be: 
+"IT support" 
+and claims that the employee's account has a technical problem. 
+The attacker attempts to convince the employee to reveal sensitive information. 
+Key idea 
+Pretext = Fake story 
+Characteristics 
+• Fake identity  
+• Fake scenario  
+• Trust building  
+• Information request  
+Prevention 
+• Verify identity independently  
+• Follow organizational procedures  
+• Never disclose confidential information based only on a phone/email request  
+ 
+3.3 BAITING 
+Definition 
+Baiting uses something attractive or interesting to tempt a victim into performing an unsafe 
+action. 
+The "bait" may involve: 
+• Free software  
+• Free rewards  
+• Interesting files  
+
+=== PAGE 13 ===
+• Fake offers  
+• Suspicious physical devices  
+Example 
+A person receives a message: 
+"Congratulations! You have won a reward. Click here." 
+Curiosity causes the person to interact with the malicious content. 
+Key word 
+Baiting = Temptation 
+Prevention 
+• Avoid unknown downloads  
+• Don't accept unknown devices  
+• Verify offers  
+• Use security software  
+ 
+3.4 QUID PRO QUO 
+Definition 
+Quid pro quo means "something for something." 
+The attacker offers a supposed benefit or service in exchange for information or access. 
+Example 
+An attacker pretends to be technical support and offers to "fix" a computer problem in exchange 
+for account information. 
+Key concept 
+Attacker offers benefit 
+          ↓ 
+Victim accepts 
+          ↓ 
+
+=== PAGE 14 ===
+Victim provides information/access 
+Difference from baiting 
+Baiting Quid Pro Quo 
+Uses temptation Uses exchange 
+"Take this reward" "Give me this and I will give you something" 
+Victim is attracted Victim expects a benefit 
+ 
+3.5 TAILGATING / PIGGYBACKING 
+Definition 
+Tailgating is an unauthorized physical entry into a restricted area by following an authorized 
+person. 
+Example 
+An unauthorized person follows an employee through a secure door. 
+Authorized employee 
+        ↓ 
+Secure door 
+        ↓ 
+Unauthorized person follows 
+        ↓ 
+Restricted area 
+Tailgating vs Piggybacking 
+Tailgating: Unauthorized person enters without explicit permission. 
+Piggybacking: The authorized person may knowingly or unknowingly allow the other person to 
+enter. 
+Prevention 
+• Access cards  
+
+=== PAGE 15 ===
+• Security guards  
+• Visitor verification  
+• Turnstiles  
+• Security awareness  
+• Don't hold secure doors open for unknown people  
+ 
+3.6 IMPERSONATION 
+Definition 
+Impersonation occurs when an attacker pretends to be another person or trusted entity. 
+Examples: 
+• Fake employee  
+• Fake customer-support agent  
+• Fake friend  
+• Fake company representative  
+• Fake social-media account  
+Objective 
+To gain: 
+• Trust  
+• Information  
+• Money  
+• Access  
+Prevention 
+• Verify identity  
+• Use official communication channels  
+• Don't trust profile pictures alone  
+• Use MFA  
+
+=== PAGE 16 ===
+ 
+3.7 SCAREWARE 
+Definition 
+Scareware is a technique that uses fear or alarming warnings to convince victims to perform an 
+action. 
+Example 
+A fake popup says: 
+"Your computer is infected! Click immediately to fix it." 
+The user may be encouraged to download malicious software or provide information. 
+Psychological principle 
+Fear 
+ ↓ 
+Urgency 
+ ↓ 
+Reduced thinking 
+ ↓ 
+Unsafe action 
+Prevention 
+• Don't trust unexpected security warnings  
+• Use legitimate security software  
+• Close suspicious popups  
+• Keep software updated  
+ 
+4. SOCIAL MEDIA PLATFORMS — CASE STUDY 
+For a 10–15 mark answer, you can use a generic social-media case study. 
+Case Study: Fake Social Media Account and Phishing 
+
+=== PAGE 17 ===
+Situation 
+An attacker creates a fake social-media profile that looks similar to a legitimate organization. 
+The attacker contacts users and sends a message claiming: 
+"Your account requires verification." 
+A link directs users to a fraudulent page. 
+Attack flow 
+Fake Profile 
+     ↓ 
+Builds credibility 
+     ↓ 
+Contacts users 
+     ↓ 
+Sends fraudulent message 
+     ↓ 
+Victim clicks link 
+     ↓ 
+Fake website 
+     ↓ 
+Victim enters information 
+     ↓ 
+Attacker obtains information 
+Techniques involved 
+• Impersonation  
+• Social engineering  
+• Phishing  
+• Fake profile  
+
+=== PAGE 18 ===
+• Psychological manipulation  
+Impact 
+• Account compromise  
+• Identity theft  
+• Financial loss  
+• Privacy violation  
+• Reputation damage  
+Prevention 
+1. Verify accounts.  
+2. Don't trust unsolicited messages.  
+3. Check URLs.  
+4. Enable MFA.  
+5. Don't share OTPs/passwords.  
+6. Report fake profiles.  
+7. Use privacy settings.  
+8. Educate users.  
+Conclusion 
+Social-media platforms can become cybercrime ecosystems when attackers exploit trust, 
+personal information and communication features. 
+ 
+5. CYBERSTALKING 
+5.1 Definition 
+Cyberstalking is the repeated use of digital communication technologies to monitor, harass, 
+threaten, intimidate, or otherwise unwantedly target an individual. 
+It may occur through: 
+• Social media  
+• Email  
+
+=== PAGE 19 ===
+• Messaging platforms  
+• Forums  
+• Online communities  
+ 
+5.2 Characteristics 
+• Repeated unwanted contact  
+• Monitoring online activities  
+• Harassing messages  
+• Threatening communication  
+• Fake profiles  
+• Spreading personal information  
+• Tracking online activity  
+ 
+5.3 Types of Cyberstalking Behavior 
+1. Harassment 
+Repeated unwanted messages or communication. 
+2. Monitoring 
+Repeatedly observing someone's online activities. 
+3. Impersonation 
+Creating fake accounts pretending to be the victim. 
+4. Threatening behavior 
+Sending threatening or intimidating messages. 
+5. Information gathering 
+Collecting personal information from public sources. 
+6. Defamation 
+Posting false or damaging information. 
+
+=== PAGE 20 ===
+7. Identity misuse 
+Using another person's identity or information online. 
+ 
+6. DIRECT CYBERSTALKING 
+Definition 
+Direct cyberstalking involves direct communication or interaction with the victim. 
+Examples: 
+• Repeated unwanted messages  
+• Threatening emails  
+• Repeated calls  
+• Direct messages  
+• Harassing comments  
+Diagram 
+Stalker 
+   ↓ 
+Direct communication 
+   ↓ 
+Victim 
+ 
+7. INDIRECT CYBERSTALKING 
+Definition 
+Indirect cyberstalking involves monitoring, influencing, or targeting the victim without 
+necessarily communicating directly with them. 
+Examples: 
+• Monitoring public activities  
+• Creating fake accounts  
+
+=== PAGE 21 ===
+• Collecting personal information  
+• Contacting people connected to the victim  
+• Spreading information about the victim  
+Diagram 
+Stalker 
+   ↓ 
+Online information / third parties 
+   ↓ 
+Victim 
+ 
+8. DIRECT VS INDIRECT CYBERSTALKING 
+Direct Indirect 
+Direct contact with victim May occur without direct contact 
+Messages/calls/comments Monitoring/information gathering 
+Easier to recognize May be difficult to detect 
+Threats may be explicit Behavior may be less obvious 
+ 
+9. PREVENTION AND PROTECTION AGAINST CYBERSTALKING 
+1. Privacy settings 
+Restrict who can see personal information. 
+2. Block the stalker 
+Use platform blocking features. 
+3. Report the account 
+Report abusive or threatening behavior. 
+4. Preserve evidence 
+
+=== PAGE 22 ===
+Keep: 
+• Screenshots  
+• URLs  
+• Messages  
+• Dates and times  
+• Usernames  
+5. Strengthen accounts 
+Use: 
+• Strong passwords  
+• Unique passwords  
+• MFA  
+6. Reduce personal information 
+Avoid publicly sharing: 
+• Phone numbers  
+• Home addresses  
+• Real-time locations  
+• Sensitive personal details  
+7. Inform trusted people 
+Tell trusted family members, friends, educational institutions, or employers where appropriate. 
+8. Contact authorities when necessary 
+Threatening or serious cases should be reported to appropriate law-enforcement/cybercrime 
+authorities. 
+ 
+10. CYBERCRIME TAXONOMIES 
+Taxonomy means systematic classification. 
+Cybercrime can be classified based on the role played by technology. 
+
+=== PAGE 23 ===
+10.1 Computer as a Target 
+The computer/system itself is attacked. 
+Examples: 
+• Hacking  
+• Malware  
+• Denial-of-service attacks  
+• Unauthorized access  
+ 
+10.2 Computer as a Tool 
+The computer is used to commit another crime. 
+Examples: 
+• Online fraud  
+• Identity theft  
+• Cyberstalking  
+• Online extortion  
+ 
+10.3 Computer as a Storage/Environment 
+Digital systems are used to store or distribute illegal information. 
+Examples: 
+• Stolen databases  
+• Illegally obtained information  
+• Malicious content  
+ 
+Another useful classification 
+1. Crimes against individuals 
+• Identity theft  
+
+=== PAGE 24 ===
+• Cyberstalking  
+• Online harassment  
+• Phishing  
+2. Crimes against organizations 
+• Data breaches  
+• Ransomware  
+• DDoS  
+• Corporate espionage  
+3. Crimes against governments 
+• Cyber espionage  
+• Attacks against government infrastructure  
+• Website defacement  
+4. Crimes against society 
+• Large-scale fraud  
+• Illegal online markets  
+• Distribution of harmful content  
+ 
+11. SOCIAL MEDIA AS A CYBERCRIME ECOSYSTEM 
+Definition 
+A cybercrime ecosystem is a network of people, technologies, services, platforms and resources 
+that collectively support cybercriminal activities. 
+Social media can provide criminals with: 
+Victims 
+   + 
+Information 
+   + 
+
+=== PAGE 25 ===
+Communication 
+   + 
+Trust 
+   + 
+Distribution 
+   ↓ 
+Cybercrime Ecosystem 
+Major components 
+1. Attackers 
+Individuals or criminal groups. 
+2. Victims 
+Individuals, businesses and organizations. 
+3. Platforms 
+Social-media and messaging platforms. 
+4. Information 
+Personal and professional data. 
+5. Criminal services 
+Fraud, stolen-account markets, malicious services, etc. 
+6. Financial infrastructure 
+Payment mechanisms used by criminals. 
+Why it is an ecosystem 
+A cybercriminal may not perform every step personally. 
+One actor may obtain information, another may conduct fraud, and another may provide 
+technical services. 
+ 
+12. CYBERCRIME-AS-A-SERVICE (CaaS) 
+
+=== PAGE 26 ===
+Definition 
+Cybercrime-as-a-Service is a model in which cybercriminal capabilities, infrastructure, or 
+services are provided to other criminals for payment. 
+It is similar to the legitimate as-a-Service business model, but used for illegal activities. 
+General structure 
+Service Provider 
+       ↓ 
+Criminal Service 
+       ↓ 
+Customer/Criminal 
+       ↓ 
+Attack 
+       ↓ 
+Victim 
+Examples of criminal services 
+At a high level, these can include: 
+• Stolen credentials  
+• Malware-related services  
+• Fraud infrastructure  
+• Botnet access  
+• Compromised accounts  
+Advantages to criminals 
+• Reduces technical knowledge required  
+• Reduces cost of entry  
+• Allows specialization  
+• Enables large-scale operations  
+
+=== PAGE 27 ===
+Impact 
+CaaS can increase the scale and accessibility of cybercrime. 
+ 
+13. ECONOMIC IMPACT OF CYBERCRIME 
+Cybercrime causes both direct and indirect economic losses. 
+Direct losses 
+1. Financial theft 
+Money may be stolen from individuals or organizations. 
+2. Ransom payments 
+Organizations may face demands for payment after ransomware attacks. 
+3. Data recovery 
+Organizations may spend money recovering systems and data. 
+ 
+Indirect losses 
+1. Business interruption 
+Systems may become unavailable. 
+2. Reputation damage 
+Customers may lose trust. 
+3. Legal costs 
+Organizations may face investigation and legal expenses. 
+4. Security investment 
+Organizations need to spend more on: 
+• Cybersecurity  
+• Training  
+• Monitoring  
+• Incident response  
+
+=== PAGE 28 ===
+5. Productivity loss 
+Employees may be unable to work during an incident. 
+Economic impact chain 
+Cyberattack 
+    ↓ 
+System/Data compromise 
+    ↓ 
+Business disruption 
+    ↓ 
+Recovery cost 
+    ↓ 
+Revenue loss 
+    ↓ 
+Reputation damage 
+    ↓ 
+Long-term economic impact 
+ 
+14. CHALLENGES IN CYBERCRIME INVESTIGATION 
+This is a very important 10–15 mark question. 
+1. Anonymity 
+Attackers may hide their identity using different technical and online mechanisms. 
+2. Jurisdiction 
+The attacker, victim, server and evidence may be located in different countries. 
+Attacker → Country A 
+Server   → Country B 
+Victim   → Country C 
+
+=== PAGE 29 ===
+This creates legal and investigative challenges. 
+3. Encryption 
+Encrypted communication can make evidence difficult to obtain or interpret. 
+4. Large volume of data 
+Investigators may need to examine: 
+• Emails  
+• Logs  
+• Messages  
+• Files  
+• Devices  
+• Network traffic  
+5. Volatile evidence 
+Some digital evidence can disappear or change quickly. 
+6. Attribution 
+Finding out who actually performed the attack can be difficult. 
+7. Multiple identities 
+Criminals may use: 
+• Fake accounts  
+• Multiple usernames  
+• Compromised accounts  
+8. Anti-forensic techniques 
+Attackers may attempt to hide or destroy evidence. 
+9. Rapidly changing technology 
+Cybercriminal methods and technologies continuously evolve. 
+10. International cooperation 
+Investigations may require cooperation between: 
+
+=== PAGE 30 ===
+• Law-enforcement agencies  
+• Service providers  
+• Organizations  
+• Different countries  
+Conclusion 
+Cybercrime investigation requires technical expertise, proper evidence preservation, legal 
+authority, digital-forensics capabilities and cooperation between multiple organizations and 
+jurisdictions. 
+ 
+15. BOTNETS 
+15.1 Definition 
+A botnet is a network of compromised Internet-connected devices that can be controlled by an 
+attacker. 
+The infected devices are commonly called bots or zombies. 
+Basic structure 
+             Botnet Controller 
+                    | 
+          +---------+---------+ 
+          |         |         | 
+         Bot       Bot       Bot 
+          |         |         | 
+       Device    Device    Device 
+The devices can potentially be used together for malicious activities. 
+ 
+15.2 Botnet Architecture 
+Two common architectural concepts are: 
+1. Centralized architecture 
+
+=== PAGE 31 ===
+Bots communicate with a centralized command-and-control system. 
+       C2 Server 
+       /  |  \ 
+      /   |   \ 
+   Bot   Bot   Bot 
+Advantage for attacker 
+Centralized management can make coordination straightforward. 
+Weakness 
+If the central infrastructure is disrupted, many bots may lose communication. 
+ 
+15.3 Decentralized / Peer-to-Peer Architecture 
+Bots communicate through multiple nodes instead of depending on one central server. 
+Bot ↔ Bot ↔ Bot 
+ ↕         ↕ 
+Bot ↔ Bot ↔ Bot 
+Advantage 
+There is no single central point that necessarily controls all communication. 
+Challenge 
+Disrupting such a network may be more difficult. 
+ 
+16. EVOLUTION OF BOTNETS 
+Early botnets 
+Initially, botnets were relatively simple networks of compromised computers. 
+Development 
+They evolved to include: 
+• Automated control  
+
+=== PAGE 32 ===
+• Larger numbers of devices  
+• More resilient communication  
+• Multiple types of Internet-connected devices  
+IoT era 
+Botnets increasingly targeted: 
+• Routers  
+• Cameras  
+• IoT devices  
+• Other Internet-connected devices  
+Modern botnets 
+Modern botnets can potentially contain large numbers of compromised devices and may be 
+used for multiple criminal purposes. 
+ 
+17. BOTNET CAPABILITIES AND CRIMINAL APPLICATIONS 
+At a high level, botnets can be used for: 
+1. Distributed denial-of-service attacks 
+Large numbers of compromised devices send traffic toward a target. 
+Bot 1 ──┐ 
+Bot 2 ──┤ 
+Bot 3 ──┤──→ Target 
+Bot 4 ──┤ 
+Bot 5 ──┘ 
+2. Spam distribution 
+Compromised devices can be used to send large amounts of unwanted messages. 
+3. Malware distribution 
+Bots can help distribute malicious software. 
+
+=== PAGE 33 ===
+4. Credential/data theft 
+Compromised systems may be used to steal information. 
+5. Cryptocurrency-related abuse 
+Compromised computing resources may be misused for unauthorized computation. 
+6. Proxying/traffic routing 
+Compromised devices may be used to route malicious traffic. 
+ 
+18. BOTNET MONETIZATION STRATEGIES 
+Monetization means converting criminal capabilities into financial benefit. 
+1. Renting botnet resources 
+Criminal groups may sell access to compromised infrastructure. 
+2. DDoS-for-hire 
+Botnet capabilities may be offered to other criminals for attacks. 
+3. Spam services 
+Botnets can be used as infrastructure for large-scale spam campaigns. 
+4. Credential theft 
+Stolen credentials may be monetized through criminal markets or fraud. 
+5. Resource abuse 
+Compromised computing resources may be used for unauthorized computation. 
+Important diagram 
+Compromised Devices 
+        ↓ 
+      Botnet 
+        ↓ 
++-------+--------+ 
+|       |        | 
+
+=== PAGE 34 ===
+DDoS   Spam   Data theft 
+|       |        | 
++-------+--------+ 
+        ↓ 
+   Criminal profit 
+ 
+19. BOTNET CASE STUDY — MIRAI 
+Mirai is a well-known example of an IoT botnet. 
+Basic concept 
+Mirai demonstrated how vulnerable IoT devices could be compromised and organized into a 
+botnet. 
+General attack chain 
+Vulnerable IoT Devices 
+          ↓ 
+       Infection 
+          ↓ 
+     Botnet formation 
+          ↓ 
+     Coordinated activity 
+          ↓ 
+       DDoS attacks 
+Importance of Mirai 
+The case demonstrated: 
+• Security risks of IoT devices  
+• Importance of changing default credentials  
+• Risks of insecure connected devices  
+
+=== PAGE 35 ===
+• Potential scale of IoT-based botnets  
+Security lessons 
+• Change default passwords  
+• Update firmware  
+• Disable unnecessary services  
+• Segment IoT networks  
+• Monitor unusual traffic  
+• Replace unsupported devices  
+ 
+20. ATTACK VECTORS — CLASSIFICATION 
+20.1 Definition 
+An attack vector is the method, pathway, or technique through which an attacker gains 
+unauthorized access to a system, network, account, or information. 
+Simple definition 
+Attack vector = Path used by an attacker to reach the target. 
+ 
+20.2 Major Classification of Attack Vectors 
+A. Human-based attack vectors 
+These exploit human behavior. 
+Examples: 
+• Phishing  
+• Pretexting  
+• Baiting  
+• Impersonation  
+• Social engineering  
+Attacker 
+
+=== PAGE 36 ===
+   ↓ 
+Human manipulation 
+   ↓ 
+Victim 
+   ↓ 
+Access/information 
+ 
+B. Network-based attack vectors 
+These exploit weaknesses in network communication or infrastructure. 
+Examples: 
+• Network attacks  
+• Denial-of-service attacks  
+• Network traffic interception  
+• Exploitation of exposed services  
+ 
+C. Software-based attack vectors 
+These exploit vulnerabilities in software. 
+Examples: 
+• Malicious software  
+• Exploitation of software vulnerabilities  
+• Malicious files  
+• Web application vulnerabilities  
+ 
+D. Web-based attack vectors 
+These use websites or web applications. 
+Examples: 
+
+=== PAGE 37 ===
+• Malicious websites  
+• Fake login pages  
+• Web application vulnerabilities  
+• Drive-by downloads  
+ 
+E. Email-based attack vectors 
+Examples: 
+• Phishing emails  
+• Malicious attachments  
+• Malicious links  
+• Business email compromise  
+ 
+F. Physical attack vectors 
+These require physical access or physical interaction. 
+Examples: 
+• Unauthorized device access  
+• Malicious USB devices  
+• Tailgating  
+• Device theft  
+ 
+G. Mobile attack vectors 
+Examples: 
+• Malicious applications  
+• SMS-based scams  
+• Fake applications  
+• Unsafe links  
+
+=== PAGE 38 ===
+ 
+H. Cloud-based attack vectors 
+Examples: 
+• Compromised cloud credentials  
+• Misconfigured storage  
+• Weak authentication  
+• Excessive permissions  
+ 
+I. Supply-chain attack vectors 
+An attacker compromises a trusted third party or software/service provider to reach the final 
+target. 
+Attacker 
+   ↓ 
+Third-party supplier 
+   ↓ 
+Trusted software/service 
+   ↓ 
+Target organization 
+ 
+21. ATTACK VECTOR CLASSIFICATION — EXAM TABLE 
+Attack Vector Target/Weakness Example 
+Human Human behavior Phishing 
+Network Network infrastructure DoS 
+Software Software vulnerability Malware/exploit 
+Web Website/web application Fake website 
+
+=== PAGE 39 ===
+Attack Vector Target/Weakness Example 
+Email Email communication Phishing 
+Physical Physical access Tailgating 
+Mobile Mobile device/app Malicious app 
+Cloud Cloud configuration/account Account compromise 
+Supply chain Trusted third party Compromised software 
+ 
+  VERY IMPORTANT DIFFERENCES FOR EXAM 
+Phishing vs Pretexting vs Baiting vs Quid Pro Quo 
+Technique Main idea Memory Trick 
+Phishing Fake communication             Fish for information 
+Pretexting Fake story        Pretext = Story 
+Baiting Attractive bait        Temptation 
+Quid Pro Quo Something for something     Exchange 
+Tailgating Follow authorized person       Follow 
+Impersonation Pretend to be someone    Fake identity 
+Scareware Use fear     Scare 
+ 
+  CYBERSTALKING — EASY MEMORY 
+Remember: 
+H-M-I-T-D-I 
+• H — Harassment  
+• M — Monitoring  
+
+=== PAGE 40 ===
+• I — Impersonation  
+• T — Threats  
+• D — Defamation  
+• I — Identity misuse  
+ 
+  SOCIAL ENGINEERING — EASY FLOW 
+Remember: 
+G → T → M → A → G 
+Gather information 
+↓ 
+Target victim 
+↓ 
+Manipulate victim 
+↓ 
+Action by victim 
+↓ 
+Gain access/information 
+ 
+  CYBERCRIME INVESTIGATION — 10 MARKS QUICK REVISION 
+Remember: 
+A-E-J-E-D-A-V-I 
+• A — Anonymity  
+• E — Encryption  
+• J — Jurisdiction  
+• E — Evidence volatility  
+• D — Data volume  
+• A — Attribution  
+• V — Multiple virtual identities  
+
+=== PAGE 41 ===
+• I — International cooperation  
+ 
+  BOTNET — EASY EXAM DIAGRAM 
+Draw this: 
+                  BOTMASTER 
+                     | 
+              Command & Control 
+                     | 
+        +------------+------------+ 
+        |            |            | 
+       BOT          BOT          BOT 
+        |            |            | 
+     Computer       IoT         Server 
+        |            |            | 
+        +------------+------------+ 
+                     ↓ 
+              Criminal Activity 
+                     ↓ 
+        +------------+-------------+ 
+        |            |             | 
+       DDoS        Spam       Data Theft 
+ 
+  COMPLETE UNIT REVISION MAP 
+                  CYBERCRIME 
+                      | 
+       +--------------+--------------+ 
+
+=== PAGE 42 ===
+       |                             | 
+   SOCIAL MEDIA                 TECHNOLOGY 
+       |                             | 
+       |                         +---+---+ 
+       |                         |       | 
+ Social Engineering           Botnets  Attack 
+       |                               Vectors 
+ +-----+-----+ 
+ |     |     | 
+Phish Pretext Bait 
+ |      |     | 
+Quid Pro Quo  Impersonation 
+ | 
+Scareware 
+ | 
+Tailgating 
+ 
+       | 
+       +----------------+ 
+       |                | 
+ Cyberstalking     Cybercrime Ecosystem 
+       |                | 
+ Direct/Indirect       CaaS 
+       |                | 
+ Prevention       Economic Impact 
+                        | 
+
+=== PAGE 43 ===
+              Investigation Challenges 
+How to write a 10–15 marks answer 
+For almost every topic in this unit, follow this structure in the exam: 
+1. Definition — 1–2 marks 
+Give a precise definition. 
+2. Introduction — 1 mark 
+Explain the topic in 2–3 lines. 
+3. Types/Classification — 3–4 marks 
+Explain each type with a small example. 
+4. Working/Structure — 2–3 marks 
+Draw a flow diagram. 
+5. Example/Case Study — 2 marks 
+Give one realistic example. 
+6. Prevention/Impact — 2–3 marks 
+Write 5–7 points. 
+7. Conclusion — 1 mark 
+End with 2–3 lines. 
+This structure can comfortably turn a short topic into a complete 10–15 mark answer. 
+If your exam is tomorrow, the highest-priority topics to prepare in full-answer format are: 
+Social Engineering & its types, Cyberstalking, Cybercrime Taxonomy, Social Media as a 
+Cybercrime Ecosystem, Cybercrime-as-a-Service, Challenges in Cybercrime Investigation, 
+Botnet Architecture & Applications, and Attack Vector Classification. 
+ 
